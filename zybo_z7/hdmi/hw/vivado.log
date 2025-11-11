@@ -3,12 +3,12 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Tue Nov  4 20:21:51 2025
-# Process ID         : 17864
-# Current directory  : D:/FPGA/zybo/hdmi/hw
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent37172 D:\FPGA\zybo\hdmi\hw\Zybo-Z7-HW.xpr
-# Log file           : D:/FPGA/zybo/hdmi/hw/vivado.log
-# Journal file       : D:/FPGA/zybo/hdmi/hw\vivado.jou
+# Start of session at: Tue Nov 11 12:04:29 2025
+# Process ID         : 56220
+# Current directory  : D:/FPGA/FPGA-Designs/zybo_z7/hdmi/hw
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent51652 D:\FPGA\FPGA-Designs\zybo_z7\hdmi\hw\Zybo-Z7-HW.xpr
+# Log file           : D:/FPGA/FPGA-Designs/zybo_z7/hdmi/hw/vivado.log
+# Journal file       : D:/FPGA/FPGA-Designs/zybo_z7/hdmi/hw\vivado.jou
 # Running On         : Navin-PC
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26200
@@ -17,46 +17,25 @@
 # CPU Physical cores : 8
 # CPU Logical cores  : 16
 # Host memory        : 16955 MB
-# Swap memory        : 21402 MB
-# Total Virtual      : 38357 MB
-# Available Virtual  : 17224 MB
+# Swap memory        : 27328 MB
+# Total Virtual      : 44283 MB
+# Available Virtual  : 3827 MB
 #-----------------------------------------------------------
 start_gui
-open_project D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.xpr
+open_project D:/FPGA/FPGA-Designs/zybo_z7/hdmi/hw/Zybo-Z7-HW.xpr
+INFO: [Project 1-313] Project file moved from 'D:/FPGA/zybo/hdmi/hw' since last save.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/FPGA-Designs/zybo_z7/hdmi/hw/archive_project_summary.txt'; using path 'D:/FPGA/zybo/hdmi/hw/archive_project_summary.txt' instead.
 Scanning sources...
 Finished scanning sources
+WARNING: [Project 1-312] File not found as 'D:/FPGA/FPGA-Designs/zybo_z7/hdmi/hw/archive_project_summary.txt'; using path 'D:/FPGA/zybo/hdmi/hw/archive_project_summary.txt' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/FPGA-Designs/zybo_z7/hdmi/hw/archive_project_summary.txt'; using path 'D:/FPGA/zybo/hdmi/hw/archive_project_summary.txt' instead.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.ipdefs/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA/FPGA-Designs/zybo_z7/hdmi/hw/Zybo-Z7-HW.ipdefs/repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
-WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
-List of locked IPs:
-design_1_auto_pc_0
-design_1_xbar_2
-design_1_dvi2rgb_0_0
-design_1_proc_sys_reset_0_0
-design_1_proc_sys_reset_fclk0_0
-design_1_proc_sys_reset_fclk1_0
-design_1_axi_gpio_video_0
-design_1_axis_subset_converter_in_0
-design_1_axi_interconnect_gp0_0
-design_1_xbar_3
-design_1_s00_regslice_0
-design_1_s01_regslice_0
-design_1_m00_regslice_0
-design_1_auto_pc_1
-design_1_axi_interconnect_hp0_0
-design_1_axi_vdma_0_0
-design_1_axis_subset_converter_out_0
-design_1_v_axi4s_vid_out_0_0
-design_1_v_tc_in_0
-design_1_v_tc_out_0
-design_1_v_vid_in_axi4s_0_0
-
 INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
-open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:23 . Memory (MB): peak = 1397.645 ; gain = 266.375
-update_compile_order -fileset sources_1
-open_bd_design {D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/design_1.bd}
-Reading block design file <D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/design_1.bd>...
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:19 . Memory (MB): peak = 1397.430 ; gain = 292.906
+open_bd_design {D:/FPGA/FPGA-Designs/zybo_z7/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <D:/FPGA/FPGA-Designs/zybo_z7/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/design_1.bd>...
 Adding component instance block -- digilentinc.com:ip:axi_dynclk:1.2 - axi_dynclk_0
 Adding component instance block -- digilentinc.com:ip:dvi2rgb:2.0 - dvi2rgb_0
 Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
@@ -83,222 +62,9 @@ Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_v
 Adding component instance block -- xilinx.com:ip:v_tc:6.2 - v_tc_in
 Adding component instance block -- xilinx.com:ip:v_tc:6.2 - v_tc_out
 Adding component instance block -- xilinx.com:ip:v_vid_in_axi4s:5.0 - v_vid_in_axi4s_0
-Successfully read diagram <design_1> from block design file <D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/design_1.bd>
-open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1539.613 ; gain = 109.785
-exit
-INFO: [Common 17-206] Exiting Vivado at Wed Nov  5 04:25:33 2025...
-_0 design_1_axis_subset_converter_in_0 design_1_v_vid_in_axi4s_0_0 design_1_proc_sys_reset_0_0 design_1_v_tc_in_0 design_1_proc_sys_reset_fclk1_0 design_1_axi_vdma_0_0 design_1_axi_interconnect_gp0_0 design_1_axi_gpio_video_0 design_1_axi_interconnect_hp0_0 design_1_dvi2rgb_0_0 design_1_v_axi4s_vid_out_0_0 design_1_axis_subset_converter_out_0 design_1_proc_sys_reset_fclk0_0}] -log ip_upgrade.log
-Upgrading 'D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/design_1.bd'
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_auto_pc_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_auto_pc_1_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_gpio_video_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_vdma_0_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axis_subset_converter_in_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axis_subset_converter_out_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_dvi2rgb_0_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_m00_regslice_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_proc_sys_reset_0_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_proc_sys_reset_fclk0_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_proc_sys_reset_fclk1_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_s00_regslice_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_s01_regslice_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_v_axi4s_vid_out_0_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_v_tc_in_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_v_tc_out_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_v_vid_in_axi4s_0_0_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_xbar_2_synth_1
-
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_xbar_3_synth_1
-
-INFO: [IP_Flow 19-3422] Upgraded design_1_axi_gpio_video_0 (AXI GPIO 2.0) from revision 33 to revision 35
-INFO: [IP_Flow 19-3422] Upgraded design_1_axi_interconnect_gp0_0 (AXI Interconnect 2.1) from revision 32 to revision 34
-INFO: [IP_Flow 19-3422] Upgraded design_1_axi_interconnect_hp0_0 (AXI Interconnect 2.1) from revision 32 to revision 34
-INFO: [IP_Flow 19-3422] Upgraded design_1_axi_vdma_0_0 (AXI Video Direct Memory Access 6.3) from revision 19 to revision 21
-INFO: [IP_Flow 19-3422] Upgraded design_1_axis_subset_converter_in_0 (AXI4-Stream Subset Converter 1.1) from revision 31 to revision 33
-INFO: [IP_Flow 19-3422] Upgraded design_1_axis_subset_converter_out_0 (AXI4-Stream Subset Converter 1.1) from revision 31 to revision 33
-INFO: [IP_Flow 19-3420] Updated design_1_dvi2rgb_0_0 to use current project options
-INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
-INFO: [IP_Flow 19-3422] Upgraded design_1_proc_sys_reset_0_0 (Processor System Reset 5.0) from revision 15 to revision 16
-INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
-INFO: [IP_Flow 19-3422] Upgraded design_1_proc_sys_reset_fclk0_0 (Processor System Reset 5.0) from revision 15 to revision 16
-INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
-INFO: [IP_Flow 19-3422] Upgraded design_1_proc_sys_reset_fclk1_0 (Processor System Reset 5.0) from revision 15 to revision 16
-INFO: [IP_Flow 19-3422] Upgraded design_1_v_axi4s_vid_out_0_0 (AXI4-Stream to Video Out 4.0) from revision 18 to revision 19
-INFO: [IP_Flow 19-3422] Upgraded design_1_v_tc_in_0 (Video Timing Controller 6.2) from revision 8 to revision 9
-INFO: [IP_Flow 19-3422] Upgraded design_1_v_tc_out_0 (Video Timing Controller 6.2) from revision 8 to revision 9
-INFO: [IP_Flow 19-3422] Upgraded design_1_v_vid_in_axi4s_0_0 (Video In to AXI4-Stream 5.0) from revision 4 to revision 5
-Wrote  : <D:\FPGA\zybo\hdmi\hw\Zybo-Z7-HW.srcs\sources_1\bd\design_1\design_1.bd> 
-Wrote  : <D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
-INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/FPGA/zybo/hdmi/hw/ip_upgrade.log'.
-upgrade_ip: Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1681.730 ; gain = 11.242
-export_ip_user_files -of_objects [get_ips {design_1_v_tc_out_0 design_1_axis_subset_converter_in_0 design_1_v_vid_in_axi4s_0_0 design_1_proc_sys_reset_0_0 design_1_v_tc_in_0 design_1_proc_sys_reset_fclk1_0 design_1_axi_vdma_0_0 design_1_axi_interconnect_gp0_0 design_1_axi_gpio_video_0 design_1_axi_interconnect_hp0_0 design_1_dvi2rgb_0_0 design_1_v_axi4s_vid_out_0_0 design_1_axis_subset_converter_out_0 design_1_proc_sys_reset_fclk0_0}] -no_script -sync -force -quiet
-report_ip_status -name ip_status 
-reset_run synth_1
-INFO: [Project 1-1160] Copying file D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/synth_1/design_1_wrapper.dcp to D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/utils_1/imports/synth_1 and adding it to utils fileset
-reset_run design_1_rgb2dvi_1_0_synth_1
-reset_run design_1_processing_system7_0_0_synth_1
-reset_run design_1_axi_dynclk_0_0_synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-INFO: [digilentinc.com:ip:axi_dynclk:1.2-17] /axi_dynclk_0FREQ_HZ of 100000000 propagated into CONFIG.kRefClkFreqHz
-Wrote  : <D:\FPGA\zybo\hdmi\hw\Zybo-Z7-HW.srcs\sources_1\bd\design_1\design_1.bd> 
-Wrote  : <D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_hp0/m00_couplers/m00_regslice/m_axi_bid'(1) to pin: '/axi_interconnect_hp0/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_hp0/m00_couplers/m00_regslice/m_axi_rid'(1) to pin: '/axi_interconnect_hp0/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_interconnect_hp0/M00_AXI_wid'(1) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_interconnect_hp0/M00_AXI_arid'(1) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_interconnect_hp0/M00_AXI_awid'(1) - Only lower order bits will be connected.
-Verilog Output written to : d:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.gen/sources_1/bd/design_1/synth/design_1.v
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_hp0/m00_couplers/m00_regslice/m_axi_bid'(1) to pin: '/axi_interconnect_hp0/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_hp0/m00_couplers/m00_regslice/m_axi_rid'(1) to pin: '/axi_interconnect_hp0/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_interconnect_hp0/M00_AXI_wid'(1) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_interconnect_hp0/M00_AXI_arid'(1) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_interconnect_hp0/M00_AXI_awid'(1) - Only lower order bits will be connected.
-Verilog Output written to : d:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.gen/sources_1/bd/design_1/sim/design_1.v
-Verilog Output written to : d:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dynclk_0 .
-CRITICAL WARNING: [IP_Flow 19-4965] IP ila_pixclk was packaged with board value 'digilentinc.com:zybo-z7-10:part0:1.0'. Current project's board value is 'digilentinc.com:zybo-z7-10:part0:1.1'. Please update the project settings to match the packaged IP.
-INFO: [IP_Flow 19-3422] Upgraded ila_pixclk (ILA (Integrated Logic Analyzer) 6.2) from revision 11 to revision 16
-CRITICAL WARNING: [IP_Flow 19-4965] IP ila_refclk was packaged with board value 'digilentinc.com:zybo-z7-10:part0:1.0'. Current project's board value is 'digilentinc.com:zybo-z7-10:part0:1.1'. Please update the project settings to match the packaged IP.
-INFO: [IP_Flow 19-3422] Upgraded ila_refclk (ILA (Integrated Logic Analyzer) 6.2) from revision 11 to revision 16
-INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_fclk0 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_fclk1 .
-INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
-INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created.
-INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_1 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_video .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.gen/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0_ooc.xdc'
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_in_0/design_1_axis_subset_converter_in_0_ooc.xdc'
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_subset_converter_in .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.gen/sources_1/bd/design_1/ip/design_1_axis_subset_converter_out_0/design_1_axis_subset_converter_out_0_ooc.xdc'
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_subset_converter_out .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block subset_converter_reset .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block v_axi4s_vid_out_0 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block v_tc_in .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block v_tc_out .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block v_vid_in_axi4s_0 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_gp0/xbar .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_hp0/xbar .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.gen/sources_1/bd/design_1/ip/design_1_axi_interconnect_gp0_imp_auto_pc_0/design_1_axi_interconnect_gp0_imp_auto_pc_0_ooc.xdc'
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_gp0/s00_couplers/auto_pc .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_hp0/s00_couplers/s00_regslice .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_hp0/s01_couplers/s01_regslice .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_hp0/m00_couplers/m00_regslice .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.gen/sources_1/bd/design_1/ip/design_1_axi_interconnect_hp0_imp_auto_pc_0/design_1_axi_interconnect_hp0_imp_auto_pc_0_ooc.xdc'
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_hp0/m00_couplers/auto_pc .
-Exporting to file d:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
-Generated Hardware Definition File d:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.gen/sources_1/bd/design_1/synth/design_1.hwdef
-INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_dynclk_0_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_gpio_video_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_interconnect_gp0_imp_auto_pc_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_interconnect_gp0_upgraded_ipi_imp_xbar_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_interconnect_hp0_imp_auto_pc_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_interconnect_hp0_imp_m00_regslice_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_interconnect_hp0_imp_s00_regslice_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_interconnect_hp0_imp_s01_regslice_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_interconnect_hp0_upgraded_ipi_imp_xbar_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_vdma_0_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axis_subset_converter_in_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axis_subset_converter_out_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_dvi2rgb_0_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_proc_sys_reset_0_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_proc_sys_reset_fclk0_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_proc_sys_reset_fclk1_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_rgb2dvi_1_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_v_axi4s_vid_out_0_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_v_tc_in_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_v_tc_out_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_v_vid_in_axi4s_0_0
-INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_dynclk_0_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_interconnect_hp0_imp_s00_regslice_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_proc_sys_reset_0_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_proc_sys_reset_fclk0_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_proc_sys_reset_fclk1_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_rgb2dvi_1_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_video_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_interconnect_gp0_imp_auto_pc_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_interconnect_gp0_upgraded_ipi_imp_xbar_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_v_axi4s_vid_out_0_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_v_tc_out_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_interconnect_hp0_imp_auto_pc_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_interconnect_hp0_imp_m00_regslice_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_interconnect_hp0_imp_s01_regslice_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_dvi2rgb_0_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_v_tc_in_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_v_vid_in_axi4s_0_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_interconnect_hp0_upgraded_ipi_imp_xbar_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_vdma_0_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axis_subset_converter_in_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axis_subset_converter_out_0
-[Wed Nov  5 04:37:58 2025] Launched design_1_rgb2dvi_1_0_synth_1, design_1_processing_system7_0_0_synth_1, design_1_axi_dynclk_0_0_synth_1, design_1_v_axi4s_vid_out_0_0_synth_1, design_1_v_tc_in_0_synth_1, design_1_v_tc_out_0_synth_1, design_1_axis_subset_converter_out_0_synth_1, design_1_v_vid_in_axi4s_0_0_synth_1, design_1_axis_subset_converter_in_0_synth_1, design_1_axi_vdma_0_0_synth_1, design_1_dvi2rgb_0_0_synth_1, design_1_proc_sys_reset_0_0_synth_1, design_1_proc_sys_reset_fclk0_0_synth_1, design_1_proc_sys_reset_fclk1_0_synth_1, design_1_axi_gpio_video_0_synth_1, design_1_axi_interconnect_gp0_imp_auto_pc_0_synth_1, design_1_axi_interconnect_gp0_upgraded_ipi_imp_xbar_0_synth_1, design_1_axi_interconnect_hp0_upgraded_ipi_imp_xbar_0_synth_1, design_1_axi_interconnect_hp0_imp_s00_regslice_0_synth_1, design_1_axi_interconnect_hp0_imp_s01_regslice_0_synth_1, design_1_axi_interconnect_hp0_imp_m00_regslice_0_synth_1, design_1_axi_interconnect_hp0_imp_auto_pc_0_synth_1, synth_1...
-Run output will be captured here:
-design_1_rgb2dvi_1_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_rgb2dvi_1_0_synth_1/runme.log
-design_1_processing_system7_0_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_processing_system7_0_0_synth_1/runme.log
-design_1_axi_dynclk_0_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_dynclk_0_0_synth_1/runme.log
-design_1_v_axi4s_vid_out_0_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_v_axi4s_vid_out_0_0_synth_1/runme.log
-design_1_v_tc_in_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_v_tc_in_0_synth_1/runme.log
-design_1_v_tc_out_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_v_tc_out_0_synth_1/runme.log
-design_1_axis_subset_converter_out_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axis_subset_converter_out_0_synth_1/runme.log
-design_1_v_vid_in_axi4s_0_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_v_vid_in_axi4s_0_0_synth_1/runme.log
-design_1_axis_subset_converter_in_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axis_subset_converter_in_0_synth_1/runme.log
-design_1_axi_vdma_0_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_vdma_0_0_synth_1/runme.log
-design_1_dvi2rgb_0_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_dvi2rgb_0_0_synth_1/runme.log
-design_1_proc_sys_reset_0_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_proc_sys_reset_0_0_synth_1/runme.log
-design_1_proc_sys_reset_fclk0_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_proc_sys_reset_fclk0_0_synth_1/runme.log
-design_1_proc_sys_reset_fclk1_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_proc_sys_reset_fclk1_0_synth_1/runme.log
-design_1_axi_gpio_video_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_gpio_video_0_synth_1/runme.log
-design_1_axi_interconnect_gp0_imp_auto_pc_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_interconnect_gp0_imp_auto_pc_0_synth_1/runme.log
-design_1_axi_interconnect_gp0_upgraded_ipi_imp_xbar_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_interconnect_gp0_upgraded_ipi_imp_xbar_0_synth_1/runme.log
-design_1_axi_interconnect_hp0_upgraded_ipi_imp_xbar_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_interconnect_hp0_upgraded_ipi_imp_xbar_0_synth_1/runme.log
-design_1_axi_interconnect_hp0_imp_s00_regslice_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_interconnect_hp0_imp_s00_regslice_0_synth_1/runme.log
-design_1_axi_interconnect_hp0_imp_s01_regslice_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_interconnect_hp0_imp_s01_regslice_0_synth_1/runme.log
-design_1_axi_interconnect_hp0_imp_m00_regslice_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_interconnect_hp0_imp_m00_regslice_0_synth_1/runme.log
-design_1_axi_interconnect_hp0_imp_auto_pc_0_synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/design_1_axi_interconnect_hp0_imp_auto_pc_0_synth_1/runme.log
-synth_1: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/synth_1/runme.log
-[Wed Nov  5 04:38:00 2025] Launched impl_1...
-Run output will be captured here: D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.runs/impl_1/runme.log
-launch_runs: Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 1869.863 ; gain = 188.133
-exit
-INFO: [Common 17-206] Exiting Vivado at Wed Nov  5 14:21:16 2025...
+Successfully read diagram <design_1> from block design file <D:/FPGA/FPGA-Designs/zybo_z7/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1549.918 ; gain = 135.004
+update_compile_order -fileset sources_1
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout

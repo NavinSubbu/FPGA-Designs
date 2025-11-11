@@ -1,0 +1,342 @@
+/*
+ * IMX219.cpp
+ *
+ *  Created on: Nov 8, 2025
+ *      Author: Navin
+ */
+
+#include "IMX219.h"
+#include <cstdio>
+#include <vector>
+
+using namespace digilent;
+
+// ----------------------------------------------------------------------
+// IMX219 Register Configuration Tables
+// ----------------------------------------------------------------------
+namespace digilent {
+namespace IMX219_cfg {
+
+	// ---------------------------------------------------------------
+	// 1080p @ 30fps Configuration Table
+	// ---------------------------------------------------------------
+//	config_word_t const cfg_1080p_30fps_[] = {
+//		{0x0103, 0x01}, {0x0114, 0x01}, {0x0128, 0x00}, {0x012A, 0x18},
+//		{0x012B, 0x00}, {0x30EB, 0x05}, {0x30EB, 0x0C}, {0x300A, 0xFF},
+//		{0x300B, 0xFF}, {0x30EB, 0x05}, {0x30EB, 0x09}, {0x455E, 0x00},
+//		{0x471E, 0x4B}, {0x4767, 0x0F}, {0x4750, 0x14}, {0x4540, 0x00},
+//		{0x47B4, 0x14}, {0x4713, 0x30}, {0x478B, 0x10}, {0x478F, 0x10},
+//		{0x4793, 0x10}, {0x4797, 0x0E}, {0x479B, 0x0E}, {0x0157, 0x00},
+//		{0x015A, 0x06}, {0x015B, 0xDE}, {0x0160, 0x06}, {0x0161, 0xE2},
+//		{0x0162, 0x0D}, {0x0163, 0x78}, {0x0164, 0x02}, {0x0165, 0xA8},
+//		{0x0166, 0x0A}, {0x0167, 0x27}, {0x0168, 0x02}, {0x0169, 0xB4},
+//		{0x016A, 0x06}, {0x016B, 0xEB}, {0x016C, 0x07}, {0x016D, 0x80},
+//		{0x016E, 0x04}, {0x016F, 0x38}, {0x0170, 0x01}, {0x0171, 0x01},
+//		{0x0174, 0x00}, {0x0175, 0x00}, {0x018C, 0x0A}, {0x018D, 0x0A},
+//		{0x0301, 0x05}, {0x0303, 0x01}, {0x0304, 0x03}, {0x0305, 0x03},
+//		{0x0306, 0x00}, {0x0307, 0x39}, {0x0309, 0x0A}, {0x030B, 0x01},
+//		{0x030C, 0x00}, {0x030D, 0x72}, {0x0100, 0x01}
+//	};
+
+	config_word_t const cfg_1080p_30fps_[] = {
+		{0x0103, 0x01}, // Software reset
+		{0x0114, 0x01}, // 2-lane MIPI mode  // gpt
+		{0x0128, 0x00}, // D-PHY auto mode   // gpt
+		{0x012A, 0x18}, // External clock = 24 MHz
+		{0x012B, 0x00},
+
+		// Access bank unlock (required before certain register writes)
+		{0x30EB, 0x05}, {0x30EB, 0x0C},
+		{0x300A, 0xFF}, {0x300B, 0xFF},
+		{0x30EB, 0x05}, {0x30EB, 0x09},
+
+		// Analog / MIPI driver tuning (Sony reference)
+		{0x455E, 0x00}, {0x471E, 0x4B}, {0x4767, 0x0F},
+		{0x4750, 0x14}, {0x4540, 0x00}, {0x47B4, 0x14},
+		{0x4713, 0x30}, {0x478B, 0x10}, {0x478F, 0x10},
+		{0x4793, 0x10}, {0x4797, 0x0E}, {0x479B, 0x0E},
+
+		// Exposure / gain
+		{0x0157, 0x00}, {0x0158, 0x00}, // Analog gain = 0x00 // gpt
+		{0x015A, 0x06}, {0x015B, 0xDE}, // Integration time
+
+		// Frame timing
+		{0x0160, 0x06}, {0x0161, 0xE2}, // Frame length lines
+		{0x0162, 0x0D}, {0x0163, 0x78}, // Line length pixels
+
+		// Image cropping (full frame 1080p)
+		{0x0164, 0x02}, {0x0165, 0xA8},
+		{0x0166, 0x0A}, {0x0167, 0x27},
+		{0x0168, 0x02}, {0x0169, 0xB4},
+		{0x016A, 0x06}, {0x016B, 0xEB},
+		{0x016C, 0x07}, {0x016D, 0x80}, // Output width 1920
+		{0x016E, 0x04}, {0x016F, 0x38}, // Output height 1080
+
+		{0x0170, 0x01}, {0x0171, 0x01}, // Binning off
+		{0x0174, 0x00}, {0x0175, 0x00},
+		{0x018C, 0x0A}, {0x018D, 0x0A},
+
+		// Data format RAW10
+		{0x0112, 0x0A}, // CSI data format MSB  // gpt
+		{0x0113, 0x0A}, // CSI data format LSB  // gpt
+
+		// PLL settings (2-lane optimized)
+		{0x0301, 0x05}, {0x0303, 0x01},
+		{0x0304, 0x03}, {0x0305, 0x03},
+		{0x0306, 0x00}, {0x0307, 0x39},
+		{0x0309, 0x0A}, {0x030B, 0x01},
+		{0x030C, 0x00}, {0x030D, 0x72},
+		{0x030E, 0x00}, {0x030F, 0x00}, {0x0310, 0x00}, // gpt
+
+		// Stream on
+		{0x0100, 0x01} // Start streaming
+	};
+
+
+
+
+	// ---------------------------------------------------------------
+	// 720p @ 60fps Configuration Table
+	// ---------------------------------------------------------------
+	config_word_t const cfg_720p_60fps_[] = {
+		{0x0103, 0x01}, {0x0114, 0x01}, {0x0128, 0x00}, {0x012A, 0x18},
+		{0x012B, 0x00}, {0x30EB, 0x05}, {0x30EB, 0x0C}, {0x300A, 0xFF},
+		{0x300B, 0xFF}, {0x30EB, 0x05}, {0x30EB, 0x09}, {0x455E, 0x00},
+		{0x471E, 0x4B}, {0x4767, 0x0F}, {0x4750, 0x14}, {0x4540, 0x00},
+		{0x47B4, 0x14}, {0x4713, 0x30}, {0x478B, 0x10}, {0x478F, 0x10},
+		{0x4793, 0x10}, {0x4797, 0x0E}, {0x479B, 0x0E}, {0x0157, 0x00},
+		{0x015A, 0x03}, {0x015B, 0x6C}, {0x0160, 0x03}, {0x0161, 0x70},
+		{0x0162, 0x0D}, {0x0163, 0x78}, {0x0164, 0x01}, {0x0165, 0x68},
+		{0x0166, 0x0B}, {0x0167, 0x67}, {0x0168, 0x02}, {0x0169, 0x00},
+		{0x016A, 0x07}, {0x016B, 0x9F}, {0x016C, 0x05}, {0x016D, 0x00},
+		{0x016E, 0x02}, {0x016F, 0xD0}, {0x0170, 0x01}, {0x0171, 0x01},
+		{0x0174, 0x01}, {0x0175, 0x01}, {0x018C, 0x0A}, {0x018D, 0x0A},
+		{0x0301, 0x05}, {0x0303, 0x01}, {0x0304, 0x03}, {0x0305, 0x03},
+		{0x0306, 0x00}, {0x0307, 0x39}, {0x0309, 0x0A}, {0x030B, 0x01},
+		{0x030C, 0x00}, {0x030D, 0x72}, {0x0100, 0x01}
+	};
+
+	// ---------------------------------------------------------------
+	// Mode Mapping Table
+	// ---------------------------------------------------------------
+	config_modes_t const modes[] = {
+		{ MAP_ENUM_TO_CFG(MODE_1080P_1920_1080_30fps, cfg_1080p_30fps_) },
+		{ MAP_ENUM_TO_CFG(MODE_720P_1280_720_60fps, cfg_720p_60fps_) },
+	};
+
+} // namespace IMX219_cfg
+} // namespace digilent
+
+
+// ----------------------------------------------------------------------
+// IMX219 Class Implementation
+// ----------------------------------------------------------------------
+IMX219::IMX219(I2C_Client& iic, GPIO_Client& gpio)
+	: iic_(iic), gpio_(gpio)
+{
+	reset();
+	usleep(100000); // 100 ms after reset release
+	init();
+}
+
+// ----------------------------------------------------------------------
+// Initialize the IMX219 (verify ID and setup defaults)
+// ----------------------------------------------------------------------
+void IMX219::init()
+{
+	uint8_t id_h = 0, id_l = 0;
+	readReg(reg_ID_h, id_h);
+	readReg(reg_ID_l, id_l);
+
+	if (id_h != dev_ID_h_ || id_l != dev_ID_l_) {
+		char msg[100];
+		snprintf(msg, sizeof(msg),
+				 "Got %02x %02x. Expected %02x %02x\r\n",
+				 id_h, id_l, dev_ID_h_, dev_ID_l_);
+		throw HardwareError(HardwareError::WRONG_ID, msg);
+	}
+	usleep(1000000);
+}
+
+// ----------------------------------------------------------------------
+// Reset the IMX219 via GPIO control
+// ----------------------------------------------------------------------
+IMX219::IMX219_Errc IMX219::reset()
+{
+	gpio_.clearBit(gpio_.Bits::CAM_GPIO0);
+	usleep(1000000);
+	gpio_.setBit(gpio_.Bits::CAM_GPIO0);
+	usleep(1000000);
+	return IMX_OK;
+}
+
+// ----------------------------------------------------------------------
+// Apply selected mode (1080p / 720p)
+// ----------------------------------------------------------------------
+IMX219::IMX219_Errc IMX219::set_mode(IMX219_cfg::mode_t mode)
+{
+	if (mode >= IMX219_cfg::MODE_END)
+		return IMX_ERR_LOGICAL;
+
+	writeReg(0x0100, 0x00);  // gpt - enter standby
+	usleep(10000);           // gpt - wait 10 ms
+
+	usleep(5000);            // gpt - short safety delay before config start
+
+	auto cfg_mode = &IMX219_cfg::modes[mode];
+	writeConfig(cfg_mode->cfg, cfg_mode->cfg_size);
+	return IMX_OK;
+}
+
+// ----------------------------------------------------------------------
+// Read a single IMX219 register
+// ----------------------------------------------------------------------
+void IMX219::readReg(uint16_t reg_addr, uint8_t& buf)
+{
+	uint8_t addr_bytes[2] = {
+		static_cast<uint8_t>(reg_addr >> 8),
+		static_cast<uint8_t>(reg_addr & 0xFF)
+	};
+
+	iic_.write(dev_address_, addr_bytes, 2);
+	iic_.read(dev_address_, &buf, 1);
+}
+
+// ----------------------------------------------------------------------
+// Write a single IMX219 register (two-transaction method)
+// ----------------------------------------------------------------------
+//void IMX219::writeReg(uint16_t reg_addr, uint8_t const reg_data)
+//{
+//	uint8_t addr_bytes[2] = {
+//		static_cast<uint8_t>(reg_addr >> 8),
+//		static_cast<uint8_t>(reg_addr & 0xFF)
+//	};
+//	uint8_t data_byte = reg_data;
+//
+//	try {
+//		// gpt - Step 1: Set address pointer
+//		iic_.write(dev_address_, addr_bytes, 2);
+//
+//		// gpt - Step 2: Send data separately
+//		iic_.write(dev_address_, &data_byte, 1);
+//	}
+//	catch (const I2C_Client::TransmitError&) {
+//		xil_printf("I2C NACK at reg 0x%04X data 0x%02X\r\n", reg_addr, reg_data); // gpt diagnostic
+//		throw;
+//	}
+//}
+
+void IMX219::writeReg(uint16_t reg_addr, uint8_t const reg_data)
+{
+    uint8_t addr_bytes[2] = {
+        static_cast<uint8_t>(reg_addr >> 8),
+        static_cast<uint8_t>(reg_addr & 0xFF)
+    };
+    uint8_t data_byte = reg_data;
+
+    xil_printf("WRITE 0x%04X <= 0x%02X ... ", reg_addr, reg_data);
+
+    bool addr_ack = false;
+    bool data_ack = false;
+
+    // Step 1: Send register address (two bytes)
+    try {
+        iic_.write(dev_address_, addr_bytes, 2);
+        addr_ack = true;
+    }
+    catch (const I2C_Client::TransmitError&) {
+        xil_printf("Address NACK @0x%04X\r\n", reg_addr);
+        return;
+    }
+
+    // Step 2: Write the data byte
+    try {
+        iic_.write(dev_address_, &data_byte, 1);
+        data_ack = true;
+    }
+    catch (const I2C_Client::TransmitError&) {
+        xil_printf("Data NACK @0x%04X (data 0x%02X)\r\n", reg_addr, reg_data);
+        return;
+    }
+
+    // If both writes succeeded, report ACK received
+    if (addr_ack && data_ack)
+        xil_printf("ACK received\r\n");
+
+    // Step 3: Read back for verification
+    usleep(1000);  // short delay before read
+    uint8_t readback = 0;
+    try {
+        readReg(reg_addr, readback);
+        xil_printf("VERIFY 0x%04X : wrote 0x%02X, read 0x%02X\r\n",
+                   reg_addr, reg_data, readback);
+    }
+    catch (const I2C_Client::TransmitError&) {
+        xil_printf("Readback failed @0x%04X\r\n", reg_addr);
+    }
+}
+
+
+
+
+
+
+// ----------------------------------------------------------------------
+// Sleep/delay function (busy-wait loop for micro delays)
+// ----------------------------------------------------------------------
+void IMX219::usleep(uint32_t time)
+{
+	for (uint32_t i = 0; i < time; i++);
+}
+
+// ----------------------------------------------------------------------
+// Write a sequence of configuration registers
+// ----------------------------------------------------------------------
+void IMX219::writeConfig(IMX219_cfg::config_word_t const* cfg, size_t cfg_size)
+{
+	for (size_t i = 0; i < cfg_size; ++i)
+	{
+		try {
+			writeReg(cfg[i].addr, cfg[i].data);
+
+			// gpt - If reset command, wait for sensor reboot
+			if (cfg[i].addr == 0x0103)
+				usleep(100000); // 100 ms delay after software reset
+		}
+		catch (const I2C_Client::TransmitError&) {
+			xil_printf("I2C write failed at register 0x%04X\r\n", cfg[i].addr); // gpt
+			throw;
+		}
+	}
+}
+
+// ----------------------------------------------------------------------
+// Detect if IMX219 is connected and responding over I2C
+// ----------------------------------------------------------------------
+bool IMX219::detect()
+{
+	for (int retry = 0; retry < 3; ++retry)
+	{
+		try {
+			uint8_t id_h = 0, id_l = 0;
+			readReg(reg_ID_h, id_h);
+			readReg(reg_ID_l, id_l);
+
+			if (id_h == dev_ID_h_ && id_l == dev_ID_l_)
+				return true;
+
+		} catch (const I2C_Client::TransmitError&) {
+			usleep(50000); // retry delay
+		}
+	}
+	return false;
+}
+
+// ----------------------------------------------------------------------
+// Future Extension Notes (Preserved)
+// ----------------------------------------------------------------------
+// - Manual exposure control (integration time / gain) can be added here.
+// - HDR mode support (dual-exposure) can be implemented later.
+// - Additional read/write wrappers for grouped parameter updates may be
+//   useful for pipeline synchronization.
+// ----------------------------------------------------------------------

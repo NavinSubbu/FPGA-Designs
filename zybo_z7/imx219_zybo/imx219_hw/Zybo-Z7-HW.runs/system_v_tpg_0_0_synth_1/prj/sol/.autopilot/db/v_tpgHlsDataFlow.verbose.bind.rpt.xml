@@ -1,0 +1,50 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'v_tpgHlsDataFlow'" level="0">
+<item name = "Date">Tue Nov 11 00:46:04 2025
+</item>
+<item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
+<item name = "Project">prj</item>
+<item name = "Solution">sol (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z010-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">6.67 ns, 10.273 ns, 1.80 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">27, 4296540138, 0.277 us, 44.138 sec, 3, 4296540138, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_AXIvideo2MultiPixStream_fu_648">AXIvideo2MultiPixStream, 2, 8868966, 13.334 ns, 59.129 ms, 2, 8868966, no</column>
+<column name="call_ln0_entry_proc_fu_679">entry_proc, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
+<column name="grp_tpgBackground_fu_749">tpgBackground, 2, 4296540137, 20.546 ns, 44.138 sec, 2, 4296540137, no</column>
+<column name="grp_tpgForeground_fu_895">tpgForeground, 2, 4295294972, 13.334 ns, 28.637 sec, 2, 4295294972, no</column>
+<column name="grp_MultiPixStream2AXIvideo_fu_926">MultiPixStream2AXIvideo, 1, 8862481, 6.667 ns, 59.086 ms, 1, 8862481, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

@@ -1,0 +1,3284 @@
+---
+MainSourceFile:  'D:/FPGA/zybo/imx219/v2/pcam_hw/Zybo-Z7-HW.runs/system_v_gamma_lut_0_0_synth_1/prj/sol/.autopilot/db/v_gamma_lut.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          321947
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          322413
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          322880
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1248_1:  '
+    FileOffset:      1248
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          606233
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1248_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      91
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      92
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      93
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      94
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      125
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      126
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      127
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      128
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      129
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      130
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      131
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      132
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      133
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      134
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      184
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      185
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      186
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      213
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      214
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      215
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      216
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      217
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      218
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      254
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      255
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_61_1:  '
+    FileOffset:      61
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1227678
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_61_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_1:  '
+    FileOffset:      117
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1228488
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_1:  '
+    FileOffset:      289
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1231131
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_449_1:  '
+    FileOffset:      449
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1233850
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_449_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_629_1:  '
+    FileOffset:      629
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1237011
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_629_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_633_2:  '
+    FileOffset:      633
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1237092
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_633_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_743_1:  '
+    FileOffset:      743
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1239401
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_743_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_840_1:  '
+    FileOffset:      840
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1240891
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_840_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_859_2:  '
+    FileOffset:      859
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1241121
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_859_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1173_1:  '
+    FileOffset:      1173
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1247295
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1173_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1256_1:  '
+    FileOffset:      1256
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1248898
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1256_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_68_1:  '
+    FileOffset:      68
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1256734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_68_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_2:  '
+    FileOffset:      74
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1256884
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_3:  '
+    FileOffset:      78
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1256981
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_4:  '
+    FileOffset:      145
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1258837
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_5:  '
+    FileOffset:      151
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1258987
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_6:  '
+    FileOffset:      155
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1259084
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_7:  '
+    FileOffset:      170
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1259465
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_178_8:  '
+    FileOffset:      178
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1259696
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_178_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_9:  '
+    FileOffset:      243
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1263143
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_10:  '
+    FileOffset:      249
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1263295
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_11:  '
+    FileOffset:      253
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1263395
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_12:  '
+    FileOffset:      268
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1263777
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_276_13:  '
+    FileOffset:      276
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1264015
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_276_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_505_14:  '
+    FileOffset:      505
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1279570
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_505_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_511_15:  '
+    FileOffset:      511
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1279722
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_511_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_515_16:  '
+    FileOffset:      515
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1279821
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_515_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_525_17:  '
+    FileOffset:      525
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1279998
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_525_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_529_18:  '
+    FileOffset:      529
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1280096
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_529_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_539_19:  '
+    FileOffset:      539
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1280381
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_539_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_547_20:  '
+    FileOffset:      547
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1280636
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_547_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_908_21:  '
+    FileOffset:      908
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1312875
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_908_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_22:  '
+    FileOffset:      914
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1313027
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_22: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_918_23:  '
+    FileOffset:      918
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1313127
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_918_23: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1034_1:  '
+    FileOffset:      1034
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1315803
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1034_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1040_2:  '
+    FileOffset:      1040
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1315953
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1040_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1044_3:  '
+    FileOffset:      1044
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1316051
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1044_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_4:  '
+    FileOffset:      1131
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1319521
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1137_5:  '
+    FileOffset:      1137
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1319672
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1137_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1141_6:  '
+    FileOffset:      1141
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1319771
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1141_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1160_7:  '
+    FileOffset:      1160
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1320251
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1160_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1167_8:  '
+    FileOffset:      1167
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1320493
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1167_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1283_9:  '
+    FileOffset:      1283
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1326065
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1283_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1289_10:  '
+    FileOffset:      1289
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1326217
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1289_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1293_11:  '
+    FileOffset:      1293
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1326316
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1293_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1313_12:  '
+    FileOffset:      1313
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1326825
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1313_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1320_13:  '
+    FileOffset:      1320
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1327074
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1320_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1582_14:  '
+    FileOffset:      1582
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1344431
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1582_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_15:  '
+    FileOffset:      1588
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1344583
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1592_16:  '
+    FileOffset:      1592
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1344683
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1592_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1616_17:  '
+    FileOffset:      1616
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1345157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1616_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1623_18:  '
+    FileOffset:      1623
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1345424
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1623_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2053_19:  '
+    FileOffset:      2053
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1383995
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2053_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2059_20:  '
+    FileOffset:      2059
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1384147
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2059_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2063_21:  '
+    FileOffset:      2063
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1384247
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2063_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2193_1:  '
+    FileOffset:      2193
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1386867
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2193_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2200_2:  '
+    FileOffset:      2200
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1387030
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2200_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2204_3:  '
+    FileOffset:      2204
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1387122
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2204_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2251_4:  '
+    FileOffset:      2251
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1388731
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2251_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2258_5:  '
+    FileOffset:      2258
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1388893
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2258_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2262_6:  '
+    FileOffset:      2262
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1388985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2262_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2280_7:  '
+    FileOffset:      2280
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1389358
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2280_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2335_8:  '
+    FileOffset:      2335
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1391824
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2335_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2342_9:  '
+    FileOffset:      2342
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1391991
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2342_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2346_10:  '
+    FileOffset:      2346
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1392084
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2346_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2364_11:  '
+    FileOffset:      2364
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1392465
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2364_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2453_12:  '
+    FileOffset:      2453
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1397906
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2453_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2460_13:  '
+    FileOffset:      2460
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1398074
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2460_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2464_14:  '
+    FileOffset:      2464
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1398168
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2464_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2474_15:  '
+    FileOffset:      2474
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1398339
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2474_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2478_16:  '
+    FileOffset:      2478
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1398430
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2478_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2489_17:  '
+    FileOffset:      2489
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1398712
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2489_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2497_18:  '
+    FileOffset:      2497
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1398899
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2497_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2822_19:  '
+    FileOffset:      2822
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1433369
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2822_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2829_20:  '
+    FileOffset:      2829
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1433537
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2829_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2833_21:  '
+    FileOffset:      2833
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1433631
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2833_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2921_1:  '
+    FileOffset:      2921
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1435433
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2928_2:  '
+    FileOffset:      2928
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1435541
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2928_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2932_3:  '
+    FileOffset:      2932
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1435612
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2932_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2947_4:  '
+    FileOffset:      2947
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1435900
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2947_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2979_5:  '
+    FileOffset:      2979
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1437114
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2979_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2986_6:  '
+    FileOffset:      2986
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1437225
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2986_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2990_7:  '
+    FileOffset:      2990
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1437298
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2990_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3005_8:  '
+    FileOffset:      3005
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1437593
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3005_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3055_9:  '
+    FileOffset:      3055
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1440926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3055_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3062_10:  '
+    FileOffset:      3062
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1441037
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3062_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3066_11:  '
+    FileOffset:      3066
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1441110
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3066_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3081_12:  '
+    FileOffset:      3081
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1441406
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3081_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3218_13:  '
+    FileOffset:      3218
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1460718
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3218_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3225_14:  '
+    FileOffset:      3225
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1460832
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3225_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3229_15:  '
+    FileOffset:      3229
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1460907
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3229_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3244_16:  '
+    FileOffset:      3244
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1461194
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3244_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3404_17:  '
+    FileOffset:      3404
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1486804
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3404_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3411_18:  '
+    FileOffset:      3411
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1486918
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3411_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3415_19:  '
+    FileOffset:      3415
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1486995
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3415_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_703_1:  '
+    FileOffset:      703
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1521047
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_703_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_921_1:  '
+    FileOffset:      921
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1529436
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1345_1:  '
+    FileOffset:      1345
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1548405
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1345_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_240_1:  '
+    FileOffset:      240
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1563241
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_240_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_2:  '
+    FileOffset:      268
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1563762
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_48_1:  '
+    FileOffset:      48
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1579640
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_48_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_2:  '
+    FileOffset:      109
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1580786
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_3:  '
+    FileOffset:      123
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1581095
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_4:  '
+    FileOffset:      153
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1581605
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_281_1:  '
+    FileOffset:      281
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1583511
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_281_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_2:  '
+    FileOffset:      301
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1583876
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_315_3:  '
+    FileOffset:      315
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1584184
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_315_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_433_1:  '
+    FileOffset:      433
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1586008
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_433_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_447_2:  '
+    FileOffset:      447
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1586333
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_447_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_33_1:  '
+    FileOffset:      33
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1588966
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_33_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_183_1:  '
+    FileOffset:      183
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1591846
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_183_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_1:  '
+    FileOffset:      248
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1593129
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_1:  '
+    FileOffset:      16
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1603960
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1604135
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_38_1:  '
+    FileOffset:      38
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1604296
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_38_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1604458
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_60_1:  '
+    FileOffset:      60
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1604632
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_60_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1604807
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_1:  '
+    FileOffset:      82
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1604968
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1605130
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_26_1:  '
+    FileOffset:      26
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_mad_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1676482
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_26_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_cbrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1678214
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1682689
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_81_2:  '
+    FileOffset:      81
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1683416
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_81_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_169_3:  '
+    FileOffset:      169
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1685097
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_169_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_1:  '
+    FileOffset:      137
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1750255
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_2:  '
+    FileOffset:      139
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1750303
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_175_1:  '
+    FileOffset:      175
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1750665
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_175_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_177_2:  '
+    FileOffset:      177
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1750713
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_177_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1751072
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_215_2:  '
+    FileOffset:      215
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1751122
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_215_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_251_1:  '
+    FileOffset:      251
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1751481
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_251_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_2:  '
+    FileOffset:      253
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1751531
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_320_1:  '
+    FileOffset:      320
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1752303
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_320_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_417_1:  '
+    FileOffset:      417
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1753230
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_417_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_702_1:  '
+    FileOffset:      702
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1756984
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_702_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_742_1:  '
+    FileOffset:      742
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1757430
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_742_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_838_1:  '
+    FileOffset:      838
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1758627
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_838_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_990_1:  '
+    FileOffset:      990
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1760919
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_990_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1030_1:  '
+    FileOffset:      1030
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1761369
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1030_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1126_1:  '
+    FileOffset:      1126
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1762578
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1126_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_231_1:  '
+    FileOffset:      231
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1768615
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_231_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_1:  '
+    FileOffset:      252
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1769157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_262_1:  '
+    FileOffset:      262
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1769352
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_262_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1769583
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_284_1:  '
+    FileOffset:      284
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1769810
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_284_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_1:  '
+    FileOffset:      295
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1770041
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1770269
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_318_1:  '
+    FileOffset:      318
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1770500
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_318_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_1:  '
+    FileOffset:      330
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1770728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_341_1:  '
+    FileOffset:      341
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1770959
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_341_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_618_1:  '
+    FileOffset:      618
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1777182
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_618_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_695_1:  '
+    FileOffset:      695
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1779471
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_695_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_719_1:  '
+    FileOffset:      719
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1780107
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_719_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_742_1:  '
+    FileOffset:      742
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1780772
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_742_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_1:  '
+    FileOffset:      209
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgbase.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1785008
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_1:  '
+    FileOffset:      189
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_io.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1790298
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_255_1:  '
+    FileOffset:      255
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_io.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1792786
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_255_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1025_1:  '
+    FileOffset:      1025
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1823021
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1025_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1105_1:  '
+    FileOffset:      1105
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1825339
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1105_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1121_1:  '
+    FileOffset:      1121
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1825922
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1121_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1137_1:  '
+    FileOffset:      1137
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1826500
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1137_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1155_1:  '
+    FileOffset:      1155
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1827162
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1155_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1193_1:  '
+    FileOffset:      1193
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1828350
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1193_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1213_1:  '
+    FileOffset:      1213
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1829152
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1508_1:  '
+    FileOffset:      1508
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1839478
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1508_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_471_1:  '
+    FileOffset:      471
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1859819
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_471_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_484_2:  '
+    FileOffset:      484
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1860465
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_484_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_493_3:  '
+    FileOffset:      493
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1860886
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_493_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_494_4:  '
+    FileOffset:      494
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1860968
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_494_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_502_5:  '
+    FileOffset:      502
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1861417
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_502_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_516_6:  '
+    FileOffset:      516
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1861937
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_516_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_652_1:  '
+    FileOffset:      652
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1867226
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_652_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_656_2:  '
+    FileOffset:      656
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1867430
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_656_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_663_3:  '
+    FileOffset:      663
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1867689
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_663_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_680_4:  '
+    FileOffset:      680
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1868424
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_680_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_681_5:  '
+    FileOffset:      681
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1868505
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_681_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_783_1:  '
+    FileOffset:      783
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1872186
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_783_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_793_2:  '
+    FileOffset:      793
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1872563
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_793_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_800_3:  '
+    FileOffset:      800
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1872926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_800_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_810_4:  '
+    FileOffset:      810
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1873295
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_810_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_936_1:  '
+    FileOffset:      936
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1877082
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_936_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_958_2:  '
+    FileOffset:      958
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1877854
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_958_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_964_3:  '
+    FileOffset:      964
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1878101
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_964_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1084_1:  '
+    FileOffset:      1084
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1882630
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1084_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1089_2:  '
+    FileOffset:      1089
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1882869
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1089_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1117_3:  '
+    FileOffset:      1117
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1883823
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1117_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1525_1:  '
+    FileOffset:      1525
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1899198
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1525_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1534_1:  '
+    FileOffset:      1534
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1899396
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1534_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2095_1:  '
+    FileOffset:      2095
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1917382
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2095_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2102_2:  '
+    FileOffset:      2102
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1917614
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2102_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2103_3:  '
+    FileOffset:      2103
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1917654
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2103_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2246_1:  '
+    FileOffset:      2246
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1924200
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2246_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2253_2:  '
+    FileOffset:      2253
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1924454
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2253_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2259_3:  '
+    FileOffset:      2259
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1924683
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2259_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2273_4:  '
+    FileOffset:      2273
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1925214
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2273_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2284_5:  '
+    FileOffset:      2284
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1925579
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2284_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2329_1:  '
+    FileOffset:      2329
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1927537
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2329_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2330_2:  '
+    FileOffset:      2330
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1927574
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2410_3:  '
+    FileOffset:      2410
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1929652
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2410_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2434_4:  '
+    FileOffset:      2434
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1930448
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2434_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2444_5:  '
+    FileOffset:      2444
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1930686
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2444_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2562_1:  '
+    FileOffset:      2562
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1934121
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2562_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2579_2:  '
+    FileOffset:      2579
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1934557
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2579_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2582_3:  '
+    FileOffset:      2582
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1934627
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2582_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2585_4:  '
+    FileOffset:      2585
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1934725
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2585_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2593_5:  '
+    FileOffset:      2593
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1934945
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2593_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2596_6:  '
+    FileOffset:      2596
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1935042
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2596_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2605_7:  '
+    FileOffset:      2605
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1935270
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2605_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2613_8:  '
+    FileOffset:      2613
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1935418
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2613_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2614_9:  '
+    FileOffset:      2614
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1935454
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2614_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2664_1:  '
+    FileOffset:      2664
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1936622
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2664_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2665_2:  '
+    FileOffset:      2665
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1936665
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2665_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2673_3:  '
+    FileOffset:      2673
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1936993
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2673_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2674_4:  '
+    FileOffset:      2674
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1937033
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2674_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2716_1:  '
+    FileOffset:      2716
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1938108
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2716_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2720_2:  '
+    FileOffset:      2720
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1938181
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2720_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2774_1:  '
+    FileOffset:      2774
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1939722
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2774_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2775_2:  '
+    FileOffset:      2775
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1939753
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2775_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2834_1:  '
+    FileOffset:      2834
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1942150
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2834_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2835_2:  '
+    FileOffset:      2835
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1942213
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2835_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2838_3:  '
+    FileOffset:      2838
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1942366
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2838_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2850_4:  '
+    FileOffset:      2850
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1942981
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2850_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2861_5:  '
+    FileOffset:      2861
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1943648
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2861_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2877_6:  '
+    FileOffset:      2877
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1944625
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2877_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2883_7:  '
+    FileOffset:      2883
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1944954
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2883_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2889_8:  '
+    FileOffset:      2889
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1945310
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2889_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2901_9:  '
+    FileOffset:      2901
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1945860
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2901_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2915_10:  '
+    FileOffset:      2915
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1946502
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2915_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2929_11:  '
+    FileOffset:      2929
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1947133
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2929_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2930_12:  '
+    FileOffset:      2930
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1947199
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2930_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2935_13:  '
+    FileOffset:      2935
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1947478
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2935_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2936_14:  '
+    FileOffset:      2936
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1947544
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2936_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2943_15:  '
+    FileOffset:      2943
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1947887
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2943_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2944_16:  '
+    FileOffset:      2944
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1947955
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2944_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2950_17:  '
+    FileOffset:      2950
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1948237
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2950_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2951_18:  '
+    FileOffset:      2951
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1948305
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2951_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3034_1:  '
+    FileOffset:      3034
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1951266
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3034_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3035_2:  '
+    FileOffset:      3035
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1951325
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3035_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3038_3:  '
+    FileOffset:      3038
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1951470
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3038_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3055_4:  '
+    FileOffset:      3055
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1952304
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3055_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3071_5:  '
+    FileOffset:      3071
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1953212
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3071_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3078_6:  '
+    FileOffset:      3078
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1953541
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3078_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3090_7:  '
+    FileOffset:      3090
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1954084
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3090_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3109_8:  '
+    FileOffset:      3109
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1955037
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3109_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3110_9:  '
+    FileOffset:      3110
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1955099
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3110_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_77_1:  '
+    FileOffset:      77
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1956824
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_77_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_83_2:  '
+    FileOffset:      83
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1956929
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_83_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_104_3:  '
+    FileOffset:      104
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1957660
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_104_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_4:  '
+    FileOffset:      116
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1957996
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_5:  '
+    FileOffset:      156
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1959301
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_69_1:  '
+    FileOffset:      69
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1960892
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_69_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_118_1:  '
+    FileOffset:      118
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1962386
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_118_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_122_2:  '
+    FileOffset:      122
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1962575
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_122_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_3:  '
+    FileOffset:      127
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1962785
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_138_4:  '
+    FileOffset:      138
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1963041
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_138_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_143_5:  '
+    FileOffset:      143
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1963213
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_143_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_6:  '
+    FileOffset:      151
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1963483
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_7:  '
+    FileOffset:      156
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1963655
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_182_1:  '
+    FileOffset:      182
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1964595
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_182_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_1:  '
+    FileOffset:      209
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1965174
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_215_2:  '
+    FileOffset:      215
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1965349
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_215_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_264_1:  '
+    FileOffset:      264
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1967370
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_264_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_2:  '
+    FileOffset:      265
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1967424
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_270_3:  '
+    FileOffset:      270
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1967629
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_270_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_280_4:  '
+    FileOffset:      280
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1968015
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_280_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_282_5:  '
+    FileOffset:      282
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1968067
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_282_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_288_6:  '
+    FileOffset:      288
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1968266
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_288_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_380_1:  '
+    FileOffset:      380
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1971397
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_380_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_381_2:  '
+    FileOffset:      381
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1971451
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_381_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_386_3:  '
+    FileOffset:      386
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1971656
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_386_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_396_4:  '
+    FileOffset:      396
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1972042
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_396_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_398_5:  '
+    FileOffset:      398
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1972094
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_398_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_404_6:  '
+    FileOffset:      404
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1972293
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_404_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_104_1:  '
+    FileOffset:      104
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1975947
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_104_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_2:  '
+    FileOffset:      108
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1976008
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1976067
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_4:  '
+    FileOffset:      116
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1976237
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_5:  '
+    FileOffset:      117
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1976275
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_119_6:  '
+    FileOffset:      119
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1976346
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_119_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_7:  '
+    FileOffset:      123
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1976466
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_125_8:  '
+    FileOffset:      125
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1976537
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_125_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_9:  '
+    FileOffset:      134
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1976837
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_146_10:  '
+    FileOffset:      146
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1977182
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_146_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_154_1:  '
+    FileOffset:      154
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1977364
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_154_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_163_2:  '
+    FileOffset:      163
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1977565
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_163_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_168_3:  '
+    FileOffset:      168
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1977688
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_168_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_4:  '
+    FileOffset:      170
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1977753
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_181_1:  '
+    FileOffset:      181
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1977952
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_181_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_186_2:  '
+    FileOffset:      186
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1978044
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_186_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_3:  '
+    FileOffset:      187
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1978082
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_4:  '
+    FileOffset:      190
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1978174
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_1:  '
+    FileOffset:      266
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1980517
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_398_1:  '
+    FileOffset:      398
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1984871
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_398_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_215_1:  '
+    FileOffset:      215
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_hough.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1998624
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_215_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_217_2:  '
+    FileOffset:      217
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_hough.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1998682
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_217_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_104_1:  '
+    FileOffset:      104
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2003373
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_104_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_105_2:  '
+    FileOffset:      105
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2003405
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_105_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_1:  '
+    FileOffset:      127
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2004279
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_130_2:  '
+    FileOffset:      130
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2004361
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_130_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_3:  '
+    FileOffset:      137
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2004567
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_4:  '
+    FileOffset:      139
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2004620
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_147_5:  '
+    FileOffset:      147
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2004856
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_147_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_160_6:  '
+    FileOffset:      160
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2005260
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_160_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_196_1:  '
+    FileOffset:      196
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2006437
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_196_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_2:  '
+    FileOffset:      199
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2006511
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_1:  '
+    FileOffset:      148
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2014347
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_2:  '
+    FileOffset:      156
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2014535
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_3:  '
+    FileOffset:      159
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2014595
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_4:  '
+    FileOffset:      167
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2015117
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_1:  '
+    FileOffset:      190
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2016256
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_193_2:  '
+    FileOffset:      193
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2016314
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_193_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_210_1:  '
+    FileOffset:      210
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2016722
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_210_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_217_2:  '
+    FileOffset:      217
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2017007
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_217_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_246_1:  '
+    FileOffset:      246
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2017954
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_246_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_294_1:  '
+    FileOffset:      294
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2019383
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_294_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_296_2:  '
+    FileOffset:      296
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2019421
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_296_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_3:  '
+    FileOffset:      309
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2019826
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_430_1:  '
+    FileOffset:      430
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2023478
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_430_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_2:  '
+    FileOffset:      432
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2023525
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_440_3:  '
+    FileOffset:      440
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2023823
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_440_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_469_1:  '
+    FileOffset:      469
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2024649
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_469_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_474_2:  '
+    FileOffset:      474
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2024741
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_474_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_1:  '
+    FileOffset:      189
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2030363
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_2:  '
+    FileOffset:      195
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2030506
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_3:  '
+    FileOffset:      199
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2030647
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_230_1:  '
+    FileOffset:      230
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2031937
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_230_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_231_2:  '
+    FileOffset:      231
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2031985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_231_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_234_3:  '
+    FileOffset:      234
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2032074
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_234_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_270_1:  '
+    FileOffset:      270
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2032922
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_270_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_288_1:  '
+    FileOffset:      288
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2033428
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_288_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_296_2:  '
+    FileOffset:      296
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2033598
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_296_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_314_1:  '
+    FileOffset:      314
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2034001
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_314_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_317_2:  '
+    FileOffset:      317
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2034079
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_317_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_421_1:  '
+    FileOffset:      421
+    FilePath:        'd:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.gen\sources_1\bd\system\ip\system_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2037404
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_421_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_205_1:  '
+    FileOffset:      205
+    FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2052665
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_205_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_207_2:  '
+    FileOffset:      207
+    FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2052723
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_207_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_256_1:  '
+    FileOffset:      256
+    FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2053980
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_256_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_2:  '
+    FileOffset:      258
+    FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2054032
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_276_3:  '
+    FileOffset:      276
+    FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2054469
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_276_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_278_4:  '
+    FileOffset:      278
+    FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2054527
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_278_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_315_1:  '
+    FileOffset:      315
+    FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2055437
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_315_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_317_2:  '
+    FileOffset:      317
+    FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2055499
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_317_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_3:  '
+    FileOffset:      325
+    FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2055684
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_327_4:  '
+    FileOffset:      327
+    FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2055729
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_327_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_335_5:  '
+    FileOffset:      335
+    FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2055854
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_335_5: '
+...

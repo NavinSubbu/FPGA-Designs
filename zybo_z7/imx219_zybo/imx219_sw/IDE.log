@@ -1,0 +1,588 @@
+13:41:52 DEBUG : Logs will be stored at 'D:/FPGA/zybo/imx219/v2/pcam_sw/IDE.log'.
+13:41:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\zybo\imx219\v2\pcam_sw\temp_xsdb_launch_script.tcl
+13:41:57 INFO  : Registering command handlers for Vitis TCF services
+13:41:57 INFO  : Platform repository initialization has completed.
+13:42:01 INFO  : XSCT server has started successfully.
+13:42:01 INFO  : Successfully done setting XSCT server connection channel  
+13:42:01 INFO  : plnx-install-location is set to ''
+13:42:01 INFO  : Successfully done setting workspace for the tool. 
+13:42:01 INFO  : Successfully done query RDI_DATADIR 
+13:51:29 INFO  : Result from executing command 'getProjects': imx_plat
+13:51:29 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm;xilinx_zcu102_base_dfx_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_dfx_202420_1/xilinx_zcu102_base_dfx_202420_1.xpfm;xilinx_zcu104_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu104_base_202420_1/xilinx_zcu104_base_202420_1.xpfm
+13:54:27 INFO  : Result from executing command 'getProjects': imx_plat
+13:54:27 INFO  : Result from executing command 'getPlatforms': imx_plat|D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/imx_plat.xpfm;xilinx_zcu102_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm;xilinx_zcu102_base_dfx_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_dfx_202420_1/xilinx_zcu102_base_dfx_202420_1.xpfm;xilinx_zcu104_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu104_base_202420_1/xilinx_zcu104_base_202420_1.xpfm
+13:57:13 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+13:58:26 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+13:59:00 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+13:59:35 INFO  : Result from executing command 'removePlatformRepo': 
+13:59:49 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+14:01:28 INFO  : Result from executing command 'getProjects': imx_plat
+14:01:28 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm;xilinx_zcu102_base_dfx_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_dfx_202420_1/xilinx_zcu102_base_dfx_202420_1.xpfm;xilinx_zcu104_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu104_base_202420_1/xilinx_zcu104_base_202420_1.xpfm
+14:01:29 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+14:07:14 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+14:07:48 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+14:16:45 INFO  : The hardware specification used by project 'imx_app' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+14:16:45 INFO  : The file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\bitstream\system_wrapper.bit' stored in project is removed.
+14:16:45 INFO  : The updated bitstream files are copied from platform to folder 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\bitstream' in project 'imx_app'.
+14:16:45 INFO  : The file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\psinit\ps7_init.tcl' stored in project is removed.
+14:16:53 INFO  : The updated ps init files are copied from platform to folder 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\psinit' in project 'imx_app'.
+14:16:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:16:58 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7807CA' is selected.
+14:16:58 INFO  : 'jtag frequency' command is executed.
+14:16:58 INFO  : Context for 'APU' is selected.
+14:16:58 INFO  : System reset is completed.
+14:17:01 INFO  : 'after 3000' command is executed.
+14:17:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}' command is executed.
+14:17:02 INFO  : Device configured successfully with "D:/FPGA/zybo/imx219/v2/pcam_hw/Zybo-Z7-HW.runs/impl_1/system_wrapper.bit"
+14:17:02 INFO  : Context for 'APU' is selected.
+14:17:03 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper.xsa'.
+14:17:03 INFO  : 'configparams force-mem-access 1' command is executed.
+14:17:03 INFO  : Context for 'APU' is selected.
+14:17:03 INFO  : Sourcing of 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl' is done.
+14:17:03 INFO  : 'ps7_init' command is executed.
+14:17:03 INFO  : 'ps7_post_config' command is executed.
+14:17:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:17:05 INFO  : The application 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:17:05 INFO  : 'configparams force-mem-access 0' command is executed.
+14:17:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}
+fpga -file D:/FPGA/zybo/imx219/v2/pcam_hw/Zybo-Z7-HW.runs/impl_1/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:17:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:17:05 INFO  : 'con' command is executed.
+14:17:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:17:05 INFO  : Launch script is exported to file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app_system\_ide\scripts\debugger_imx_app-default.tcl'
+14:17:52 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+14:18:17 INFO  : Disconnected from the channel tcfchan#5.
+14:18:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:18:18 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7807CA' is selected.
+14:18:18 INFO  : 'jtag frequency' command is executed.
+14:18:18 INFO  : Context for 'APU' is selected.
+14:18:18 INFO  : System reset is completed.
+14:18:21 INFO  : 'after 3000' command is executed.
+14:18:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}' command is executed.
+14:18:22 INFO  : Device configured successfully with "D:/FPGA/zybo/imx219/v2/pcam_hw/Zybo-Z7-HW.runs/impl_1/system_wrapper.bit"
+14:18:22 INFO  : Context for 'APU' is selected.
+14:18:22 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper.xsa'.
+14:18:22 INFO  : 'configparams force-mem-access 1' command is executed.
+14:18:22 INFO  : Context for 'APU' is selected.
+14:18:22 INFO  : Sourcing of 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl' is done.
+14:18:23 INFO  : 'ps7_init' command is executed.
+14:18:23 INFO  : 'ps7_post_config' command is executed.
+14:18:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:18:25 INFO  : The application 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:18:25 INFO  : 'configparams force-mem-access 0' command is executed.
+14:18:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}
+fpga -file D:/FPGA/zybo/imx219/v2/pcam_hw/Zybo-Z7-HW.runs/impl_1/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:18:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:18:25 INFO  : 'con' command is executed.
+14:18:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:18:25 INFO  : Launch script is exported to file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app_system\_ide\scripts\debugger_imx_app-default.tcl'
+14:19:26 INFO  : Disconnected from the channel tcfchan#6.
+14:19:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:19:31 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7807CA' is selected.
+14:19:31 INFO  : 'jtag frequency' command is executed.
+14:19:31 INFO  : Context for 'APU' is selected.
+14:19:31 INFO  : System reset is completed.
+14:19:34 INFO  : 'after 3000' command is executed.
+14:19:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}' command is executed.
+14:19:35 INFO  : Device configured successfully with "D:/FPGA/zybo/imx219/v2/pcam_hw/Zybo-Z7-HW.runs/impl_1/system_wrapper.bit"
+14:19:35 INFO  : Context for 'APU' is selected.
+14:19:35 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper.xsa'.
+14:19:35 INFO  : 'configparams force-mem-access 1' command is executed.
+14:19:35 INFO  : Context for 'APU' is selected.
+14:19:35 INFO  : Sourcing of 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl' is done.
+14:19:36 INFO  : 'ps7_init' command is executed.
+14:19:36 INFO  : 'ps7_post_config' command is executed.
+14:19:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:19:37 INFO  : The application 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:19:38 INFO  : 'configparams force-mem-access 0' command is executed.
+14:19:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}
+fpga -file D:/FPGA/zybo/imx219/v2/pcam_hw/Zybo-Z7-HW.runs/impl_1/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:19:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:19:38 INFO  : 'con' command is executed.
+14:19:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:19:38 INFO  : Launch script is exported to file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app_system\_ide\scripts\debugger_imx_app-default.tcl'
+15:04:46 INFO  : Disconnected from the channel tcfchan#7.
+15:05:16 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper.xsa}'. Click on details for more information.
+15:05:42 INFO  : Result from executing command 'removePlatformRepo': 
+15:06:00 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper.xsa}'. Click on details for more information.
+15:06:03 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper.xsa}'. Click on details for more information.
+15:07:14 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+15:07:14 ERROR : Failed to get platform details for the project 'imx_app'. Cannot sync application flags.
+15:08:40 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+15:08:40 ERROR : Failed to get platform details for the project 'imx_app'. Cannot sync application flags.
+15:09:43 INFO  : Hardware specification for platform project 'imx_plat' is updated.
+15:10:33 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper.xsa}'. Click on details for more information.
+15:11:30 INFO  : Result from executing command 'getProjects': imx_plat
+15:11:30 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm;xilinx_zcu102_base_dfx_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_dfx_202420_1/xilinx_zcu102_base_dfx_202420_1.xpfm;xilinx_zcu104_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu104_base_202420_1/xilinx_zcu104_base_202420_1.xpfm
+15:14:10 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper.xsa}'. Click on details for more information.
+21:19:50 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper.xsa}'. Click on details for more information.
+21:28:09 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/system_wrapper.xsa}'. Click on details for more information.
+21:38:49 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/system_wrapper.xsa}'. Click on details for more information.
+21:40:12 INFO  : No changes in MSS file content so sources will not be generated.
+21:40:29 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/system_wrapper.xsa}'. Click on details for more information.
+21:49:20 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/system_wrapper.xsa}'. Click on details for more information.
+21:50:32 ERROR : (XSDB Server)rm: cannot lstat `*.o': Invalid argument
+
+21:50:32 ERROR : (XSDB Server)make: *** [Makefile:42: clean] Error 1
+
+21:52:40 ERROR : Error occurred while generating bsp sources for the domain 'standalone_domain'.
+21:52:50 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/system_wrapper.xsa}'. Click on details for more information.
+21:57:27 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+21:57:27 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;imx_app;imx_app_system;imx_plat
+21:57:27 ERROR : Failed to openhw "D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper_v1.xsa"
+Reason: D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper_v1.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+21:57:27 ERROR : Failed to update application flags from BSP for 'imx_app'. Reason: null
+java.lang.NullPointerException: null
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305) ~[com.xilinx.sdx.sw_1.0.0.202411031917.jar:?]
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214) ~[com.xilinx.sdx.sw_1.0.0.202411031917.jar:?]
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:64) ~[com.xilinx.sdx.sdk.core_1.0.0.202411031917.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160) ~[com.xilinx.sdx.sdk.core_1.0.0.202411031917.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78) [com.xilinx.sdx.sdk.core_1.0.0.202411031917.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48) [com.xilinx.sdx.sdk.core_1.0.0.202411031917.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91) [com.xilinx.sdk.managedbuilder_1.0.0.202411031917.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40) [com.xilinx.sdk.managedbuilder_1.0.0.202411031917.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:?]
+22:08:22 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper.xsa}'. Click on details for more information.
+22:10:31 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper_v1.xsa}'. Click on details for more information.
+22:10:34 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper_v1.xsa}'. Click on details for more information.
+22:12:27 INFO  : Result from executing command 'removePlatformRepo': 
+22:13:07 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+22:13:07 ERROR : Failed to get platform details for the project 'imx_app'. Cannot sync application flags.
+22:14:27 INFO  : Result from executing command 'getProjects': imx_plat
+22:14:27 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm;xilinx_zcu102_base_dfx_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_dfx_202420_1/xilinx_zcu102_base_dfx_202420_1.xpfm;xilinx_zcu104_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu104_base_202420_1/xilinx_zcu104_base_202420_1.xpfm
+22:15:20 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+22:15:33 INFO  : The hardware specification used by project 'imx_app' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+22:15:33 INFO  : The file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\bitstream\system_wrapper.bit' stored in project is removed.
+22:15:33 INFO  : The updated bitstream files are copied from platform to folder 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\bitstream' in project 'imx_app'.
+22:15:33 INFO  : The file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\psinit\ps7_init.tcl' stored in project is removed.
+22:15:40 INFO  : The updated ps init files are copied from platform to folder 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\psinit' in project 'imx_app'.
+22:16:40 INFO  : Result from executing command 'getProjects': imx_plat
+22:16:40 INFO  : Result from executing command 'getPlatforms': imx_plat|D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/imx_plat.xpfm;xilinx_zcu102_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm;xilinx_zcu102_base_dfx_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_dfx_202420_1/xilinx_zcu102_base_dfx_202420_1.xpfm;xilinx_zcu104_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu104_base_202420_1/xilinx_zcu104_base_202420_1.xpfm
+22:17:33 INFO  : Result from executing command 'removePlatformRepo': 
+22:18:25 INFO  : Result from executing command 'getProjects': imx_plat
+22:18:25 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm;xilinx_zcu102_base_dfx_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_dfx_202420_1/xilinx_zcu102_base_dfx_202420_1.xpfm;xilinx_zcu104_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu104_base_202420_1/xilinx_zcu104_base_202420_1.xpfm
+22:19:05 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+22:27:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:27:31 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7807CA' is selected.
+22:27:31 INFO  : 'jtag frequency' command is executed.
+22:27:31 INFO  : Context for 'APU' is selected.
+22:27:31 INFO  : System reset is completed.
+22:27:34 INFO  : 'after 3000' command is executed.
+22:27:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}' command is executed.
+22:27:35 INFO  : Device configured successfully with "D:/FPGA/zybo/imx219/v2/pcam_hw/Zybo-Z7-HW.runs/impl_1/system_wrapper.bit"
+22:27:35 INFO  : Context for 'APU' is selected.
+22:27:36 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper.xsa'.
+22:27:36 INFO  : 'configparams force-mem-access 1' command is executed.
+22:27:36 INFO  : Context for 'APU' is selected.
+22:27:36 INFO  : Sourcing of 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl' is done.
+22:27:36 INFO  : 'ps7_init' command is executed.
+22:27:36 INFO  : 'ps7_post_config' command is executed.
+22:27:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:27:38 INFO  : The application 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:27:38 INFO  : 'configparams force-mem-access 0' command is executed.
+22:27:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}
+fpga -file D:/FPGA/zybo/imx219/v2/pcam_hw/Zybo-Z7-HW.runs/impl_1/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:27:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:27:38 INFO  : 'con' command is executed.
+22:27:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:27:38 INFO  : Launch script is exported to file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app_system\_ide\scripts\debugger_imx_app-default.tcl'
+22:32:07 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+22:32:34 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+22:32:39 INFO  : Disconnected from the channel tcfchan#23.
+22:32:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:32:40 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7807CA' is selected.
+22:32:40 INFO  : 'jtag frequency' command is executed.
+22:32:40 INFO  : Context for 'APU' is selected.
+22:32:40 INFO  : System reset is completed.
+22:32:43 INFO  : 'after 3000' command is executed.
+22:32:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}' command is executed.
+22:32:44 INFO  : Device configured successfully with "D:/FPGA/zybo/imx219/v2/pcam_hw/Zybo-Z7-HW.runs/impl_1/system_wrapper.bit"
+22:32:44 INFO  : Context for 'APU' is selected.
+22:32:44 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper.xsa'.
+22:32:44 INFO  : 'configparams force-mem-access 1' command is executed.
+22:32:44 INFO  : Context for 'APU' is selected.
+22:32:44 INFO  : Sourcing of 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl' is done.
+22:32:45 INFO  : 'ps7_init' command is executed.
+22:32:45 INFO  : 'ps7_post_config' command is executed.
+22:32:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:32:47 INFO  : The application 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:32:47 INFO  : 'configparams force-mem-access 0' command is executed.
+22:32:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}
+fpga -file D:/FPGA/zybo/imx219/v2/pcam_hw/Zybo-Z7-HW.runs/impl_1/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:32:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:32:47 INFO  : 'con' command is executed.
+22:32:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:32:47 INFO  : Launch script is exported to file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app_system\_ide\scripts\debugger_imx_app-default.tcl'
+22:33:20 INFO  : Disconnected from the channel tcfchan#24.
+03:30:58 DEBUG : Logs will be stored at 'D:/FPGA/zybo/imx219/v2/pcam_sw/IDE.log'.
+03:30:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\zybo\imx219\v2\pcam_sw\temp_xsdb_launch_script.tcl
+03:31:05 INFO  : XSCT server has started successfully.
+03:31:05 INFO  : Successfully done setting XSCT server connection channel  
+03:31:05 INFO  : plnx-install-location is set to ''
+03:31:05 INFO  : Successfully done setting workspace for the tool. 
+03:31:17 INFO  : Registering command handlers for Vitis TCF services
+03:31:17 INFO  : Platform repository initialization has completed.
+03:31:23 INFO  : Successfully done query RDI_DATADIR 
+03:34:46 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_sw/xsa/system_wrapper.xsa}'. Click on details for more information.
+03:35:03 INFO  : Result from executing command 'removePlatformRepo': 
+03:51:19 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+03:51:19 ERROR : Failed to get platform details for the project 'imx_app'. Cannot sync application flags.
+08:36:56 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper.xsa}'. Click on details for more information.
+08:37:05 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+08:37:29 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper.xsa}'. Click on details for more information.
+08:37:32 ERROR : Failed to update hardware specification for project 'imx_plat'.
+Reason: Failed to execute command 'platform config -updatehw {D:/FPGA/zybo/imx219/v2/pcam_hw/system_wrapper.xsa}'. Click on details for more information.
+08:39:39 INFO  : Hardware specification for platform project 'imx_plat' is updated.
+08:40:58 INFO  : Result from executing command 'getProjects': imx_plat
+08:40:58 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm;xilinx_zcu102_base_dfx_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_dfx_202420_1/xilinx_zcu102_base_dfx_202420_1.xpfm;xilinx_zcu104_base_202420_1|C:/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu104_base_202420_1/xilinx_zcu104_base_202420_1.xpfm
+08:41:28 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+08:45:53 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+08:46:05 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+08:47:02 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+08:47:31 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+08:50:28 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+08:53:08 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+08:54:26 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+09:00:47 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+09:05:00 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+09:05:23 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+09:09:43 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+09:11:18 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+09:12:57 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+09:13:16 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+09:54:08 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+10:10:44 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+10:12:46 INFO  : The hardware specification used by project 'imx_app' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:12:46 INFO  : The file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\bitstream\system_wrapper.bit' stored in project is removed.
+10:12:46 INFO  : The updated bitstream files are copied from platform to folder 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\bitstream' in project 'imx_app'.
+10:12:46 INFO  : The file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\psinit\ps7_init.tcl' stored in project is removed.
+10:12:54 INFO  : The updated ps init files are copied from platform to folder 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app\_ide\psinit' in project 'imx_app'.
+10:12:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:12:58 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7807CA' is selected.
+10:12:58 INFO  : 'jtag frequency' command is executed.
+10:12:58 INFO  : Context for 'APU' is selected.
+10:12:58 INFO  : System reset is completed.
+10:13:01 INFO  : 'after 3000' command is executed.
+10:13:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}' command is executed.
+10:13:02 INFO  : Device configured successfully with "D:/FPGA/zybo/imx219/v2/pcam_sw/bit/system_wrapper_v1.bit"
+10:13:02 INFO  : Context for 'APU' is selected.
+10:13:03 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper_v1.xsa'.
+10:13:03 INFO  : 'configparams force-mem-access 1' command is executed.
+10:13:03 INFO  : Context for 'APU' is selected.
+10:13:03 INFO  : Sourcing of 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl' is done.
+10:13:03 INFO  : 'ps7_init' command is executed.
+10:13:03 INFO  : 'ps7_post_config' command is executed.
+10:13:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:13:04 INFO  : The application 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:13:04 INFO  : 'configparams force-mem-access 0' command is executed.
+10:13:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}
+fpga -file D:/FPGA/zybo/imx219/v2/pcam_sw/bit/system_wrapper_v1.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper_v1.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:13:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:13:04 INFO  : 'con' command is executed.
+10:13:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:13:04 INFO  : Launch script is exported to file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app_system\_ide\scripts\debugger_imx_app-default.tcl'
+10:13:31 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+10:13:36 INFO  : Disconnected from the channel tcfchan#4.
+10:13:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:13:39 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7807CA' is selected.
+10:13:39 INFO  : 'jtag frequency' command is executed.
+10:13:39 INFO  : Context for 'APU' is selected.
+10:13:39 INFO  : System reset is completed.
+10:13:42 INFO  : 'after 3000' command is executed.
+10:13:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}' command is executed.
+10:13:44 INFO  : Device configured successfully with "D:/FPGA/zybo/imx219/v2/pcam_sw/bit/system_wrapper_v1.bit"
+10:13:44 INFO  : Context for 'APU' is selected.
+10:13:44 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper_v1.xsa'.
+10:13:44 INFO  : 'configparams force-mem-access 1' command is executed.
+10:13:44 INFO  : Context for 'APU' is selected.
+10:13:44 INFO  : Sourcing of 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl' is done.
+10:13:44 INFO  : 'ps7_init' command is executed.
+10:13:44 INFO  : 'ps7_post_config' command is executed.
+10:13:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:13:45 INFO  : The application 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:13:45 INFO  : 'configparams force-mem-access 0' command is executed.
+10:13:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}
+fpga -file D:/FPGA/zybo/imx219/v2/pcam_sw/bit/system_wrapper_v1.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper_v1.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:13:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:13:45 INFO  : 'con' command is executed.
+10:13:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:13:45 INFO  : Launch script is exported to file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app_system\_ide\scripts\debugger_imx_app-default.tcl'
+10:19:33 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+10:23:03 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+10:23:14 INFO  : Disconnected from the channel tcfchan#5.
+10:23:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:23:16 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7807CA' is selected.
+10:23:16 INFO  : 'jtag frequency' command is executed.
+10:23:16 INFO  : Context for 'APU' is selected.
+10:23:16 INFO  : System reset is completed.
+10:23:19 INFO  : 'after 3000' command is executed.
+10:23:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}' command is executed.
+10:23:20 INFO  : Device configured successfully with "D:/FPGA/zybo/imx219/v2/pcam_sw/bit/system_wrapper_v1.bit"
+10:23:20 INFO  : Context for 'APU' is selected.
+10:23:20 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper_v1.xsa'.
+10:23:20 INFO  : 'configparams force-mem-access 1' command is executed.
+10:23:20 INFO  : Context for 'APU' is selected.
+10:23:20 INFO  : Sourcing of 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl' is done.
+10:23:21 INFO  : 'ps7_init' command is executed.
+10:23:21 INFO  : 'ps7_post_config' command is executed.
+10:23:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:23:22 INFO  : The application 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:23:22 INFO  : 'configparams force-mem-access 0' command is executed.
+10:23:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}
+fpga -file D:/FPGA/zybo/imx219/v2/pcam_sw/bit/system_wrapper_v1.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper_v1.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:23:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:23:22 INFO  : 'con' command is executed.
+10:23:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:23:22 INFO  : Launch script is exported to file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app_system\_ide\scripts\debugger_imx_app-default.tcl'
+10:24:52 INFO  : Checking for BSP changes to sync application flags for project 'imx_app'...
+10:24:59 INFO  : Disconnected from the channel tcfchan#6.
+10:25:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:25:00 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7807CA' is selected.
+10:25:00 INFO  : 'jtag frequency' command is executed.
+10:25:00 INFO  : Context for 'APU' is selected.
+10:25:00 INFO  : System reset is completed.
+10:25:03 INFO  : 'after 3000' command is executed.
+10:25:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}' command is executed.
+10:25:05 INFO  : Device configured successfully with "D:/FPGA/zybo/imx219/v2/pcam_sw/bit/system_wrapper_v1.bit"
+10:25:05 INFO  : Context for 'APU' is selected.
+10:25:05 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper_v1.xsa'.
+10:25:05 INFO  : 'configparams force-mem-access 1' command is executed.
+10:25:05 INFO  : Context for 'APU' is selected.
+10:25:05 INFO  : Sourcing of 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl' is done.
+10:25:05 INFO  : 'ps7_init' command is executed.
+10:25:05 INFO  : 'ps7_post_config' command is executed.
+10:25:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:25:06 INFO  : The application 'D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:25:06 INFO  : 'configparams force-mem-access 0' command is executed.
+10:25:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A7807CA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A7807CA-13722093-0"}
+fpga -file D:/FPGA/zybo/imx219/v2/pcam_sw/bit/system_wrapper_v1.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/hw/system_wrapper_v1.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/FPGA/zybo/imx219/v2/pcam_sw/imx_app/Debug/imx_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:25:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:25:06 INFO  : 'con' command is executed.
+10:25:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:25:06 INFO  : Launch script is exported to file 'D:\FPGA\zybo\imx219\v2\pcam_sw\imx_app_system\_ide\scripts\debugger_imx_app-default.tcl'
+10:28:41 INFO  : Disconnected from the channel tcfchan#7.

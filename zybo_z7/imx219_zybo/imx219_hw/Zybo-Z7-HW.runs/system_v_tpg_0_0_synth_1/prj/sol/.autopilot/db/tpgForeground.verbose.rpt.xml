@@ -1,0 +1,255 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'tpgForeground'" level="0">
+<item name = "Date">Tue Nov 11 00:46:15 2025
+</item>
+<item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
+<item name = "Project">prj</item>
+<item name = "Solution">sol (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z010-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">6.67 ns, 5.253 ns, 1.80 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">2, 4295294972, 13.334 ns, 28.637 sec, 2, 4295294972, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_tpgForeground_Pipeline_VITIS_LOOP_774_2_fu_220">tpgForeground_Pipeline_VITIS_LOOP_774_2, 2, 65539, 13.334 ns, 0.437 ms, 1, 65536, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_772_1">0, 4295294970, 5 ~ 65542, -, -, 0 ~ 65535, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 157, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">0, -, 298, 812, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, 0, 202, -</column>
+<column name="Register">-, -, 294, -, -</column>
+<specialColumn name="Available">120, 80, 35200, 17600, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, 1, 6, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="grp_tpgForeground_Pipeline_VITIS_LOOP_774_2_fu_220">tpgForeground_Pipeline_VITIS_LOOP_774_2, 0, 0, 298, 812, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="y_2_fu_366_p2">+, 0, 0, 23, 16, 1</column>
+<column name="hMax_fu_343_p2">-, 0, 0, 23, 16, 16</column>
+<column name="vMax_fu_347_p2">-, 0, 0, 23, 16, 16</column>
+<column name="cmp2_i_fu_372_p2">icmp, 0, 0, 23, 16, 16</column>
+<column name="cmp31_i_fu_330_p2">icmp, 0, 0, 15, 8, 1</column>
+<column name="icmp_fu_301_p2">icmp, 0, 0, 14, 7, 1</column>
+<column name="icmp_ln772_fu_361_p2">icmp, 0, 0, 23, 16, 16</column>
+<column name="ap_block_state1">or, 0, 0, 2, 1, 1</column>
+<column name="conv2_i_i_i129_fu_335_p3">select, 0, 0, 11, 1, 8</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">31, 6, 1, 6</column>
+<column name="ap_done">9, 2, 1, 2</column>
+<column name="boxColorB_val_blk_n">9, 2, 1, 2</column>
+<column name="boxColorG_val_blk_n">9, 2, 1, 2</column>
+<column name="boxColorR_val_blk_n">9, 2, 1, 2</column>
+<column name="boxHCoord_loc_0_fu_122">9, 2, 16, 32</column>
+<column name="boxSize_val_blk_n">9, 2, 1, 2</column>
+<column name="boxVCoord_loc_0_fu_118">9, 2, 16, 32</column>
+<column name="colorFormat_val27_c_blk_n">9, 2, 1, 2</column>
+<column name="colorFormat_val_blk_n">9, 2, 1, 2</column>
+<column name="crossHairX_val_blk_n">9, 2, 1, 2</column>
+<column name="crossHairY_val_blk_n">9, 2, 1, 2</column>
+<column name="height_val5_c_blk_n">9, 2, 1, 2</column>
+<column name="height_val_blk_n">9, 2, 1, 2</column>
+<column name="maskId_val_blk_n">9, 2, 1, 2</column>
+<column name="motionSpeed_val_blk_n">9, 2, 1, 2</column>
+<column name="patternId_val_blk_n">9, 2, 1, 2</column>
+<column name="width_val10_c_blk_n">9, 2, 1, 2</column>
+<column name="width_val_blk_n">9, 2, 1, 2</column>
+<column name="y_fu_114">9, 2, 16, 32</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">5, 0, 5, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="boxColorB_val_read_reg_401">10, 0, 10, 0</column>
+<column name="boxColorG_val_read_reg_406">10, 0, 10, 0</column>
+<column name="boxColorR_val_read_reg_411">10, 0, 10, 0</column>
+<column name="boxHCoord">16, 0, 16, 0</column>
+<column name="boxHCoord_loc_0_fu_122">16, 0, 16, 0</column>
+<column name="boxSize_val_read_reg_416">16, 0, 16, 0</column>
+<column name="boxVCoord">16, 0, 16, 0</column>
+<column name="boxVCoord_loc_0_fu_118">16, 0, 16, 0</column>
+<column name="cmp2_i_reg_520">1, 0, 1, 0</column>
+<column name="cmp31_i_reg_487">1, 0, 1, 0</column>
+<column name="colorFormat_val_read_reg_433">8, 0, 8, 0</column>
+<column name="conv2_i_i_i129_reg_492">3, 0, 10, 7</column>
+<column name="crossHairX_val_read_reg_428">16, 0, 16, 0</column>
+<column name="crossHairY_val_read_reg_423">16, 0, 16, 0</column>
+<column name="empty_122_reg_467">1, 0, 1, 0</column>
+<column name="grp_tpgForeground_Pipeline_VITIS_LOOP_774_2_fu_220_ap_start_reg">1, 0, 1, 0</column>
+<column name="hMax_reg_497">16, 0, 16, 0</column>
+<column name="icmp_reg_482">1, 0, 1, 0</column>
+<column name="loopHeight_reg_461">16, 0, 16, 0</column>
+<column name="loopWidth_reg_455">16, 0, 16, 0</column>
+<column name="maskId_val_read_reg_445">8, 0, 8, 0</column>
+<column name="motionSpeed_val_read_reg_439">8, 0, 8, 0</column>
+<column name="patternId_val_read_reg_450">8, 0, 8, 0</column>
+<column name="shl_i_reg_507">8, 0, 9, 1</column>
+<column name="tmp_4_reg_477">1, 0, 1, 0</column>
+<column name="tmp_reg_472">1, 0, 1, 0</column>
+<column name="vMax_reg_502">16, 0, 16, 0</column>
+<column name="y_1_reg_512">16, 0, 16, 0</column>
+<column name="y_fu_114">16, 0, 16, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, tpgForeground, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, tpgForeground, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, tpgForeground, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, tpgForeground, return value</column>
+<column name="ap_continue">in, 1, ap_ctrl_hs, tpgForeground, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, tpgForeground, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, tpgForeground, return value</column>
+<column name="bckgndYUV_dout">in, 30, ap_fifo, bckgndYUV, pointer</column>
+<column name="bckgndYUV_empty_n">in, 1, ap_fifo, bckgndYUV, pointer</column>
+<column name="bckgndYUV_read">out, 1, ap_fifo, bckgndYUV, pointer</column>
+<column name="bckgndYUV_num_data_valid">in, 5, ap_fifo, bckgndYUV, pointer</column>
+<column name="bckgndYUV_fifo_cap">in, 5, ap_fifo, bckgndYUV, pointer</column>
+<column name="height_val_dout">in, 16, ap_fifo, height_val, pointer</column>
+<column name="height_val_empty_n">in, 1, ap_fifo, height_val, pointer</column>
+<column name="height_val_read">out, 1, ap_fifo, height_val, pointer</column>
+<column name="height_val_num_data_valid">in, 3, ap_fifo, height_val, pointer</column>
+<column name="height_val_fifo_cap">in, 3, ap_fifo, height_val, pointer</column>
+<column name="width_val_dout">in, 16, ap_fifo, width_val, pointer</column>
+<column name="width_val_empty_n">in, 1, ap_fifo, width_val, pointer</column>
+<column name="width_val_read">out, 1, ap_fifo, width_val, pointer</column>
+<column name="width_val_num_data_valid">in, 3, ap_fifo, width_val, pointer</column>
+<column name="width_val_fifo_cap">in, 3, ap_fifo, width_val, pointer</column>
+<column name="patternId_val_dout">in, 8, ap_fifo, patternId_val, pointer</column>
+<column name="patternId_val_empty_n">in, 1, ap_fifo, patternId_val, pointer</column>
+<column name="patternId_val_read">out, 1, ap_fifo, patternId_val, pointer</column>
+<column name="patternId_val_num_data_valid">in, 3, ap_fifo, patternId_val, pointer</column>
+<column name="patternId_val_fifo_cap">in, 3, ap_fifo, patternId_val, pointer</column>
+<column name="maskId_val_dout">in, 8, ap_fifo, maskId_val, pointer</column>
+<column name="maskId_val_empty_n">in, 1, ap_fifo, maskId_val, pointer</column>
+<column name="maskId_val_read">out, 1, ap_fifo, maskId_val, pointer</column>
+<column name="maskId_val_num_data_valid">in, 3, ap_fifo, maskId_val, pointer</column>
+<column name="maskId_val_fifo_cap">in, 3, ap_fifo, maskId_val, pointer</column>
+<column name="colorFormat_val_dout">in, 8, ap_fifo, colorFormat_val, pointer</column>
+<column name="colorFormat_val_empty_n">in, 1, ap_fifo, colorFormat_val, pointer</column>
+<column name="colorFormat_val_read">out, 1, ap_fifo, colorFormat_val, pointer</column>
+<column name="colorFormat_val_num_data_valid">in, 3, ap_fifo, colorFormat_val, pointer</column>
+<column name="colorFormat_val_fifo_cap">in, 3, ap_fifo, colorFormat_val, pointer</column>
+<column name="crossHairX_val_dout">in, 16, ap_fifo, crossHairX_val, pointer</column>
+<column name="crossHairX_val_empty_n">in, 1, ap_fifo, crossHairX_val, pointer</column>
+<column name="crossHairX_val_read">out, 1, ap_fifo, crossHairX_val, pointer</column>
+<column name="crossHairX_val_num_data_valid">in, 3, ap_fifo, crossHairX_val, pointer</column>
+<column name="crossHairX_val_fifo_cap">in, 3, ap_fifo, crossHairX_val, pointer</column>
+<column name="crossHairY_val_dout">in, 16, ap_fifo, crossHairY_val, pointer</column>
+<column name="crossHairY_val_empty_n">in, 1, ap_fifo, crossHairY_val, pointer</column>
+<column name="crossHairY_val_read">out, 1, ap_fifo, crossHairY_val, pointer</column>
+<column name="crossHairY_val_num_data_valid">in, 3, ap_fifo, crossHairY_val, pointer</column>
+<column name="crossHairY_val_fifo_cap">in, 3, ap_fifo, crossHairY_val, pointer</column>
+<column name="boxSize_val_dout">in, 16, ap_fifo, boxSize_val, pointer</column>
+<column name="boxSize_val_empty_n">in, 1, ap_fifo, boxSize_val, pointer</column>
+<column name="boxSize_val_read">out, 1, ap_fifo, boxSize_val, pointer</column>
+<column name="boxSize_val_num_data_valid">in, 3, ap_fifo, boxSize_val, pointer</column>
+<column name="boxSize_val_fifo_cap">in, 3, ap_fifo, boxSize_val, pointer</column>
+<column name="boxColorR_val_dout">in, 10, ap_fifo, boxColorR_val, pointer</column>
+<column name="boxColorR_val_empty_n">in, 1, ap_fifo, boxColorR_val, pointer</column>
+<column name="boxColorR_val_read">out, 1, ap_fifo, boxColorR_val, pointer</column>
+<column name="boxColorR_val_num_data_valid">in, 3, ap_fifo, boxColorR_val, pointer</column>
+<column name="boxColorR_val_fifo_cap">in, 3, ap_fifo, boxColorR_val, pointer</column>
+<column name="boxColorG_val_dout">in, 10, ap_fifo, boxColorG_val, pointer</column>
+<column name="boxColorG_val_empty_n">in, 1, ap_fifo, boxColorG_val, pointer</column>
+<column name="boxColorG_val_read">out, 1, ap_fifo, boxColorG_val, pointer</column>
+<column name="boxColorG_val_num_data_valid">in, 3, ap_fifo, boxColorG_val, pointer</column>
+<column name="boxColorG_val_fifo_cap">in, 3, ap_fifo, boxColorG_val, pointer</column>
+<column name="boxColorB_val_dout">in, 10, ap_fifo, boxColorB_val, pointer</column>
+<column name="boxColorB_val_empty_n">in, 1, ap_fifo, boxColorB_val, pointer</column>
+<column name="boxColorB_val_read">out, 1, ap_fifo, boxColorB_val, pointer</column>
+<column name="boxColorB_val_num_data_valid">in, 3, ap_fifo, boxColorB_val, pointer</column>
+<column name="boxColorB_val_fifo_cap">in, 3, ap_fifo, boxColorB_val, pointer</column>
+<column name="motionSpeed_val_dout">in, 8, ap_fifo, motionSpeed_val, pointer</column>
+<column name="motionSpeed_val_empty_n">in, 1, ap_fifo, motionSpeed_val, pointer</column>
+<column name="motionSpeed_val_read">out, 1, ap_fifo, motionSpeed_val, pointer</column>
+<column name="motionSpeed_val_num_data_valid">in, 3, ap_fifo, motionSpeed_val, pointer</column>
+<column name="motionSpeed_val_fifo_cap">in, 3, ap_fifo, motionSpeed_val, pointer</column>
+<column name="ovrlayYUV_din">out, 30, ap_fifo, ovrlayYUV, pointer</column>
+<column name="ovrlayYUV_full_n">in, 1, ap_fifo, ovrlayYUV, pointer</column>
+<column name="ovrlayYUV_write">out, 1, ap_fifo, ovrlayYUV, pointer</column>
+<column name="ovrlayYUV_num_data_valid">in, 32, ap_fifo, ovrlayYUV, pointer</column>
+<column name="ovrlayYUV_fifo_cap">in, 32, ap_fifo, ovrlayYUV, pointer</column>
+<column name="height_val5_c_din">out, 12, ap_fifo, height_val5_c, pointer</column>
+<column name="height_val5_c_full_n">in, 1, ap_fifo, height_val5_c, pointer</column>
+<column name="height_val5_c_write">out, 1, ap_fifo, height_val5_c, pointer</column>
+<column name="height_val5_c_num_data_valid">in, 3, ap_fifo, height_val5_c, pointer</column>
+<column name="height_val5_c_fifo_cap">in, 3, ap_fifo, height_val5_c, pointer</column>
+<column name="width_val10_c_din">out, 13, ap_fifo, width_val10_c, pointer</column>
+<column name="width_val10_c_full_n">in, 1, ap_fifo, width_val10_c, pointer</column>
+<column name="width_val10_c_write">out, 1, ap_fifo, width_val10_c, pointer</column>
+<column name="width_val10_c_num_data_valid">in, 3, ap_fifo, width_val10_c, pointer</column>
+<column name="width_val10_c_fifo_cap">in, 3, ap_fifo, width_val10_c, pointer</column>
+<column name="colorFormat_val27_c_din">out, 8, ap_fifo, colorFormat_val27_c, pointer</column>
+<column name="colorFormat_val27_c_full_n">in, 1, ap_fifo, colorFormat_val27_c, pointer</column>
+<column name="colorFormat_val27_c_write">out, 1, ap_fifo, colorFormat_val27_c, pointer</column>
+<column name="colorFormat_val27_c_num_data_valid">in, 3, ap_fifo, colorFormat_val27_c, pointer</column>
+<column name="colorFormat_val27_c_fifo_cap">in, 3, ap_fifo, colorFormat_val27_c, pointer</column>
+</table>
+</item>
+</section>
+</profile>

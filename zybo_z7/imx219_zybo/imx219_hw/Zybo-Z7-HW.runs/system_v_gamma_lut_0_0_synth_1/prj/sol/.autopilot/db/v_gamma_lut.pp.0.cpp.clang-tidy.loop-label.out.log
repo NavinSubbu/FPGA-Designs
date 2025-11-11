@@ -1,0 +1,1828 @@
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:3294:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:3294:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:3308:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:3308:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:3322:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:3322:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:4956:7: warning: Added loop label VITIS_LOOP_1248_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1248_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:4956:7: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15699:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                       ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15700:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                       ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15701:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                       ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15702:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K3 type=ROM_1P impl=LUTRAM
+                                                                       ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15703:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K4 type=ROM_1P impl=LUTRAM
+                                                                       ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15733:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15734:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15735:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15736:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15737:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15738:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15739:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15740:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15741:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15742:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15792:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                      ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15793:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                      ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15794:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                      ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15821:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15822:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15823:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15824:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15825:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15826:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15862:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                        ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:15863:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                        ^
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16137:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_61_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16137:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16183:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_117_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16183:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16346:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_289_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16346:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16498:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_449_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16498:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16678:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_629_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16678:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16682:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_633_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16682:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16792:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_743_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16792:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16882:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_840_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16882:7: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16901:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_859_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:16901:7: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17191:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1173_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17191:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17274:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1256_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17274:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17680:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
+            for (int j = 3; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_68_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17680:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17686:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
+                for (int j = 3; j >= I_+1; j--){
+                ^~~
+                VITIS_LOOP_74_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17686:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17690:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_78_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17690:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17738:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
+            for (int j = 9; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_145_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17738:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17744:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
+                for (int j = 9; j >= I_+4; j--){
+                ^~~
+                VITIS_LOOP_151_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17744:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17748:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_155_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17748:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17763:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
+        for (int j = 14; j < 22; j++){
+        ^~~
+        VITIS_LOOP_170_7: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17763:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17771:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++){
+                ^~~
+                VITIS_LOOP_178_8: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17771:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17836:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
+            for (int j = 21; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_243_9: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17836:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17842:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
+                for (int j = 21; j >= I_+10; j--) {
+                ^~~
+                VITIS_LOOP_249_10: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17842:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17846:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_253_11: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17846:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17861:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
+        for (int j = 27; j < 46; j++){
+        ^~~
+        VITIS_LOOP_268_12: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17861:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17869:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_276_13: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:17869:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18098:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
+            for (int j = 45; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_505_14: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18098:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18104:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
+                for (int j = 45; j >= I_+22; j--){
+                ^~~
+                VITIS_LOOP_511_15: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18104:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18108:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_515_16: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18108:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18118:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
+        for (int j = 32-F_; j < 32+I_; j++){
+        ^~~
+        VITIS_LOOP_525_17: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18118:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18122:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
+        for (int j = 32+I_; j <= 64; j++){
+        ^~~
+        VITIS_LOOP_529_18: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18122:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18132:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
+        for (int j = 37; j < 64; j++) {
+        ^~~
+        VITIS_LOOP_539_19: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18132:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18140:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++){
+                ^~~
+                VITIS_LOOP_547_20: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18140:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18501:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
+            for (int j = 63; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_908_21: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18501:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18507:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
+                for (int j = 63; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_914_22: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18507:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18511:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_918_23: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18511:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18627:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
+            for (int j = 4; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_1034_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18627:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18633:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
+                for (int j = 4; j >= I_+1; j--) {
+                ^~~
+                VITIS_LOOP_1040_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18633:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18637:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1044_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18637:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18724:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
+            for (int j = 10; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_1131_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18724:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18730:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
+                for (int j = 10; j >= I_+4; j--) {
+                ^~~
+                VITIS_LOOP_1137_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18730:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18734:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1141_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18734:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18753:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+        for (int j = wf+3; j < w-1; j++) {
+        ^~~
+        VITIS_LOOP_1160_7: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18753:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18760:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++) {
+                ^~~
+                VITIS_LOOP_1167_8: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18760:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18876:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
+            for (int j = 22; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_1283_9: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18876:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18882:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
+                for (int j = 22; j >= I_+10; j--){
+                ^~~
+                VITIS_LOOP_1289_10: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18882:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18886:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1293_11: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18886:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18906:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
+        for (int j = wf+4; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1313_12: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18906:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18913:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_1320_13: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:18913:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19175:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
+            for (int j = 46; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_1582_14: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19175:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19181:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
+                for (int j = 46; j >= I_+22; j--) {
+                ^~~
+                VITIS_LOOP_1588_15: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19181:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19185:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1592_16: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19185:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19209:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
+        for (int j = wf+5; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1616_17: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19209:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19216:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++) {
+                ^~~
+                VITIS_LOOP_1623_18: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19216:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19646:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
+            for (int j = 64; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_2053_19: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19646:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19652:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
+                for (int j = 64; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_2059_20: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19652:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19656:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_2063_21: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19656:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19786:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
+            for(int j=3; j>=I+1; j--) {
+            ^~~
+            VITIS_LOOP_2193_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19786:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19793:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
+                for(int j=3; j>=I+1; j--) {
+                ^~~
+                VITIS_LOOP_2200_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19793:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19797:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
+                for(int j=I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2204_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19797:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19844:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
+            for(int j=7; j>=3+I; j--) {
+            ^~~
+            VITIS_LOOP_2251_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19844:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19851:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
+                for(int j=7; j>=3+I; j--) {
+                ^~~
+                VITIS_LOOP_2258_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19851:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19855:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
+                for(int j=I+2; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2262_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19855:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19873:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
+        for(int j=11; j<16; j++) {
+        ^~~
+        VITIS_LOOP_2280_7: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19873:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19928:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
+            for(int j=15; j>=7+I; j--) {
+            ^~~
+            VITIS_LOOP_2335_8: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19928:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19935:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
+                for(int j=15; j>=7+I; j--) {
+                ^~~
+                VITIS_LOOP_2342_9: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19935:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19939:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
+                for(int j=6+I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2346_10: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19939:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19957:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
+        for(int j=20; j<32; j++) {
+        ^~~
+        VITIS_LOOP_2364_11: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:19957:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20046:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
+            for(int j=31; j>=I+15; j--) {
+            ^~~
+            VITIS_LOOP_2453_12: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20046:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20053:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
+                for(int j=31; j>=I+15; j--) {
+                ^~~
+                VITIS_LOOP_2460_13: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20053:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20057:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
+                for(int j=I+14; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2464_14: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20057:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20067:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
+        for(int j=32-F; j<32+I; j++) {
+        ^~~
+        VITIS_LOOP_2474_15: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20067:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20071:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
+        for(int j=32+I; j<=64; j++) {
+        ^~~
+        VITIS_LOOP_2478_16: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20071:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20082:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
+        for(int j=37; j<64; j++) {
+        ^~~
+        VITIS_LOOP_2489_17: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20082:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20090:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
+                for(int j=0; j<64; j++) {
+                ^~~
+                VITIS_LOOP_2497_18: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20090:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20415:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
+            for(int j=63; j>=I+31; j--) {
+            ^~~
+            VITIS_LOOP_2822_19: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20415:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20422:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
+                for(int j=63; j>=I+31; j--) {
+                ^~~
+                VITIS_LOOP_2829_20: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20422:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20426:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
+                for(int j=I+30; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2833_21: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20426:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20514:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
+   for(int j = 5; j>=I_+2; j--) {
+   ^~~
+   VITIS_LOOP_2921_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20514:4: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20521:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
+    for(int j = 5; j>=I_+2; j--) {
+    ^~~
+    VITIS_LOOP_2928_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20521:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20525:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
+    for(int j = I_+1; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2932_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20525:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20540:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
+  for(int j = 11; j >=7; j--) {
+  ^~~
+  VITIS_LOOP_2947_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20540:3: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20572:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
+   for(int j = 11; j >= I_+5; j--) {
+   ^~~
+   VITIS_LOOP_2979_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20572:4: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20579:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
+    for(int j = 11; j>= I_+5; j--) {
+    ^~~
+    VITIS_LOOP_2986_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20579:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20583:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
+    for(int j = I_+4; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2990_7: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20583:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20598:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
+  for(int j = 25; j>=15; j--) {
+  ^~~
+  VITIS_LOOP_3005_8: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20598:3: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20648:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
+   for(int j = 25; j>= I_+12; j--) {
+   ^~~
+   VITIS_LOOP_3055_9: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20648:4: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20655:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
+    for(int j = 25; j>=I_+12; j--) {
+    ^~~
+    VITIS_LOOP_3062_10: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20655:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20659:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
+    for(int j = I_+11; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_3066_11: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20659:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20674:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
+  for(int j = 51; j >= 29; j--) {
+  ^~~
+  VITIS_LOOP_3081_12: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20674:3: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20811:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
+   for(int j = 51; j >= 25 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3218_13: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20811:4: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20818:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
+    for(int j = 51; j>=25 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3225_14: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20818:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20822:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
+    for(int j = 24 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3229_15: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20822:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20837:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
+  for(int j = 63; j >= 36; j--) {
+  ^~~
+  VITIS_LOOP_3244_16: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20837:3: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20997:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
+   for(int j = 63; j >= 31 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3404_17: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:20997:4: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:21004:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
+    for(int j = 63; j >= 31 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3411_18: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:21004:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:21008:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
+    for(int j = 30 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3415_19: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:21008:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:21723:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_703_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:21723:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:21941:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_921_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:21941:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:22358:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_1345_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:22358:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:22678:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
+        for ( int pos = msbr-1; pos >= 0; pos-- ) {
+        ^~~
+        VITIS_LOOP_240_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:22678:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:22706:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
+        for ( int pos = -1; pos >= -F_-1; pos-- ) {
+        ^~~
+        VITIS_LOOP_268_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:22706:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23408:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
+            for (int j = 0; j < W_-1; j++){
+            ^~~
+            VITIS_LOOP_48_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23408:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23461:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
+    for (int j = F_l+F_+I_m-1; j < F_l+W_+5; j++){
+    ^~~
+    VITIS_LOOP_109_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23461:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23475:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
+            for (int j = WO_m-1; j >= W_-1; j--) {
+            ^~~
+            VITIS_LOOP_123_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23475:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23505:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
+            for (int j = W_-2; j >= 0; j--){
+            ^~~
+            VITIS_LOOP_153_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23505:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23590:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
+           for(int i = wf_log+we_log-2; i > WI_e - 2; --i) {
+           ^~~
+           VITIS_LOOP_281_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23590:12: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23610:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
+               for (int j = WO_e-1; j >= W_-1; j--) {
+               ^~~
+               VITIS_LOOP_301_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23610:16: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23624:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
+                   for(int i = 0; i < W_-1; ++i) {
+                   ^~~
+                   VITIS_LOOP_315_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23624:20: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23717:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
+           for (int j =WO_d-1; j >= W_-1; j--) {
+           ^~~
+           VITIS_LOOP_433_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23717:12: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23731:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
+              for(int i = 0; i < W_-1; ++i) {
+              ^~~
+              VITIS_LOOP_447_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23731:15: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23851:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_33_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23851:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23975:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_183_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:23975:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24030:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_248_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24030:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24549:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_16_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24549:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24560:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_27_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24560:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24571:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_38_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24571:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24582:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_49_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24582:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24593:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_60_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24593:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24604:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_71_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24604:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24615:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_82_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24615:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24626:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_93_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:24626:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:26986:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
+           for(int i = 0; i < W_-1; ++i) {
+           ^~~
+           VITIS_LOOP_26_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:26986:12: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:27050:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+      for(int pos = msbr - 1 ; pos >= -F-1; pos--) {
+      ^~~
+      VITIS_LOOP_40_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:27050:7: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:27167:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+        for(int pos = msbr - 1; pos >= 0; pos--) {
+        ^~~
+        VITIS_LOOP_49_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:27167:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:27192:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
+    for(int pos = -1; pos >= -F-1; pos--) {
+    ^~~
+    VITIS_LOOP_81_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:27192:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:27262:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
+       for(int i = 0; i < W - 1; ++i) {
+       ^~~
+       VITIS_LOOP_169_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:27262:8: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29927:5: warning: Added loop label VITIS_LOOP_137_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_137_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29927:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29929:2: warning: Added loop label VITIS_LOOP_139_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS-1; j++) {
+ ^~~
+ VITIS_LOOP_139_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29929:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29951:5: warning: Added loop label VITIS_LOOP_175_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_175_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29951:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29953:2: warning: Added loop label VITIS_LOOP_177_2:   [xilinx-label-all-loops]
+ for(j = COLS-1; j > 0; j--) {
+ ^~~
+ VITIS_LOOP_177_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29953:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29975:5: warning: Added loop label VITIS_LOOP_213_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_213_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29975:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29977:2: warning: Added loop label VITIS_LOOP_215_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_215_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29977:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29999:5: warning: Added loop label VITIS_LOOP_251_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_251_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:29999:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30001:2: warning: Added loop label VITIS_LOOP_253_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_253_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30001:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30039:5: warning: Added loop label VITIS_LOOP_320_1:   [xilinx-label-all-loops]
+    for(j = 0; j < COLS; j++) {
+    ^~~
+    VITIS_LOOP_320_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30039:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30091:5: warning: Added loop label VITIS_LOOP_417_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_417_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30091:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30281:5: warning: Added loop label VITIS_LOOP_702_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_702_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30281:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30303:5: warning: Added loop label VITIS_LOOP_742_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_742_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30303:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30351:5: warning: Added loop label VITIS_LOOP_838_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_838_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30351:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30458:5: warning: Added loop label VITIS_LOOP_990_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_990_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30458:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30480:5: warning: Added loop label VITIS_LOOP_1030_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_1030_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30480:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30528:5: warning: Added loop label VITIS_LOOP_1126_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_1126_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30528:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30729:2: warning: Added loop label VITIS_LOOP_231_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < N; k++) {
+ ^~~
+ VITIS_LOOP_231_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30729:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30750:2: warning: Added loop label VITIS_LOOP_252_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < N; k++) {
+ ^~~
+ VITIS_LOOP_252_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30750:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30760:5: warning: Added loop label VITIS_LOOP_262_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_262_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30760:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30771:5: warning: Added loop label VITIS_LOOP_273_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_273_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30771:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30782:5: warning: Added loop label VITIS_LOOP_284_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_284_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30782:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30793:5: warning: Added loop label VITIS_LOOP_295_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_295_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30793:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30805:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_307_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30805:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30816:5: warning: Added loop label VITIS_LOOP_318_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_318_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30816:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30828:5: warning: Added loop label VITIS_LOOP_330_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_330_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30828:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30839:5: warning: Added loop label VITIS_LOOP_341_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_341_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:30839:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31116:2: warning: Added loop label VITIS_LOOP_618_1:   [xilinx-label-all-loops]
+ for (i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+ ^~~
+ VITIS_LOOP_618_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31116:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31193:2: warning: Added loop label VITIS_LOOP_695_1:   [xilinx-label-all-loops]
+ for (i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+ ^~~
+ VITIS_LOOP_695_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31193:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31217:2: warning: Added loop label VITIS_LOOP_719_1:   [xilinx-label-all-loops]
+ for (i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+ ^~~
+ VITIS_LOOP_719_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31217:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31240:5: warning: Added loop label VITIS_LOOP_742_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+    ^~~
+    VITIS_LOOP_742_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31240:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31370:25: warning: Added loop label VITIS_LOOP_209_1:   [xilinx-label-all-loops]
+                        for(int k=0;k<num;k++)
+                        ^~~
+                        VITIS_LOOP_209_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31370:25: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31506:9: warning: Added loop label VITIS_LOOP_189_1:   [xilinx-label-all-loops]
+        for (HLS_SIZE_T col = 0; col < cols; col++) {
+        ^~~
+        VITIS_LOOP_189_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31506:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31572:9: warning: Added loop label VITIS_LOOP_255_1:   [xilinx-label-all-loops]
+        for (HLS_SIZE_T col = 0; col < cols; col++) {
+        ^~~
+        VITIS_LOOP_255_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:31572:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32476:5: warning: Added loop label VITIS_LOOP_1025_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1025_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32476:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32535:13: warning: Added loop label VITIS_LOOP_1105_1:   [xilinx-label-all-loops]
+            for (HLS_CHANNEL_T k = 0; k < ((((DST_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+            ^~~
+            VITIS_LOOP_1105_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32535:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32551:5: warning: Added loop label VITIS_LOOP_1121_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1121_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32551:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32567:5: warning: Added loop label VITIS_LOOP_1137_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1137_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32567:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32585:5: warning: Added loop label VITIS_LOOP_1155_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1155_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32585:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32623:5: warning: Added loop label VITIS_LOOP_1193_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1193_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32623:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32643:5: warning: Added loop label VITIS_LOOP_1213_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1213_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32643:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32931:13: warning: Added loop label VITIS_LOOP_1508_1:   [xilinx-label-all-loops]
+            for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+            ^~~
+            VITIS_LOOP_1508_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:32931:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33480:21: warning: Added loop label VITIS_LOOP_471_1:   [xilinx-label-all-loops]
+                    for(int buf_row=0; buf_row<K_HEIGHT; buf_row++) {
+                    ^~~
+                    VITIS_LOOP_471_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33480:21: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33493:29: warning: Added loop label VITIS_LOOP_484_2:   [xilinx-label-all-loops]
+                            for(int buf_row=2*K_HEIGHT-1; buf_row>=0; buf_row--) {
+                            ^~~
+                            VITIS_LOOP_484_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33493:29: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33502:29: warning: Added loop label VITIS_LOOP_493_3:   [xilinx-label-all-loops]
+                            for(int buf_row=0; buf_row<K_HEIGHT; buf_row++) {
+                            ^~~
+                            VITIS_LOOP_493_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33502:29: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33503:33: warning: Added loop label VITIS_LOOP_494_4:   [xilinx-label-all-loops]
+                                for(int buf_col=K_WIDTH-1; buf_col>0; buf_col--) {
+                                ^~~
+                                VITIS_LOOP_494_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33503:33: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33511:29: warning: Added loop label VITIS_LOOP_502_5:   [xilinx-label-all-loops]
+                            for(int buf_row=2*K_HEIGHT-1; buf_row>0; buf_row--) {
+                            ^~~
+                            VITIS_LOOP_502_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33511:29: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33525:21: warning: Added loop label VITIS_LOOP_516_6:   [xilinx-label-all-loops]
+                    for(int buf_row=0; buf_row<K_HEIGHT; buf_row++){
+                    ^~~
+                    VITIS_LOOP_516_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33525:21: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33661:25: warning: Added loop label VITIS_LOOP_652_1:   [xilinx-label-all-loops]
+                        for(int buf_row=K_HEIGHT-1; buf_row>0; buf_row--) {
+                        ^~~
+                        VITIS_LOOP_652_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33661:25: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33665:25: warning: Added loop label VITIS_LOOP_656_2:   [xilinx-label-all-loops]
+                        for(int buf_row=K_HEIGHT-1; buf_row>=0; buf_row--) {
+                        ^~~
+                        VITIS_LOOP_656_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33665:25: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33672:29: warning: Added loop label VITIS_LOOP_663_3:   [xilinx-label-all-loops]
+                            for(int buf_row=K_HEIGHT-1; buf_row>0; buf_row--) {
+                            ^~~
+                            VITIS_LOOP_663_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33672:29: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33689:25: warning: Added loop label VITIS_LOOP_680_4:   [xilinx-label-all-loops]
+                        for(int buf_row=K_HEIGHT-1; buf_row>=0; buf_row--) {
+                        ^~~
+                        VITIS_LOOP_680_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33689:25: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33690:29: warning: Added loop label VITIS_LOOP_681_5:   [xilinx-label-all-loops]
+                            for(int buf_col=K_WIDTH-1; buf_col>0; buf_col--) {
+                            ^~~
+                            VITIS_LOOP_681_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33690:29: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33792:17: warning: Added loop label VITIS_LOOP_783_1:   [xilinx-label-all-loops]
+                for(int buf_row=0; buf_row<K_HEIGHT; buf_row++) {
+                ^~~
+                VITIS_LOOP_783_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33792:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33802:21: warning: Added loop label VITIS_LOOP_793_2:   [xilinx-label-all-loops]
+                    for(int buf_row=2*K_HEIGHT-1; buf_row>=0; buf_row--) {
+                    ^~~
+                    VITIS_LOOP_793_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33802:21: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33809:21: warning: Added loop label VITIS_LOOP_800_3:   [xilinx-label-all-loops]
+                    for(int buf_row=2*K_HEIGHT-1; buf_row>0; buf_row--) {
+                    ^~~
+                    VITIS_LOOP_800_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33809:21: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33819:17: warning: Added loop label VITIS_LOOP_810_4:   [xilinx-label-all-loops]
+                for(int buf_row=0; buf_row<K_HEIGHT; buf_row++){
+                ^~~
+                VITIS_LOOP_810_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33819:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33945:17: warning: Added loop label VITIS_LOOP_936_1:   [xilinx-label-all-loops]
+                for (int buf_col=K_WIDTH-1; buf_col>0; buf_col--) {
+                ^~~
+                VITIS_LOOP_936_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33945:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33967:17: warning: Added loop label VITIS_LOOP_958_2:   [xilinx-label-all-loops]
+                for (int buf_col=0; buf_col<2*K_WIDTH; buf_col++) {
+                ^~~
+                VITIS_LOOP_958_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33967:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33973:17: warning: Added loop label VITIS_LOOP_964_3:   [xilinx-label-all-loops]
+                for (int buf_col=0; buf_col<K_WIDTH; buf_col++) {
+                ^~~
+                VITIS_LOOP_964_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:33973:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:34093:17: warning: Added loop label VITIS_LOOP_1084_1:   [xilinx-label-all-loops]
+                for(int buf_col=K_WIDTH-1; buf_col>=1; buf_col--) {
+                ^~~
+                VITIS_LOOP_1084_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:34093:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:34098:21: warning: Added loop label VITIS_LOOP_1089_2:   [xilinx-label-all-loops]
+                    for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--) {
+                    ^~~
+                    VITIS_LOOP_1089_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:34098:21: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:34126:17: warning: Added loop label VITIS_LOOP_1117_3:   [xilinx-label-all-loops]
+                for (int buf_col=0; buf_col<K_WIDTH; buf_col++) {
+                ^~~
+                VITIS_LOOP_1117_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:34126:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:34534:2: warning: Added loop label VITIS_LOOP_1525_1:   [xilinx-label-all-loops]
+ for(int i=0; i<CN1; i++) {
+ ^~~
+ VITIS_LOOP_1525_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:34534:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:34543:2: warning: Added loop label VITIS_LOOP_1534_1:   [xilinx-label-all-loops]
+ for(int i=0; i<CN1; i++) {
+ ^~~
+ VITIS_LOOP_1534_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:34543:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35104:5: warning: Added loop label VITIS_LOOP_2095_1:   [xilinx-label-all-loops]
+    for (i=0; i<NPHASES; i++) {
+    ^~~
+    VITIS_LOOP_2095_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35104:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35111:5: warning: Added loop label VITIS_LOOP_2102_2:   [xilinx-label-all-loops]
+    for (i = 0; i < NPHASES; i++) {
+    ^~~
+    VITIS_LOOP_2102_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35111:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35112:9: warning: Added loop label VITIS_LOOP_2103_3:   [xilinx-label-all-loops]
+        for (j = 0; j < NTAPS; j++) {
+        ^~~
+        VITIS_LOOP_2103_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35112:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35255:27: warning: Added loop label VITIS_LOOP_2246_1:   [xilinx-label-all-loops]
+                          for (int m = 0; m < ((((T) & ((512 - 1) << 11)) >> 11) + 1); m++)
+                          ^~~
+                          VITIS_LOOP_2246_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35255:27: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35262:15: warning: Added loop label VITIS_LOOP_2253_2:   [xilinx-label-all-loops]
+              for (int i = 0; i < NTAPS; i++) {
+              ^~~
+              VITIS_LOOP_2253_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35262:15: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35268:23: warning: Added loop label VITIS_LOOP_2259_3:   [xilinx-label-all-loops]
+                      for (int i = NTAPS - 1; i > 0; i--) {
+                      ^~~
+                      VITIS_LOOP_2259_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35268:23: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35282:23: warning: Added loop label VITIS_LOOP_2273_4:   [xilinx-label-all-loops]
+                      for (int i = NTAPS - 1; i >= 0; i--) {
+                      ^~~
+                      VITIS_LOOP_2273_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35282:23: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35293:15: warning: Added loop label VITIS_LOOP_2284_5:   [xilinx-label-all-loops]
+              for (int i = 0; i < NTAPS; i++) {
+              ^~~
+              VITIS_LOOP_2284_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35293:15: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35338:5: warning: Added loop label VITIS_LOOP_2329_1:   [xilinx-label-all-loops]
+    for(short i= 0;i<rows;i++) {
+    ^~~
+    VITIS_LOOP_2329_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35338:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35339:9: warning: Added loop label VITIS_LOOP_2330_2:   [xilinx-label-all-loops]
+        for(short j= 0;j<cols;j++) {
+        ^~~
+        VITIS_LOOP_2330_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35339:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35419:17: warning: Added loop label VITIS_LOOP_2410_3:   [xilinx-label-all-loops]
+                for(int r= 0;r<2;r++)
+                ^~~
+                VITIS_LOOP_2410_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35419:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35443:21: warning: Added loop label VITIS_LOOP_2434_4:   [xilinx-label-all-loops]
+                    for(int r= 0;r<2;r++)
+                    ^~~
+                    VITIS_LOOP_2434_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35443:21: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35453:17: warning: Added loop label VITIS_LOOP_2444_5:   [xilinx-label-all-loops]
+                for(int k=0;k<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1);k++)
+                ^~~
+                VITIS_LOOP_2444_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35453:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35571:5: warning: Added loop label VITIS_LOOP_2562_1:   [xilinx-label-all-loops]
+    for(int k=0; k<2; k++)
+    ^~~
+    VITIS_LOOP_2562_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35571:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35588:13: warning: Added loop label VITIS_LOOP_2579_2:   [xilinx-label-all-loops]
+            for(int i=0; i<SIZE; i++)
+            ^~~
+            VITIS_LOOP_2579_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35588:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35591:13: warning: Added loop label VITIS_LOOP_2582_3:   [xilinx-label-all-loops]
+            for(int i=0; i<SIZE-order-1; i++)
+            ^~~
+            VITIS_LOOP_2582_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35591:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35594:17: warning: Added loop label VITIS_LOOP_2585_4:   [xilinx-label-all-loops]
+                for(int j = 1; j <= SIZE; j++ )
+                ^~~
+                VITIS_LOOP_2585_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35594:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35602:13: warning: Added loop label VITIS_LOOP_2593_5:   [xilinx-label-all-loops]
+            for(int i = 0; i < order; i++ )
+            ^~~
+            VITIS_LOOP_2593_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35602:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35605:17: warning: Added loop label VITIS_LOOP_2596_6:   [xilinx-label-all-loops]
+                for(int j = 1; j <= SIZE; j++ )
+                ^~~
+                VITIS_LOOP_2596_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35605:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35614:9: warning: Added loop label VITIS_LOOP_2605_7:   [xilinx-label-all-loops]
+        for(int i=0; i<SIZE; i++) {
+        ^~~
+        VITIS_LOOP_2605_7: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35614:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35622:5: warning: Added loop label VITIS_LOOP_2613_8:   [xilinx-label-all-loops]
+    for(int i=0; i<SIZE; i++) {
+    ^~~
+    VITIS_LOOP_2613_8: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35622:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35623:9: warning: Added loop label VITIS_LOOP_2614_9:   [xilinx-label-all-loops]
+        for(int j=0; j<SIZE; j++) {
+        ^~~
+        VITIS_LOOP_2614_9: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35623:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35673:6: warning: Added loop label VITIS_LOOP_2664_1:   [xilinx-label-all-loops]
+     for (int i = 0; i < KH; i++) {
+     ^~~
+     VITIS_LOOP_2664_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35673:6: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35674:13: warning: Added loop label VITIS_LOOP_2665_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < KW; j++) {
+            ^~~
+            VITIS_LOOP_2665_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35674:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35682:6: warning: Added loop label VITIS_LOOP_2673_3:   [xilinx-label-all-loops]
+     for (int i = 0; i < KH; i++) {
+     ^~~
+     VITIS_LOOP_2673_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35682:6: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35683:10: warning: Added loop label VITIS_LOOP_2674_4:   [xilinx-label-all-loops]
+         for (int j = 0; j < KW; j++) {
+         ^~~
+         VITIS_LOOP_2674_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35683:10: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35725:5: warning: Added loop label VITIS_LOOP_2716_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < KW; i++) {
+    ^~~
+    VITIS_LOOP_2716_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35725:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35729:5: warning: Added loop label VITIS_LOOP_2720_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < KH; i++) {
+    ^~~
+    VITIS_LOOP_2720_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35729:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35783:5: warning: Added loop label VITIS_LOOP_2774_1:   [xilinx-label-all-loops]
+    for(int i=0; i<5; i++)
+    ^~~
+    VITIS_LOOP_2774_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35783:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35784:9: warning: Added loop label VITIS_LOOP_2775_2:   [xilinx-label-all-loops]
+        for(int j=0; j<5; j++)
+        ^~~
+        VITIS_LOOP_2775_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35784:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35843:25: warning: Added loop label VITIS_LOOP_2834_1:   [xilinx-label-all-loops]
+                        for(int row= 0;row<K_HEIGHT;row++)
+                        ^~~
+                        VITIS_LOOP_2834_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35843:25: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35844:29: warning: Added loop label VITIS_LOOP_2835_2:   [xilinx-label-all-loops]
+                            for(int col= K_WIDTH-1;col>=1;col--)
+                            ^~~
+                            VITIS_LOOP_2835_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35844:29: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35847:25: warning: Added loop label VITIS_LOOP_2838_3:   [xilinx-label-all-loops]
+                        for(int buf_row = 0; buf_row < K_HEIGHT; buf_row++)
+                        ^~~
+                        VITIS_LOOP_2838_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35847:25: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35859:33: warning: Added loop label VITIS_LOOP_2850_4:   [xilinx-label-all-loops]
+                                for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--)
+                                ^~~
+                                VITIS_LOOP_2850_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35859:33: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35870:37: warning: Added loop label VITIS_LOOP_2861_5:   [xilinx-label-all-loops]
+                                    for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--)
+                                    ^~~
+                                    VITIS_LOOP_2861_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35870:37: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35886:33: warning: Added loop label VITIS_LOOP_2877_6:   [xilinx-label-all-loops]
+                                for(int buf_row = 0;buf_row < K_HEIGHT; buf_row++)
+                                ^~~
+                                VITIS_LOOP_2877_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35886:33: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35892:33: warning: Added loop label VITIS_LOOP_2883_7:   [xilinx-label-all-loops]
+                                for(int buf_row= 0;buf_row < K_HEIGHT; buf_row++)
+                                ^~~
+                                VITIS_LOOP_2883_7: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35892:33: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35898:36: warning: Added loop label VITIS_LOOP_2889_8:   [xilinx-label-all-loops]
+                                   for(int buf_row= K_HEIGHT-1;buf_row>0;buf_row--)
+                                   ^~~
+                                   VITIS_LOOP_2889_8: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35898:36: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35910:29: warning: Added loop label VITIS_LOOP_2901_9:   [xilinx-label-all-loops]
+                            for(int buf_row= 0;buf_row<K_HEIGHT;buf_row++)
+                            ^~~
+                            VITIS_LOOP_2901_9: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35910:29: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35924:33: warning: Added loop label VITIS_LOOP_2915_10:   [xilinx-label-all-loops]
+                                for(int buf_row= K_HEIGHT-1;buf_row>0;buf_row--)
+                                ^~~
+                                VITIS_LOOP_2915_10: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35924:33: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35938:33: warning: Added loop label VITIS_LOOP_2929_11:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT; m++)
+                                ^~~
+                                VITIS_LOOP_2929_11: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35938:33: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35939:37: warning: Added loop label VITIS_LOOP_2930_12:   [xilinx-label-all-loops]
+                                    for(int n=0; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2930_12: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35939:37: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35944:33: warning: Added loop label VITIS_LOOP_2935_13:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT; m++)
+                                ^~~
+                                VITIS_LOOP_2935_13: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35944:33: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35945:37: warning: Added loop label VITIS_LOOP_2936_14:   [xilinx-label-all-loops]
+                                    for(int n=1; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2936_14: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35945:37: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35952:33: warning: Added loop label VITIS_LOOP_2943_15:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT-1; m++)
+                                ^~~
+                                VITIS_LOOP_2943_15: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35952:33: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35953:37: warning: Added loop label VITIS_LOOP_2944_16:   [xilinx-label-all-loops]
+                                    for(int n=0; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2944_16: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35953:37: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35959:33: warning: Added loop label VITIS_LOOP_2950_17:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT-1; m++)
+                                ^~~
+                                VITIS_LOOP_2950_17: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35959:33: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35960:37: warning: Added loop label VITIS_LOOP_2951_18:   [xilinx-label-all-loops]
+                                    for(int n=1; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2951_18: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:35960:37: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36043:21: warning: Added loop label VITIS_LOOP_3034_1:   [xilinx-label-all-loops]
+                    for(int row= 0;row<K_HEIGHT;row++)
+                    ^~~
+                    VITIS_LOOP_3034_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36043:21: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36044:25: warning: Added loop label VITIS_LOOP_3035_2:   [xilinx-label-all-loops]
+                        for(int col= K_WIDTH-1;col>=1;col--)
+                        ^~~
+                        VITIS_LOOP_3035_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36044:25: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36047:21: warning: Added loop label VITIS_LOOP_3038_3:   [xilinx-label-all-loops]
+                    for(int buf_row = 0; buf_row < K_HEIGHT; buf_row++)
+                    ^~~
+                    VITIS_LOOP_3038_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36047:21: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36064:29: warning: Added loop label VITIS_LOOP_3055_4:   [xilinx-label-all-loops]
+                            for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--)
+                            ^~~
+                            VITIS_LOOP_3055_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36064:29: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36080:29: warning: Added loop label VITIS_LOOP_3071_5:   [xilinx-label-all-loops]
+                            for(int buf_row = 0;buf_row < K_HEIGHT; buf_row++)
+                            ^~~
+                            VITIS_LOOP_3071_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36080:29: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36087:29: warning: Added loop label VITIS_LOOP_3078_6:   [xilinx-label-all-loops]
+                            for(int buf_row= 0;buf_row < K_HEIGHT; buf_row++)
+                            ^~~
+                            VITIS_LOOP_3078_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36087:29: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36099:25: warning: Added loop label VITIS_LOOP_3090_7:   [xilinx-label-all-loops]
+                        for(int buf_row= 0;buf_row<K_HEIGHT;buf_row++)
+                        ^~~
+                        VITIS_LOOP_3090_7: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36099:25: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36118:29: warning: Added loop label VITIS_LOOP_3109_8:   [xilinx-label-all-loops]
+                            for(int m=0; m<K_HEIGHT; m++)
+                            ^~~
+                            VITIS_LOOP_3109_8: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36118:29: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36119:33: warning: Added loop label VITIS_LOOP_3110_9:   [xilinx-label-all-loops]
+                                for(int n=0; n<K_WIDTH; n++)
+                                ^~~
+                                VITIS_LOOP_3110_9: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36119:33: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36167:5: warning: Added loop label VITIS_LOOP_77_1:   [xilinx-label-all-loops]
+    for(int i=0;i<NUM_STATES;i++) {
+    ^~~
+    VITIS_LOOP_77_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36167:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36173:5: warning: Added loop label VITIS_LOOP_83_2:   [xilinx-label-all-loops]
+    for(int i=0;i<N;i++)
+    ^~~
+    VITIS_LOOP_83_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36173:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36194:13: warning: Added loop label VITIS_LOOP_104_3:   [xilinx-label-all-loops]
+            for (int m=0; m<NUM_STATES; m++) {
+            ^~~
+            VITIS_LOOP_104_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36194:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36206:13: warning: Added loop label VITIS_LOOP_116_4:   [xilinx-label-all-loops]
+            for (int m=NUM_STATES-1; m>0; m--) {
+            ^~~
+            VITIS_LOOP_116_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36206:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36246:5: warning: Added loop label VITIS_LOOP_156_5:   [xilinx-label-all-loops]
+    for (int m=0; m<NUM_STATES/2; m++) {
+    ^~~
+    VITIS_LOOP_156_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36246:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36305:5: warning: Added loop label VITIS_LOOP_69_1:   [xilinx-label-all-loops]
+    for(int index=0;index<K;index++) {
+    ^~~
+    VITIS_LOOP_69_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36305:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36354:9: warning: Added loop label VITIS_LOOP_118_1:   [xilinx-label-all-loops]
+        for(int i=0;i<NUM-1;i++) {
+        ^~~
+        VITIS_LOOP_118_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36354:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36358:9: warning: Added loop label VITIS_LOOP_122_2:   [xilinx-label-all-loops]
+        for(int i=0;i<NUM-3;i++) {
+        ^~~
+        VITIS_LOOP_122_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36358:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36363:9: warning: Added loop label VITIS_LOOP_127_3:   [xilinx-label-all-loops]
+        for(int i=0;i<NUM-7;i++) {
+        ^~~
+        VITIS_LOOP_127_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36363:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36374:5: warning: Added loop label VITIS_LOOP_138_4:   [xilinx-label-all-loops]
+    for(int i=0;i<PSize;i+=2) {
+    ^~~
+    VITIS_LOOP_138_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36374:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36379:13: warning: Added loop label VITIS_LOOP_143_5:   [xilinx-label-all-loops]
+            for(int j=1;j<PSize/2+1;j++) {
+            ^~~
+            VITIS_LOOP_143_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36379:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36387:5: warning: Added loop label VITIS_LOOP_151_6:   [xilinx-label-all-loops]
+    for(int i=0;i<PSize;i+=2) {
+    ^~~
+    VITIS_LOOP_151_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36387:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36392:13: warning: Added loop label VITIS_LOOP_156_7:   [xilinx-label-all-loops]
+            for(int j=1;j<PSize/2+1;j++) {
+            ^~~
+            VITIS_LOOP_156_7: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36392:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36418:5: warning: Added loop label VITIS_LOOP_182_1:   [xilinx-label-all-loops]
+    for(int c=1;c<PSize+PSize/2+1;c++)
+    ^~~
+    VITIS_LOOP_182_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36418:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36445:5: warning: Added loop label VITIS_LOOP_209_1:   [xilinx-label-all-loops]
+    for(int k=0;k<3;k++) {
+    ^~~
+    VITIS_LOOP_209_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36445:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36451:5: warning: Added loop label VITIS_LOOP_215_2:   [xilinx-label-all-loops]
+    for(int k=0;k<3;k++) {
+    ^~~
+    VITIS_LOOP_215_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36451:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36500:17: warning: Added loop label VITIS_LOOP_264_1:   [xilinx-label-all-loops]
+                for(int r= 0;r<KERNEL_SIZE;r++) {
+                ^~~
+                VITIS_LOOP_264_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36500:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36501:21: warning: Added loop label VITIS_LOOP_265_2:   [xilinx-label-all-loops]
+                    for(int c=0;c<KERNEL_SIZE-1;c++) {
+                    ^~~
+                    VITIS_LOOP_265_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36501:21: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36506:17: warning: Added loop label VITIS_LOOP_270_3:   [xilinx-label-all-loops]
+                for(int buf_row= 1;buf_row< KERNEL_SIZE-1;buf_row++) {
+                ^~~
+                VITIS_LOOP_270_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36506:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36516:13: warning: Added loop label VITIS_LOOP_280_4:   [xilinx-label-all-loops]
+            for(int r= 0;r<3;r++)
+            ^~~
+            VITIS_LOOP_280_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36516:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36518:17: warning: Added loop label VITIS_LOOP_282_5:   [xilinx-label-all-loops]
+                for(int c=0;c<3-1;c++)
+                ^~~
+                VITIS_LOOP_282_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36518:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36524:13: warning: Added loop label VITIS_LOOP_288_6:   [xilinx-label-all-loops]
+            for(int buf_row= 1;buf_row< 3-1;buf_row++)
+            ^~~
+            VITIS_LOOP_288_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36524:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36616:17: warning: Added loop label VITIS_LOOP_380_1:   [xilinx-label-all-loops]
+                for(int r= 0;r<KERNEL_SIZE;r++) {
+                ^~~
+                VITIS_LOOP_380_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36616:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36617:21: warning: Added loop label VITIS_LOOP_381_2:   [xilinx-label-all-loops]
+                    for(int c=0;c<KERNEL_SIZE-1;c++) {
+                    ^~~
+                    VITIS_LOOP_381_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36617:21: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36622:17: warning: Added loop label VITIS_LOOP_386_3:   [xilinx-label-all-loops]
+                for(int buf_row= 1;buf_row< KERNEL_SIZE-1;buf_row++) {
+                ^~~
+                VITIS_LOOP_386_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36622:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36632:13: warning: Added loop label VITIS_LOOP_396_4:   [xilinx-label-all-loops]
+            for(int r= 0;r<3;r++)
+            ^~~
+            VITIS_LOOP_396_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36632:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36634:17: warning: Added loop label VITIS_LOOP_398_5:   [xilinx-label-all-loops]
+                for(int c=0;c<3-1;c++)
+                ^~~
+                VITIS_LOOP_398_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36634:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36640:13: warning: Added loop label VITIS_LOOP_404_6:   [xilinx-label-all-loops]
+            for(int buf_row= 1;buf_row< 3-1;buf_row++)
+            ^~~
+            VITIS_LOOP_404_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36640:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36751:5: warning: Added loop label VITIS_LOOP_104_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++)
+    ^~~
+    VITIS_LOOP_104_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36751:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36755:5: warning: Added loop label VITIS_LOOP_108_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_108_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36755:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36757:9: warning: Added loop label VITIS_LOOP_110_3:   [xilinx-label-all-loops]
+        for (int j = 0; j < N; j++) {
+        ^~~
+        VITIS_LOOP_110_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36757:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36763:5: warning: Added loop label VITIS_LOOP_116_4:   [xilinx-label-all-loops]
+    for (int j = 0; j < N; j++) {
+    ^~~
+    VITIS_LOOP_116_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36763:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36764:9: warning: Added loop label VITIS_LOOP_117_5:   [xilinx-label-all-loops]
+        for (int i = 0; i < j; i++) {
+        ^~~
+        VITIS_LOOP_117_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36764:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36766:13: warning: Added loop label VITIS_LOOP_119_6:   [xilinx-label-all-loops]
+            for (int k = 0; k < i; k++) sum -= A[i][k] * A[k][j];
+            ^~~
+            VITIS_LOOP_119_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36766:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36770:9: warning: Added loop label VITIS_LOOP_123_7:   [xilinx-label-all-loops]
+        for (int i = j; i < N; i++) {
+        ^~~
+        VITIS_LOOP_123_7: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36770:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36772:13: warning: Added loop label VITIS_LOOP_125_8:   [xilinx-label-all-loops]
+            for (int k = 0; k < j; k++) sum -= A[i][k] * A[k][j];
+            ^~~
+            VITIS_LOOP_125_8: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36772:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36781:13: warning: Added loop label VITIS_LOOP_134_9:   [xilinx-label-all-loops]
+            for (int i = 0; i < N; i++) {
+            ^~~
+            VITIS_LOOP_134_9: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36781:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36793:13: warning: Added loop label VITIS_LOOP_146_10:   [xilinx-label-all-loops]
+            for (int i = j + 1; i < N; i++) A[i][j] *= dum;
+            ^~~
+            VITIS_LOOP_146_10: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36793:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36801:5: warning: Added loop label VITIS_LOOP_154_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_154_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36801:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36810:13: warning: Added loop label VITIS_LOOP_163_2:   [xilinx-label-all-loops]
+            for (int j = ii - 1; j < i; j++) sum -= A[i][j] * b[j];
+            ^~~
+            VITIS_LOOP_163_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36810:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36815:5: warning: Added loop label VITIS_LOOP_168_3:   [xilinx-label-all-loops]
+    for (int i = N - 1; i >= 0; i--) {
+    ^~~
+    VITIS_LOOP_168_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36815:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36817:9: warning: Added loop label VITIS_LOOP_170_4:   [xilinx-label-all-loops]
+        for (int j = i + 1; j < N; j++) sum -= A[i][j]*b[j];
+        ^~~
+        VITIS_LOOP_170_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36817:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36828:5: warning: Added loop label VITIS_LOOP_181_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_181_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36828:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36833:5: warning: Added loop label VITIS_LOOP_186_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_186_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36833:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36834:9: warning: Added loop label VITIS_LOOP_187_3:   [xilinx-label-all-loops]
+        for (int j = 0; j < N; j++) b[j] = 0;
+        ^~~
+        VITIS_LOOP_187_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36834:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36837:9: warning: Added loop label VITIS_LOOP_190_4:   [xilinx-label-all-loops]
+        for (int j = 0; j < N; j++) Ar[j][i] = b[j];
+        ^~~
+        VITIS_LOOP_190_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36837:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36913:21: warning: Added loop label VITIS_LOOP_266_1:   [xilinx-label-all-loops]
+                    for(int k=0;k<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1);k++) {
+                    ^~~
+                    VITIS_LOOP_266_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:36913:21: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37033:17: warning: Added loop label VITIS_LOOP_398_1:   [xilinx-label-all-loops]
+                for(int k = 0; k < ((((DST_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+                ^~~
+                VITIS_LOOP_398_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37033:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37451:2: warning: Added loop label VITIS_LOOP_215_1:   [xilinx-label-all-loops]
+ for(int row=2;row>=0;row--)
+ ^~~
+ VITIS_LOOP_215_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37451:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37453:17: warning: Added loop label VITIS_LOOP_217_2:   [xilinx-label-all-loops]
+                for(int col=2;col>=1;col--)
+                ^~~
+                VITIS_LOOP_217_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37453:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37586:5: warning: Added loop label VITIS_LOOP_104_1:   [xilinx-label-all-loops]
+    for(int i=0;i<KH;i++) {
+    ^~~
+    VITIS_LOOP_104_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37586:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37587:9: warning: Added loop label VITIS_LOOP_105_2:   [xilinx-label-all-loops]
+        for(int j=0;j<KW;j++) {
+        ^~~
+        VITIS_LOOP_105_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37587:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37609:5: warning: Added loop label VITIS_LOOP_127_1:   [xilinx-label-all-loops]
+    for(HLS_SIZE_T i=0;i<rows+ioffset;i++)
+    ^~~
+    VITIS_LOOP_127_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37609:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37612:2: warning: Added loop label VITIS_LOOP_130_2:   [xilinx-label-all-loops]
+ for(HLS_SIZE_T j=0;j<cols+joffset;j++)
+ ^~~
+ VITIS_LOOP_130_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37612:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37619:13: warning: Added loop label VITIS_LOOP_137_3:   [xilinx-label-all-loops]
+            for(int r= 0;r<KH;r++)
+            ^~~
+            VITIS_LOOP_137_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37619:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37621:17: warning: Added loop label VITIS_LOOP_139_4:   [xilinx-label-all-loops]
+                for(int c=0;c<KW-1;c++)
+                ^~~
+                VITIS_LOOP_139_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37621:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37629:17: warning: Added loop label VITIS_LOOP_147_5:   [xilinx-label-all-loops]
+                for(int buf_row= 1;buf_row< KH-1;buf_row++)
+                ^~~
+                VITIS_LOOP_147_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37629:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37642:17: warning: Added loop label VITIS_LOOP_160_6:   [xilinx-label-all-loops]
+                for(int i= 1;i< KW;i++)
+                ^~~
+                VITIS_LOOP_160_6: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37642:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37678:5: warning: Added loop label VITIS_LOOP_196_1:   [xilinx-label-all-loops]
+    for(HLS_SIZE_T i=0;i<rows;i++)
+    ^~~
+    VITIS_LOOP_196_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37678:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37681:2: warning: Added loop label VITIS_LOOP_199_2:   [xilinx-label-all-loops]
+ for(HLS_SIZE_T j=0;j<cols;j++)
+ ^~~
+ VITIS_LOOP_199_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37681:2: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37910:9: warning: Added loop label VITIS_LOOP_148_1:   [xilinx-label-all-loops]
+        for(int i=0;i<STAGE;i++)
+        ^~~
+        VITIS_LOOP_148_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37910:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37918:9: warning: Added loop label VITIS_LOOP_156_2:   [xilinx-label-all-loops]
+        for(int i=0;i<CLASSIFIER_ALL;i++)
+        ^~~
+        VITIS_LOOP_156_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37918:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37921:16: warning: Added loop label VITIS_LOOP_159_3:   [xilinx-label-all-loops]
+               for(int j=0;j<FEATURE_MAX;j++)
+               ^~~
+               VITIS_LOOP_159_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37921:16: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37929:23: warning: Added loop label VITIS_LOOP_167_4:   [xilinx-label-all-loops]
+                      for(int n=0;n<3;n++)
+                      ^~~
+                      VITIS_LOOP_167_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37929:23: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37952:5: warning: Added loop label VITIS_LOOP_190_1:   [xilinx-label-all-loops]
+    for(int j=0;j<COLS;j++)
+    ^~~
+    VITIS_LOOP_190_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37952:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37955:9: warning: Added loop label VITIS_LOOP_193_2:   [xilinx-label-all-loops]
+        for(int i=0;i<ROWS;i++)
+        ^~~
+        VITIS_LOOP_193_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37955:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37972:5: warning: Added loop label VITIS_LOOP_210_1:   [xilinx-label-all-loops]
+    for(m=0;m<FEATURE_MAX;m++)
+    ^~~
+    VITIS_LOOP_210_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37972:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37979:13: warning: Added loop label VITIS_LOOP_217_2:   [xilinx-label-all-loops]
+            for(int j=1;j<3;j++)
+            ^~~
+            VITIS_LOOP_217_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:37979:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38008:5: warning: Added loop label VITIS_LOOP_246_1:   [xilinx-label-all-loops]
+    for (int i=0;i<CLASSIFIER_ALL;i++)
+    ^~~
+    VITIS_LOOP_246_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38008:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38056:5: warning: Added loop label VITIS_LOOP_294_1:   [xilinx-label-all-loops]
+    for(int i=0;i<rows;i++)
+    ^~~
+    VITIS_LOOP_294_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38056:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38058:9: warning: Added loop label VITIS_LOOP_296_2:   [xilinx-label-all-loops]
+        for(int j=0;j<cols;j++)
+        ^~~
+        VITIS_LOOP_296_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38058:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38071:13: warning: Added loop label VITIS_LOOP_309_3:   [xilinx-label-all-loops]
+            for(int buf_row= 1;buf_row<K_H;buf_row++)
+            ^~~
+            VITIS_LOOP_309_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38071:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38171:9: warning: Added loop label VITIS_LOOP_430_1:   [xilinx-label-all-loops]
+        for(int i=0;i<m;i++)
+        ^~~
+        VITIS_LOOP_430_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38171:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38173:17: warning: Added loop label VITIS_LOOP_432_2:   [xilinx-label-all-loops]
+                for(int j=0;j<num;j++)
+                ^~~
+                VITIS_LOOP_432_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38173:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38181:9: warning: Added loop label VITIS_LOOP_440_3:   [xilinx-label-all-loops]
+        for(int i=0;i<num;i++)
+        ^~~
+        VITIS_LOOP_440_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38181:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38210:5: warning: Added loop label VITIS_LOOP_469_1:   [xilinx-label-all-loops]
+    for(int i=0;i<rows;i++)
+    ^~~
+    VITIS_LOOP_469_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38210:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38215:9: warning: Added loop label VITIS_LOOP_474_2:   [xilinx-label-all-loops]
+        for(int j=0;j<cols;j++)
+        ^~~
+        VITIS_LOOP_474_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38215:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38377:13: warning: Added loop label VITIS_LOOP_189_1:   [xilinx-label-all-loops]
+            for (int i = 0; i< PWSIZE; i++) {
+            ^~~
+            VITIS_LOOP_189_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38377:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38383:13: warning: Added loop label VITIS_LOOP_195_2:   [xilinx-label-all-loops]
+            for (int i = 0; i < PWSIZE; i++) {
+            ^~~
+            VITIS_LOOP_195_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38383:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38387:13: warning: Added loop label VITIS_LOOP_199_3:   [xilinx-label-all-loops]
+            for (int j = PWSIZE-1; j > 0; j--) {
+            ^~~
+            VITIS_LOOP_199_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38387:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38418:5: warning: Added loop label VITIS_LOOP_230_1:   [xilinx-label-all-loops]
+    for (HLS_SIZE_T i = 0; i < rows; i++) {
+    ^~~
+    VITIS_LOOP_230_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38418:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38419:9: warning: Added loop label VITIS_LOOP_231_2:   [xilinx-label-all-loops]
+        for (HLS_SIZE_T j = 0; j < cols; j++) {
+        ^~~
+        VITIS_LOOP_231_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38419:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38422:13: warning: Added loop label VITIS_LOOP_234_3:   [xilinx-label-all-loops]
+            for (HLS_SIZE_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+            ^~~
+            VITIS_LOOP_234_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38422:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38458:5: warning: Added loop label VITIS_LOOP_270_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < WSIZE; i++) {
+    ^~~
+    VITIS_LOOP_270_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38458:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38476:5: warning: Added loop label VITIS_LOOP_288_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < WSIZE; i++) {
+    ^~~
+    VITIS_LOOP_288_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38476:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38484:5: warning: Added loop label VITIS_LOOP_296_2:   [xilinx-label-all-loops]
+    for (int j = WSIZE-1; j > 0; j--) {
+    ^~~
+    VITIS_LOOP_296_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38484:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38502:9: warning: Added loop label VITIS_LOOP_314_1:   [xilinx-label-all-loops]
+        for(int i = 0; i < SIZE/2; i++) {
+        ^~~
+        VITIS_LOOP_314_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38502:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38505:9: warning: Added loop label VITIS_LOOP_317_2:   [xilinx-label-all-loops]
+        for(int i = 0; i < SIZE-SIZE/2; i++) {
+        ^~~
+        VITIS_LOOP_317_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38505:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38609:25: warning: Added loop label VITIS_LOOP_421_1:   [xilinx-label-all-loops]
+                        for (int i = 0; i < WSIZE; i++) {
+                        ^~~
+                        VITIS_LOOP_421_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38609:25: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38965:13: warning: Added loop label VITIS_LOOP_205_1:   [xilinx-label-all-loops]
+            for (int l = 0; l < 1; l++)
+            ^~~
+            VITIS_LOOP_205_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38965:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38967:17: warning: Added loop label VITIS_LOOP_207_2:   [xilinx-label-all-loops]
+                for (int k = 0; k < 3; k++)
+                ^~~
+                VITIS_LOOP_207_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:38967:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39008:5: warning: Added loop label VITIS_LOOP_256_1:   [xilinx-label-all-loops]
+    for (HLS_SIZE_T i = 0; i < rows; i++)
+    ^~~
+    VITIS_LOOP_256_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39008:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39010:9: warning: Added loop label VITIS_LOOP_258_2:   [xilinx-label-all-loops]
+        for (HLS_SIZE_T j = 0; j < cols/1; j++)
+        ^~~
+        VITIS_LOOP_258_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39010:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39028:13: warning: Added loop label VITIS_LOOP_276_3:   [xilinx-label-all-loops]
+            for (int l = 0; l < 1; l++)
+            ^~~
+            VITIS_LOOP_276_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39028:13: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39030:17: warning: Added loop label VITIS_LOOP_278_4:   [xilinx-label-all-loops]
+                for (int k = 0; k < 3; k++)
+                ^~~
+                VITIS_LOOP_278_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39030:17: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39067:5: warning: Added loop label VITIS_LOOP_315_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < ((0)? 1024 : (1<<10)); i++)
+    ^~~
+    VITIS_LOOP_315_1: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39067:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39069:9: warning: Added loop label VITIS_LOOP_317_2:   [xilinx-label-all-loops]
+        for (int k = 0; k < 1; k++)
+        ^~~
+        VITIS_LOOP_317_2: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39069:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39077:5: warning: Added loop label VITIS_LOOP_325_3:   [xilinx-label-all-loops]
+    for (y = 0; y < (height); ++y)
+    ^~~
+    VITIS_LOOP_325_3: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39077:5: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39079:9: warning: Added loop label VITIS_LOOP_327_4:   [xilinx-label-all-loops]
+        for (x = 0; x < (width); x+=1)
+        ^~~
+        VITIS_LOOP_327_4: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39079:9: note: FIX-IT applied suggested code changes
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39087:13: warning: Added loop label VITIS_LOOP_335_5:   [xilinx-label-all-loops]
+            for (k=0; k<1; k++)
+            ^~~
+            VITIS_LOOP_335_5: 
+D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp:39087:13: note: FIX-IT applied suggested code changes

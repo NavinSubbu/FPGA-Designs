@@ -1,0 +1,29 @@
+10:24:52 **** Incremental Build of configuration Debug for project imx_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/imx219/IMX219.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx219/IMX219.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/sw/imx_plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/imx219/IMX219.d" -MT"src/imx219/IMX219.o" -o "src/imx219/IMX219.o" "../src/imx219/IMX219.cpp"
+../src/imx219/IMX219.cpp: In member function 'void digilent::IMX219::writeReg(uint16_t, uint8_t)':
+../src/imx219/IMX219.cpp:224:10: warning: variable 'addr_ack' set but not used [-Wunused-but-set-variable]
+  224 |     bool addr_ack = false;
+      |          ^~~~~~~~
+../src/imx219/IMX219.cpp:225:10: warning: variable 'data_ack' set but not used [-Wunused-but-set-variable]
+  225 |     bool data_ack = false;
+      |          ^~~~~~~~
+'Finished building: ../src/imx219/IMX219.cpp'
+' '
+'Building target: imx_app.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/FPGA/zybo/imx219/v2/pcam_sw/imx_plat/export/imx_plat/sw/imx_plat/standalone_domain/bsplib/lib -o "imx_app.elf"  ./src/platform/platform.o  ./src/imx219/IMX219.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: imx_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size imx_app.elf  |tee "imx_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 237626	  84972	  24200	 346798	  54aae	imx_app.elf
+'Finished building: imx_app.elf.size'
+' '

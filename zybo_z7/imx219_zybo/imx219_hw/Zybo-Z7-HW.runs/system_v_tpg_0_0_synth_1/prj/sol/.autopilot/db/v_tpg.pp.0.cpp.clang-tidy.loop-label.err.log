@@ -1,0 +1,4 @@
+1 warning and 26 errors generated.
+Error while processing D:\FPGA\zybo\imx219\v2\pcam_hw\Zybo-Z7-HW.runs\system_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp.
+clang-tidy applied 372 of 372 suggested fixes.
+Suppressed 1 warnings (1 with check filters).

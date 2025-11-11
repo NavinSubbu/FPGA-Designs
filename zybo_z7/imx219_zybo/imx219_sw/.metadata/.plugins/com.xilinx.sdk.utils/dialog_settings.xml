@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="scw_hwspec" value="D:\FPGA\zybo\imx219\v2\pcam_hw"/>
+	<item key="debug_files_selection" value="D:\FPGA\zybo\imx219\v2\pcam_sw\bit"/>
+	<item key="scw_hwspec_file_selection" value="D:\FPGA\zybo\imx219\v2\pcam_sw\xsa"/>
+</section>

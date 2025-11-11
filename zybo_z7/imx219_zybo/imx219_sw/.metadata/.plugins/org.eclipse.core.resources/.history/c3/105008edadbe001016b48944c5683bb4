@@ -1,0 +1,134 @@
+
+#ifndef AXI_VDMA_H_
+#define AXI_VDMA_H_
+
+#include <stdexcept>
+#include <functional>
+
+#include "xaxivdma.h"
+#include "xil_printf.h"
+
+#define STRINGIZE(x) STRINGIZE2(x)
+#define STRINGIZE2(x) #x
+#define LINE_STRING STRINGIZE(__LINE__)
+
+namespace digilent {
+
+/*!
+ * \brief Driver class for Xilinx AXI VDMA IP. Needs to have stable clocks before
+ * instantiation to be able to complete hardware reset.
+ */
+template <typename IrptCtl>
+class AXI_VDMA
+{
+    typedef struct vdma_context_t
+    {
+        /* The state variable to keep track if the initialization is done*/
+        unsigned int init_done;
+
+        /* The XAxiVdma_DmaSetup structure contains all the necessary information to
+         * start a frame write or read. */
+        XAxiVdma_DmaSetup ReadCfg;
+        XAxiVdma_DmaSetup WriteCfg;
+        /* Horizontal size of frame */
+        unsigned int hsize;
+        /* Vertical size of frame */
+        unsigned int vsize;
+        /* Buffer address from where read and write will be done by VDMA */
+        unsigned int buffer_address;
+        /* Flag to tell VDMA to interrupt on frame completion*/
+        unsigned int enable_frm_cnt_intr;
+        /* The counter to tell VDMA on how many frames the interrupt should happen*/
+        unsigned int number_of_frame_count;
+    } vdma_context_t;
+public:
+    // Shim function to extract function object from CallbackRef and call it
+    // This should call our member function handlers below
+    template <typename Func>
+    static void MyCallback(void* CallbackRef, uint32_t mask_or_type)
+    {
+        auto pfn = static_cast<Func*>(CallbackRef);
+        pfn->operator()(mask_or_type);
+    }
+
+    AXI_VDMA(uint16_t dev_id, uint32_t frame_buf_base_addr, IrptCtl& irpt_ctl, uint16_t rd_irpt_id, uint16_t wr_irpt_id) :
+        rd_handler_(std::bind(&AXI_VDMA::readHandler, this, std::placeholders::_1)),
+        wr_handler_(std::bind(&AXI_VDMA::writeHandler, this, std::placeholders::_1)),
+        rd_err_handler_(std::bind(&AXI_VDMA::readErrorHandler, this, std::placeholders::_1)),
+        wr_err_handler_(std::bind(&AXI_VDMA::writeErrorHandler, this, std::placeholders::_1)),
+        context_{},
+        frame_buf_base_addr_(frame_buf_base_addr),
+        irpt_ctl_(irpt_ctl)
+    {
+        XAxiVdma_Config* psConf;
+        XStatus Status;
+
+        psConf = XAxiVdma_LookupConfig(dev_id);
+        if (!psConf) {
+            throw std::runtime_error(__FILE__ ":" LINE_STRING);
+        }
+
+        // Initialize driver instance and reset VDMA
+        Status = XAxiVdma_CfgInitialize(&drv_inst_, psConf, psConf->BaseAddress);
+        if (Status != XST_SUCCESS) {
+            throw std::runtime_error(__FILE__ ":" LINE_STRING);
+        }
+
+        // Set error interrupt handlers (completion handler is also required)
+        XAxiVdma_SetCallBack(&drv_inst_, XAXIVDMA_HANDLER_GENERAL,
+                reinterpret_cast<void*>(&MyCallback<decltype(rd_handler_)>), &rd_handler_, XAXIVDMA_READ);
+        XAxiVdma_SetCallBack(&drv_inst_, XAXIVDMA_HANDLER_GENERAL,
+                reinterpret_cast<void*>(&MyCallback<decltype(wr_handler_)>), &wr_handler_, XAXIVDMA_WRITE);
+        XAxiVdma_SetCallBack(&drv_inst_, XAXIVDMA_HANDLER_ERROR,
+                reinterpret_cast<void*>(&MyCallback<decltype(rd_err_handler_)>), &rd_err_handler_, XAXIVDMA_READ);
+        XAxiVdma_SetCallBack(&drv_inst_, XAXIVDMA_HANDLER_ERROR,
+                reinterpret_cast<void*>(&MyCallback<decltype(wr_err_handler_)>), &wr_err_handler_, XAXIVDMA_WRITE);
+
+        // Register VDMA interrupt handlers with the platform interrupt controller
+        irpt_ctl_.registerHandler(rd_irpt_id, &XAxiVdma_ReadIntrHandler, &drv_inst_);
+        irpt_ctl_.enableInterrupt(rd_irpt_id);
+        irpt_ctl_.registerHandler(wr_irpt_id, &XAxiVdma_WriteIntrHandler, &drv_inst_);
+        irpt_ctl_.enableInterrupt(wr_irpt_id);
+        irpt_ctl_.enableInterrupts();
+    }
+
+    void resetRead()
+    {
+//      XAxiVdma_ChannelStop(&drv_inst_.ReadChannel);
+//      while (XAxiVdma_ChannelIsRunning(&drv_inst_.ReadChannel)) ;
+
+        XAxiVdma_ChannelReset(&drv_inst_.ReadChannel);
+
+        int Polls = RESET_POLL;
+
+        while (Polls && XAxiVdma_ChannelResetNotDone(&drv_inst_.ReadChannel)) {
+            --Polls;
+        }
+
+        if (!Polls) {
+            throw std::runtime_error(__FILE__ ":" LINE_STRING);
+        }
+    }
+
+    void resetWrite()
+    {
+//      XAxiVdma_ChannelStop(&drv_inst_.WriteChannel);
+//      while (XAxiVdma_ChannelIsRunning(&drv_inst_.WriteChannel)) ;
+
+        XAxiVdma_ChannelReset(&drv_inst_.WriteChannel);
+
+        int Polls = RESET_POLL;
+
+        while (Polls && XAxiVdma_ChannelResetNotDone(&drv_inst_.WriteChannel)) {
+            --Polls;
+        }
+
+        if (!Polls) {
+            throw std::runtime_error(__FILE__ ":" LINE_STRING);
+        }
+    }
+
+    void configureRead(uint16_t h_res, uint16_t v_res)
+    {
+        XStatus status;
+        contex

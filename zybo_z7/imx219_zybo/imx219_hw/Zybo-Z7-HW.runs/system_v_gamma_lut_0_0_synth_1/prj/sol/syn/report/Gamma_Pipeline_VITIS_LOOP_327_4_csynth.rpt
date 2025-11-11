@@ -1,0 +1,170 @@
+
+
+================================================================
+== Vitis HLS Report for 'Gamma_Pipeline_VITIS_LOOP_327_4'
+================================================================
+* Date:           Sun Nov  9 12:09:37 2025
+
+* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Project:        prj
+* Solution:       sol (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z010-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  6.67 ns|  4.723 ns|     1.80 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+-----------+-----+------+------------------------------------------------+
+    |  Latency (cycles) |  Latency (absolute)  |  Interval  |                    Pipeline                    |
+    |   min   |   max   |    min   |    max    | min |  max |                      Type                      |
+    +---------+---------+----------+-----------+-----+------+------------------------------------------------+
+    |       69|     3845|  0.460 us|  25.635 us|   65|  3841|  loop auto-rewind stp (delay=0 clock cycles(s))|
+    +---------+---------+----------+-----------+-----+------+------------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+-----------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  |    Trip   |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  |   Count   | Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+-----------+----------+
+        |- VITIS_LOOP_327_4  |       67|     3843|         5|          1|          1|  64 ~ 3840|       yes|
+        +--------------------+---------+---------+----------+-----------+-----------+-----------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+----+-------+-------+-----+
+|       Name      | BRAM_18K| DSP|   FF  |  LUT  | URAM|
++-----------------+---------+----+-------+-------+-----+
+|DSP              |        -|   -|      -|      -|    -|
+|Expression       |        -|   -|      0|     28|    -|
+|FIFO             |        -|   -|      -|      -|    -|
+|Instance         |        -|   -|      -|      -|    -|
+|Memory           |        -|   -|      -|      -|    -|
+|Multiplexer      |        -|   -|      0|     54|    -|
+|Register         |        -|   -|     81|      -|    -|
++-----------------+---------+----+-------+-------+-----+
+|Total            |        0|   0|     81|     82|    0|
++-----------------+---------+----+-------+-------+-----+
+|Available        |      120|  80|  35200|  17600|    0|
++-----------------+---------+----+-------+-------+-----+
+|Utilization (%)  |        0|   0|     ~0|     ~0|    0|
++-----------------+---------+----+-------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +--------------------------------+----------+----+---+----+------------+------------+
+    |          Variable Name         | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +--------------------------------+----------+----+---+----+------------+------------+
+    |x_2_fu_136_p2                   |         +|   0|  0|  12|          12|           1|
+    |icmp_ln327_fu_130_p2            |      icmp|   0|  0|  12|          12|          12|
+    |ap_block_pp0_stage0_01001_grp1  |        or|   0|  0|   2|           1|           1|
+    |ap_enable_pp0                   |       xor|   0|  0|   2|           1|           2|
+    +--------------------------------+----------+----+---+----+------------+------------+
+    |Total                           |          |   0|  0|  28|          26|          16|
+    +--------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_done_int              |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
+    |ap_sig_allocacmp_x_1     |   9|          2|   12|         24|
+    |imgGamma_blk_n           |   9|          2|    1|          2|
+    |imgRgb_blk_n             |   9|          2|    1|          2|
+    |x_fu_60                  |   9|          2|   12|         24|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  54|         12|   28|         56|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------+----+----+-----+-----------+
+    |               Name               | FF | LUT| Bits| Const Bits|
+    +----------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                         |   1|   0|    1|          0|
+    |ap_done_reg                       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter4           |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter1_reg  |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter2_reg  |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter3_reg  |   1|   0|    1|          0|
+    |b_reg_207                         |  10|   0|   10|          0|
+    |g_reg_202                         |  10|   0|   10|          0|
+    |lut_0_load_reg_242                |  10|   0|   10|          0|
+    |lut_1_load_reg_232                |  10|   0|   10|          0|
+    |lut_2_load_reg_237                |  10|   0|   10|          0|
+    |r_reg_212                         |  10|   0|   10|          0|
+    |x_fu_60                           |  12|   0|   12|          0|
+    +----------------------------------+----+----+-----+-----------+
+    |Total                             |  81|   0|   81|          0|
+    +----------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------------+-----+-----+------------+---------------------------------+--------------+
+|        RTL Ports        | Dir | Bits|  Protocol  |          Source Object          |    C Type    |
++-------------------------+-----+-----+------------+---------------------------------+--------------+
+|ap_clk                   |   in|    1|  ap_ctrl_hs|  Gamma_Pipeline_VITIS_LOOP_327_4|  return value|
+|ap_rst                   |   in|    1|  ap_ctrl_hs|  Gamma_Pipeline_VITIS_LOOP_327_4|  return value|
+|ap_start                 |   in|    1|  ap_ctrl_hs|  Gamma_Pipeline_VITIS_LOOP_327_4|  return value|
+|ap_done                  |  out|    1|  ap_ctrl_hs|  Gamma_Pipeline_VITIS_LOOP_327_4|  return value|
+|ap_idle                  |  out|    1|  ap_ctrl_hs|  Gamma_Pipeline_VITIS_LOOP_327_4|  return value|
+|ap_ready                 |  out|    1|  ap_ctrl_hs|  Gamma_Pipeline_VITIS_LOOP_327_4|  return value|
+|imgRgb_dout              |   in|   30|     ap_fifo|                           imgRgb|       pointer|
+|imgRgb_empty_n           |   in|    1|     ap_fifo|                           imgRgb|       pointer|
+|imgRgb_read              |  out|    1|     ap_fifo|                           imgRgb|       pointer|
+|imgRgb_num_data_valid    |   in|    5|     ap_fifo|                           imgRgb|       pointer|
+|imgRgb_fifo_cap          |   in|    5|     ap_fifo|                           imgRgb|       pointer|
+|imgGamma_din             |  out|   30|     ap_fifo|                         imgGamma|       pointer|
+|imgGamma_full_n          |   in|    1|     ap_fifo|                         imgGamma|       pointer|
+|imgGamma_write           |  out|    1|     ap_fifo|                         imgGamma|       pointer|
+|imgGamma_num_data_valid  |   in|   32|     ap_fifo|                         imgGamma|       pointer|
+|imgGamma_fifo_cap        |   in|   32|     ap_fifo|                         imgGamma|       pointer|
+|empty                    |   in|   12|   ap_stable|                            empty|        scalar|
+|lut_1_address0           |  out|   10|   ap_memory|                            lut_1|         array|
+|lut_1_ce0                |  out|    1|   ap_memory|                            lut_1|         array|
+|lut_1_q0                 |   in|   10|   ap_memory|                            lut_1|         array|
+|lut_2_address0           |  out|   10|   ap_memory|                            lut_2|         array|
+|lut_2_ce0                |  out|    1|   ap_memory|                            lut_2|         array|
+|lut_2_q0                 |   in|   10|   ap_memory|                            lut_2|         array|
+|lut_0_address0           |  out|   10|   ap_memory|                            lut_0|         array|
+|lut_0_ce0                |  out|    1|   ap_memory|                            lut_0|         array|
+|lut_0_q0                 |   in|   10|   ap_memory|                            lut_0|         array|
++-------------------------+-----+-----+------------+---------------------------------+--------------+
+

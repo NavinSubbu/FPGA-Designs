@@ -1,0 +1,247 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_vtg_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_vtg_0 (xilinx.com:ip:v_tc:6.2) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_video_dynclk_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_video_dynclk_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s_vid_out:4.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_rst_vid_clk_dyn_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_rst_vid_clk_dyn_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_rst_clk_wiz_0_50M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_rst_clk_wiz_0_50M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_ps7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_ps7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 32) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_clk_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_clk_wiz_0_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3) from (Rev. 19) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_mem_intercon_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_mem_intercon_1_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 32) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_mem_intercon_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_mem_intercon_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 32) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_MIPI_D_PHY_RX_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of system_MIPI_D_PHY_RX_0_0 (digilentinc.com:ip:MIPI_D_PHY_RX:1.3 (Rev. 5)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Nov  7 14:27:07 2025
+| Host         : Navin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_MIPI_CSI_2_RX_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of system_MIPI_CSI_2_RX_0_0 (digilentinc.com:ip:MIPI_CSI_2_RX:1.2 (Rev. 2)) to current project options.
+

@@ -1,0 +1,148 @@
+/*
+ * IMX219.h
+ *
+ *  Created on: Nov 8, 2025
+ *      Author: Navin
+ */
+
+#ifndef IMX219_H_
+#define IMX219_H_
+
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <climits>
+#include <stdexcept>
+#include <vector>
+
+#include "I2C_Client.h"
+#include "GPIO_Client.h"
+#include "../hdmi/VideoOutput.h"
+
+#define SIZEOF_ARRAY(x) (sizeof(x) / sizeof(x[0]))
+#define MAP_ENUM_TO_CFG(en, cfg) en, cfg, SIZEOF_ARRAY(cfg)
+
+namespace digilent {
+
+// ----------------------------------------------------------------------
+// IMX219 Configuration Structures
+// ----------------------------------------------------------------------
+namespace IMX219_cfg {
+
+	// Each entry represents one 16-bit register + 8-bit value
+	struct config_word_t {
+		uint16_t addr;
+		uint8_t data;
+	};
+
+	// ------------------------------------------------------------------
+	// Supported sensor modes
+	// ------------------------------------------------------------------
+	enum mode_t {
+		MODE_1080P_1920_1080_30fps = 0,
+		MODE_720P_1280_720_60fps,
+		MODE_END
+	};
+
+	// ------------------------------------------------------------------
+	// Configuration mapping structure
+	// ------------------------------------------------------------------
+	struct config_modes_t {
+		mode_t mode;
+		config_word_t const* cfg;
+		size_t cfg_size;
+	};
+
+	// ------------------------------------------------------------------
+	// The actual configuration arrays and mode table
+	// ------------------------------------------------------------------
+	// These are defined in IMX219.cpp and referenced here as extern.
+	extern config_word_t const cfg_1080p_30fps_[];
+	extern config_word_t const cfg_720p_60fps_[];
+	extern config_modes_t const modes[];
+
+} // namespace IMX219_cfg
+
+
+// ----------------------------------------------------------------------
+// IMX219 Sensor Class Declaration
+// ----------------------------------------------------------------------
+class IMX219 {
+public:
+	// ------------------------------------------------------------------
+	// IMX219-specific error codes
+	// ------------------------------------------------------------------
+	enum IMX219_Errc {
+		IMX_OK = 0,
+		IMX_ERR_LOGICAL,
+		IMX_ERR_GENERAL
+	};
+
+	// ------------------------------------------------------------------
+	// Exception class for hardware issues
+	// ------------------------------------------------------------------
+	class HardwareError : public std::runtime_error {
+	public:
+		enum Errc { WRONG_ID = 1, IIC_NACK };
+
+		HardwareError(Errc errc, const char* msg)
+			: std::runtime_error(msg), errc_(errc) {}
+
+		Errc errc() const { return errc_; }
+
+	private:
+		Errc errc_;
+	};
+
+	// ------------------------------------------------------------------
+	// Constructor / Destructor
+	// ------------------------------------------------------------------
+	IMX219(I2C_Client& iic, GPIO_Client& gpio);
+	~IMX219() = default;
+
+	// ------------------------------------------------------------------
+	// Core Sensor Control
+	// ------------------------------------------------------------------
+	void init();
+	IMX219_Errc reset();
+	IMX219_Errc set_mode(IMX219_cfg::mode_t mode);
+
+	// ------------------------------------------------------------------
+	// Register Access Methods
+	// ------------------------------------------------------------------
+	void readReg(uint16_t reg_addr, uint8_t& buf);
+	void writeReg(uint16_t reg_addr, uint8_t const reg_data);
+
+	// ------------------------------------------------------------------
+	// Detection / Connectivity Check
+	// ------------------------------------------------------------------
+	//  Returns true if the IMX219 responds and its ID registers match.
+	//  Safe to call before configuration to verify camera connection.
+	bool detect(); // gpt - new detection method
+
+private:
+	// ------------------------------------------------------------------
+	// Internal Helper Functions
+	// ------------------------------------------------------------------
+	void usleep(uint32_t time);
+	void writeConfig(IMX219_cfg::config_word_t const* cfg, size_t cfg_size);
+
+private:
+	// ------------------------------------------------------------------
+	// Device and Register Info
+	// ------------------------------------------------------------------
+	I2C_Client& iic_;
+	GPIO_Client& gpio_;
+
+	uint8_t dev_address_ = 0x10;    // Default I2C slave address
+	uint8_t const dev_ID_h_ = 0x02; // Expected sensor ID high byte
+	uint8_t const dev_ID_l_ = 0x19; // Expected sensor ID low byte
+
+	uint16_t const reg_ID_h = 0x0000; // ID register high
+	uint16_t const reg_ID_l = 0x0001; // ID register low
+
+};
+
+} // namespace digilent
+
+#endif /* IMX219_H_ */

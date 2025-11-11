@@ -1,0 +1,888 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Oct 31 14:31:16 2025
+# Process ID         : 28392
+# Current directory  : D:/FPGA/zybo/hdmi/hw
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent34136 D:\FPGA\zybo\hdmi\hw\Zybo-Z7-HW.xpr
+# Log file           : D:/FPGA/zybo/hdmi/hw/vivado.log
+# Journal file       : D:/FPGA/zybo/hdmi/hw\vivado.jou
+# Running On         : Navin-PC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+# CPU Frequency      : 2208 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16955 MB
+# Swap memory        : 16955 MB
+# Total Virtual      : 33910 MB
+# Available Virtual  : 13789 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.ipdefs/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_auto_pc_0
+design_1_xbar_2
+design_1_dvi2rgb_0_0
+design_1_proc_sys_reset_0_0
+design_1_proc_sys_reset_fclk0_0
+design_1_proc_sys_reset_fclk1_0
+design_1_axi_gpio_video_0
+design_1_axis_subset_converter_in_0
+design_1_axi_interconnect_gp0_0
+design_1_xbar_3
+design_1_s00_regslice_0
+design_1_s01_regslice_0
+design_1_m00_regslice_0
+design_1_auto_pc_1
+design_1_axi_interconnect_hp0_0
+design_1_axi_vdma_0_0
+design_1_axis_subset_converter_out_0
+design_1_v_axi4s_vid_out_0_0
+design_1_v_tc_in_0
+design_1_v_tc_out_0
+design_1_v_vid_in_axi4s_0_0
+
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:18 . Memory (MB): peak = 1399.676 ; gain = 288.898
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- digilentinc.com:ip:axi_dynclk:1.2 - axi_dynclk_0
+Adding component instance block -- digilentinc.com:ip:dvi2rgb:2.0 - dvi2rgb_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_fclk0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_fclk1
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- digilentinc.com:ip:rgb2dvi:1.4 - rgb2dvi_1
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_video
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_gp0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_hp0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - s01_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_in
+Adding component instance block -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_out
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - subset_converter_reset
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - v_tc_in
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - v_tc_out
+Adding component instance block -- xilinx.com:ip:v_vid_in_axi4s:5.0 - v_vid_in_axi4s_0
+Successfully read diagram <design_1> from block design file <D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1897.129 ; gain = 477.629
+close_bd_design [get_bd_designs design_1]
+Wrote  : <D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+close_project
+open_project D:/FPGA/zybo/pcam_running/v1/pcam/hw/Zybo-Z7-HW.xpr
+INFO: [Project 1-313] Project file moved from 'D:/FPGA/zybo/pcam/hw' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA/zybo/pcam_running/v1/pcam/hw/Zybo-Z7-HW.ipdefs/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+system_auto_pc_1
+system_MIPI_CSI_2_RX_0_0
+system_rst_vid_clk_dyn_0
+system_v_axi4s_vid_out_0_0
+system_MIPI_D_PHY_RX_0_0
+system_auto_pc_0
+system_rst_clk_wiz_0_50M_0
+system_axi_mem_intercon_0
+system_axi_mem_intercon_1_0
+system_axi_vdma_0_0
+system_clk_wiz_0_0
+system_xbar_0
+system_auto_pc_2
+system_ps7_0_axi_periph_0
+system_video_dynclk_0
+system_vtg_0
+
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 1931.977 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/zybo/pcam_running/v1/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+Reading block design file <D:/FPGA/zybo/pcam_running/v1/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- digilentinc.com:user:AXI_BayerToRGB:1.0 - AXI_BayerToRGB_0
+Adding component instance block -- digilentinc.com:user:AXI_GammaCorrection:1.0 - AXI_GammaCorrection_1
+Adding component instance block -- xilinx.com:module_ref:DVIClocking:1.0 - DVIClocking_1
+Adding component instance block -- digilentinc.com:ip:MIPI_CSI_2_RX:1.2 - MIPI_CSI_2_RX_0
+Adding component instance block -- digilentinc.com:ip:MIPI_D_PHY_RX:1.3 - MIPI_D_PHY_RX_0
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- digilentinc.com:ip:rgb2dvi:1.4 - rgb2dvi_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_50M
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_vid_clk_dyn
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon_1
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - video_dynclk
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - vtg
+Successfully read diagram <system> from block design file <D:/FPGA/zybo/pcam_running/v1/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1931.977 ; gain = 0.000
+open_bd_design {D:/FPGA/zybo/pcam_running/v1/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+set_property location {1.5 245 1134} [get_bd_cells MIPI_D_PHY_RX_0]
+set_property location {3 662 1139} [get_bd_cells MIPI_CSI_2_RX_0]
+close_bd_design [get_bd_designs system]
+Wrote  : <D:/FPGA/zybo/pcam_running/v1/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+close_project
+open_project D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.xpr
+INFO: [Project 1-313] Project file moved from 'D:/FPGA/zybo/pcam/hw' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.ipdefs/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+system_auto_pc_1
+system_MIPI_CSI_2_RX_0_0
+system_rst_vid_clk_dyn_0
+system_v_axi4s_vid_out_0_0
+system_MIPI_D_PHY_RX_0_0
+system_auto_pc_0
+system_rst_clk_wiz_0_50M_0
+system_axi_mem_intercon_0
+system_axi_mem_intercon_1_0
+system_axi_vdma_0_0
+system_clk_wiz_0_0
+system_xbar_0
+system_auto_pc_2
+system_ps7_0_axi_periph_0
+system_video_dynclk_0
+system_vtg_0
+
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1931.977 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+Reading block design file <D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- digilentinc.com:user:AXI_BayerToRGB:1.0 - AXI_BayerToRGB_0
+Adding component instance block -- digilentinc.com:user:AXI_GammaCorrection:1.0 - AXI_GammaCorrection_1
+Adding component instance block -- xilinx.com:module_ref:DVIClocking:1.0 - DVIClocking_1
+Adding component instance block -- digilentinc.com:ip:MIPI_CSI_2_RX:1.2 - MIPI_CSI_2_RX_0
+Adding component instance block -- digilentinc.com:ip:MIPI_D_PHY_RX:1.3 - MIPI_D_PHY_RX_0
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- digilentinc.com:ip:rgb2dvi:1.4 - rgb2dvi_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_50M
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_vid_clk_dyn
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon_1
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - video_dynclk
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - vtg
+Successfully read diagram <system> from block design file <D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2749.320 ; gain = 52.570
+startgroup
+set_property CONFIG.kGenerateSerialClk {true} [get_bd_cells rgb2dvi_0]
+WARNING: [BD 41-1684] Pin /rgb2dvi_0/SerialClk is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_nets DVIClocking_1_SerialClk]
+endgroup
+save_bd_design
+Wrote  : <D:\FPGA\zybo\pcam_running\v1_pxl_clk\pcam\hw\Zybo-Z7-HW.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/utils_1/imports/synth_1/system_wrapper.dcp with file D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/synth_1/system_wrapper.dcp
+reset_run system_rgb2dvi_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_rgb2dvi_0_0
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Implementation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd
+
+[Fri Oct 31 20:42:29 2025] Launched system_rgb2dvi_0_0_synth_1, synth_1...
+Run output will be captured here:
+system_rgb2dvi_0_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_rgb2dvi_0_0_synth_1/runme.log
+synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/synth_1/runme.log
+[Fri Oct 31 20:42:29 2025] Launched impl_1...
+Run output will be captured here: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/impl_1/runme.log
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+assign_bd_address
+INFO: [BD 41-3093] Triggering Legacy Auto Assign Algorithm
+Slave segment '/ps7_0_axi_periph/s00_couplers/auto_pc/S_AXI/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x43C5_0000 [ 64K ]>.
+Slave segment '/axi_mem_intercon/s00_couplers/auto_pc/S_AXI/Reg' is being assigned into address space '/axi_vdma_0/Data_MM2S' at <0x44A0_0000 [ 64K ]>.
+WARNING: [BD 41-1051] Slave segment '/axi_mem_intercon/s00_couplers/auto_pc/S_AXI/Reg' with 'register' usage does not match address space '/axi_vdma_0/Data_MM2S' with 'memory' usage so will be excluded from this address space. Please use the 'include_bd_addr_seg' command to override this precaution if required.
+Excluding slave segment /axi_mem_intercon/s00_couplers/auto_pc/S_AXI/Reg from address space /axi_vdma_0/Data_MM2S.
+Slave segment '/axi_mem_intercon_1/s00_couplers/auto_pc/S_AXI/Reg' is being assigned into address space '/axi_vdma_0/Data_S2MM' at <0x44A0_0000 [ 64K ]>.
+WARNING: [BD 41-1051] Slave segment '/axi_mem_intercon_1/s00_couplers/auto_pc/S_AXI/Reg' with 'register' usage does not match address space '/axi_vdma_0/Data_S2MM' with 'memory' usage so will be excluded from this address space. Please use the 'include_bd_addr_seg' command to override this precaution if required.
+Excluding slave segment /axi_mem_intercon_1/s00_couplers/auto_pc/S_AXI/Reg from address space /axi_vdma_0/Data_S2MM.
+validate_bd_design
+ERROR: [BD 5-336] This command cannot be run, as the BD-design is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+system_auto_pc_1
+system_MIPI_CSI_2_RX_0_0
+system_rst_vid_clk_dyn_0
+system_v_axi4s_vid_out_0_0
+system_MIPI_D_PHY_RX_0_0
+system_auto_pc_0
+system_rst_clk_wiz_0_50M_0
+system_axi_mem_intercon_0
+system_axi_mem_intercon_1_0
+system_axi_vdma_0_0
+system_clk_wiz_0_0
+system_xbar_0
+system_auto_pc_2
+system_ps7_0_axi_periph_0
+system_video_dynclk_0
+system_vtg_0
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+report_ip_status -name ip_status 
+validate_bd_design
+ERROR: [BD 5-336] This command cannot be run, as the BD-design is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+system_auto_pc_1
+system_MIPI_CSI_2_RX_0_0
+system_rst_vid_clk_dyn_0
+system_v_axi4s_vid_out_0_0
+system_MIPI_D_PHY_RX_0_0
+system_auto_pc_0
+system_rst_clk_wiz_0_50M_0
+system_axi_mem_intercon_0
+system_axi_mem_intercon_1_0
+system_axi_vdma_0_0
+system_clk_wiz_0_0
+system_xbar_0
+system_auto_pc_2
+system_ps7_0_axi_periph_0
+system_video_dynclk_0
+system_vtg_0
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+validate_bd_design
+ERROR: [BD 5-336] This command cannot be run, as the BD-design is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+system_auto_pc_1
+system_MIPI_CSI_2_RX_0_0
+system_rst_vid_clk_dyn_0
+system_v_axi4s_vid_out_0_0
+system_MIPI_D_PHY_RX_0_0
+system_auto_pc_0
+system_rst_clk_wiz_0_50M_0
+system_axi_mem_intercon_0
+system_axi_mem_intercon_1_0
+system_axi_vdma_0_0
+system_clk_wiz_0_0
+system_xbar_0
+system_auto_pc_2
+system_ps7_0_axi_periph_0
+system_video_dynclk_0
+system_vtg_0
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+save_bd_design
+Wrote  : <D:\FPGA\zybo\pcam_running\v1_pxl_clk\pcam\hw\Zybo-Z7-HW.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+close_bd_design [get_bd_designs system]
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+Reading block design file <D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- digilentinc.com:user:AXI_BayerToRGB:1.0 - AXI_BayerToRGB_0
+Adding component instance block -- digilentinc.com:user:AXI_GammaCorrection:1.0 - AXI_GammaCorrection_1
+Adding component instance block -- xilinx.com:module_ref:DVIClocking:1.0 - DVIClocking_1
+Adding component instance block -- digilentinc.com:ip:MIPI_CSI_2_RX:1.2 - MIPI_CSI_2_RX_0
+Adding component instance block -- digilentinc.com:ip:MIPI_D_PHY_RX:1.3 - MIPI_D_PHY_RX_0
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- digilentinc.com:ip:rgb2dvi:1.4 - rgb2dvi_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_50M
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_vid_clk_dyn
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon_1
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - video_dynclk
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - vtg
+Excluding slave segment /axi_mem_intercon/s00_couplers/auto_pc/S_AXI/Reg from address space /axi_vdma_0/Data_MM2S.
+Excluding slave segment /axi_mem_intercon_1/s00_couplers/auto_pc/S_AXI/Reg from address space /axi_vdma_0/Data_S2MM.
+Successfully read diagram <system> from block design file <D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd>
+validate_bd_design
+ERROR: [BD 5-336] This command cannot be run, as the BD-design is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+system_auto_pc_1
+system_MIPI_CSI_2_RX_0_0
+system_rst_vid_clk_dyn_0
+system_v_axi4s_vid_out_0_0
+system_MIPI_D_PHY_RX_0_0
+system_auto_pc_0
+system_rst_clk_wiz_0_50M_0
+system_axi_mem_intercon_0
+system_axi_mem_intercon_1_0
+system_axi_vdma_0_0
+system_clk_wiz_0_0
+system_xbar_0
+system_auto_pc_2
+system_ps7_0_axi_periph_0
+system_video_dynclk_0
+system_vtg_0
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+upgrade_ip [get_ips  {system_axi_vdma_0_0 system_MIPI_D_PHY_RX_0_0 system_axi_mem_intercon_0 system_clk_wiz_0_0 system_MIPI_CSI_2_RX_0_0 system_vtg_0 system_video_dynclk_0 system_axi_mem_intercon_1_0 system_ps7_0_axi_periph_0 system_rst_vid_clk_dyn_0 system_rst_clk_wiz_0_50M_0 system_v_axi4s_vid_out_0_0}] -log ip_upgrade.log
+Upgrading 'D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd'
+INFO: [IP_Flow 19-3420] Updated system_MIPI_CSI_2_RX_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated system_MIPI_D_PHY_RX_0_0 to use current project options
+INFO: [IP_Flow 19-3422] Upgraded system_axi_mem_intercon_0 (AXI Interconnect 2.1) from revision 32 to revision 34
+INFO: [IP_Flow 19-3422] Upgraded system_axi_mem_intercon_1_0 (AXI Interconnect 2.1) from revision 32 to revision 34
+INFO: [IP_Flow 19-3422] Upgraded system_axi_vdma_0_0 (AXI Video Direct Memory Access 6.3) from revision 19 to revision 21
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [IP_Flow 19-3422] Upgraded system_clk_wiz_0_0 (Clocking Wizard 6.0) from revision 14 to revision 15
+INFO: [IP_Flow 19-3422] Upgraded system_ps7_0_axi_periph_0 (AXI Interconnect 2.1) from revision 32 to revision 34
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3422] Upgraded system_rst_clk_wiz_0_50M_0 (Processor System Reset 5.0) from revision 15 to revision 16
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3422] Upgraded system_rst_vid_clk_dyn_0 (Processor System Reset 5.0) from revision 15 to revision 16
+INFO: [IP_Flow 19-3422] Upgraded system_v_axi4s_vid_out_0_0 (AXI4-Stream to Video Out 4.0) from revision 18 to revision 19
+INFO: [IP_Flow 19-3422] Upgraded system_video_dynclk_0 (Clocking Wizard 6.0) from revision 14 to revision 15
+INFO: [IP_Flow 19-3422] Upgraded system_vtg_0 (Video Timing Controller 6.2) from revision 8 to revision 9
+Wrote  : <D:\FPGA\zybo\pcam_running\v1_pxl_clk\pcam\hw\Zybo-Z7-HW.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 3032.594 ; gain = 232.797
+export_ip_user_files -of_objects [get_ips {system_axi_vdma_0_0 system_MIPI_D_PHY_RX_0_0 system_axi_mem_intercon_0 system_clk_wiz_0_0 system_MIPI_CSI_2_RX_0_0 system_vtg_0 system_video_dynclk_0 system_axi_mem_intercon_1_0 system_ps7_0_axi_periph_0 system_rst_vid_clk_dyn_0 system_rst_clk_wiz_0_50M_0 system_v_axi4s_vid_out_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd]
+INFO: [digilentinc.com:ip:MIPI_CSI_2_RX:1.2-17] /MIPI_CSI_2_RX_0Verified that video_aclk frequency can handle RxByteClkHS frequency. AXI-Stream bandwidth 600000000 Pix/s >= PPI bandwidth 134400000.0 Pix/s
+INFO: [digilentinc.com:ip:MIPI_D_PHY_RX:1.3-17] /MIPI_D_PHY_RX_0FREQ_HZ of 50000000 propagated into CONFIG.C_S_AXI_LITE_FREQ_HZ
+INFO: [digilentinc.com:ip:MIPI_D_PHY_RX:1.3-17] /MIPI_D_PHY_RX_0FREQ_HZ of 200000000 propagated into CONFIG.kRefClkFreqHz
+INFO: [digilentinc.com:ip:MIPI_D_PHY_RX:1.3-17] /MIPI_D_PHY_RX_0FREQ_HZ of 84000000 propagated onto RxByteClkHS
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /video_dynclk clk_wiz propagate
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /video_dynclk clk_wiz propagate
+Wrote  : <D:\FPGA\zybo\pcam_running\v1_pxl_clk\pcam\hw\Zybo-Z7-HW.srcs\sources_1\bd\system\system.bd> 
+VHDL Output written to : d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/synth/system.vhd
+VHDL Output written to : d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/sim/system.vhd
+VHDL Output written to : d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_BayerToRGB_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_GammaCorrection_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DVIClocking_1 .
+CRITICAL WARNING: [IP_Flow 19-4965] IP cdc_fifo was packaged with board value 'em.avnet.com:zed:part0:1.4'. Current project's board value is 'digilentinc.com:zybo-z7-10:part0:1.1'. Please update the project settings to match the packaged IP.
+INFO: [IP_Flow 19-3422] Upgraded cdc_fifo (FIFO Generator 13.2) from revision 4 to revision 11
+CRITICAL WARNING: [IP_Flow 19-4965] IP ila_rxclk was packaged with board value 'em.avnet.com:zed:part0:1.4'. Current project's board value is 'digilentinc.com:zybo-z7-10:part0:1.1'. Please update the project settings to match the packaged IP.
+INFO: [IP_Flow 19-3422] Upgraded ila_rxclk (ILA (Integrated Logic Analyzer) 6.2) from revision 9 to revision 16
+CRITICAL WARNING: [IP_Flow 19-4965] IP ila_rxclk_lane was packaged with board value 'em.avnet.com:zed:part0:1.4'. Current project's board value is 'digilentinc.com:zybo-z7-10:part0:1.1'. Please update the project settings to match the packaged IP.
+INFO: [IP_Flow 19-3422] Upgraded ila_rxclk_lane (ILA (Integrated Logic Analyzer) 6.2) from revision 9 to revision 16
+CRITICAL WARNING: [IP_Flow 19-4965] IP ila_vidclk was packaged with board value 'em.avnet.com:zed:part0:1.4'. Current project's board value is 'digilentinc.com:zybo-z7-10:part0:1.1'. Please update the project settings to match the packaged IP.
+INFO: [IP_Flow 19-3422] Upgraded ila_vidclk (ILA (Integrated Logic Analyzer) 6.2) from revision 9 to revision 16
+CRITICAL WARNING: [IP_Flow 19-4965] IP line_buffer was packaged with board value 'em.avnet.com:zed:part0:1.4'. Current project's board value is 'digilentinc.com:zybo-z7-10:part0:1.1'. Please update the project settings to match the packaged IP.
+INFO: [IP_Flow 19-3422] Upgraded line_buffer (AXI4-Stream Data FIFO 2.0) from revision 1 to revision 15
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIPI_CSI_2_RX_0 .
+INFO: [IP_Flow 19-3422] Upgraded ila_sfen_rxclk (ILA (Integrated Logic Analyzer) 6.2) from revision 7 to revision 16
+INFO: [IP_Flow 19-3422] Upgraded ila_sfen_refclk (ILA (Integrated Logic Analyzer) 6.2) from revision 7 to revision 16
+INFO: [IP_Flow 19-3422] Upgraded ila_scnn_refclk (ILA (Integrated Logic Analyzer) 6.2) from revision 7 to revision 16
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MIPI_D_PHY_RX_0 .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP2'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_0_50M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_vid_clk_dyn .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_vdma_0_0/system_axi_vdma_0_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block v_axi4s_vid_out_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block video_dynclk .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vtg .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon_1/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/hw_handoff/system.hwh
+Generated Hardware Definition File d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/synth/system.hwdef
+generate_target: Time (s): cpu = 00:01:08 ; elapsed = 00:01:13 . Memory (MB): peak = 3132.297 ; gain = 99.703
+catch { config_ip_cache -export [get_ips -all system_AXI_BayerToRGB_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_AXI_BayerToRGB_0_0
+catch { config_ip_cache -export [get_ips -all system_AXI_GammaCorrection_1_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_AXI_GammaCorrection_1_0
+catch { config_ip_cache -export [get_ips -all system_MIPI_CSI_2_RX_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_MIPI_CSI_2_RX_0_0
+catch { config_ip_cache -export [get_ips -all system_MIPI_D_PHY_RX_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_MIPI_D_PHY_RX_0_0
+catch { config_ip_cache -export [get_ips -all system_rgb2dvi_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_rgb2dvi_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 3a822ef8b2dc0a67 to dir: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_rgb2dvi_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/3/a/3a822ef8b2dc0a67/system_rgb2dvi_0_0.dcp to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/3/a/3a822ef8b2dc0a67/system_rgb2dvi_0_0_sim_netlist.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/3/a/3a822ef8b2dc0a67/system_rgb2dvi_0_0_sim_netlist.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/3/a/3a822ef8b2dc0a67/system_rgb2dvi_0_0_stub.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/3/a/3a822ef8b2dc0a67/system_rgb2dvi_0_0_stub.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_rgb2dvi_0_0, cache-ID = 3a822ef8b2dc0a67; cache size = 0.294 MB.
+catch { [ delete_ip_run [get_ips -all system_rgb2dvi_0_0] ] }
+catch { config_ip_cache -export [get_ips -all system_rst_clk_wiz_0_50M_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_rst_clk_wiz_0_50M_0
+catch { config_ip_cache -export [get_ips -all system_rst_vid_clk_dyn_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_rst_vid_clk_dyn_0
+catch { config_ip_cache -export [get_ips -all system_axi_vdma_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_vdma_0_0
+catch { config_ip_cache -export [get_ips -all system_clk_wiz_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_clk_wiz_0_0
+catch { config_ip_cache -export [get_ips -all system_v_axi4s_vid_out_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_v_axi4s_vid_out_0_0
+catch { config_ip_cache -export [get_ips -all system_video_dynclk_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_video_dynclk_0
+catch { config_ip_cache -export [get_ips -all system_vtg_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_vtg_0
+catch { config_ip_cache -export [get_ips -all system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0
+catch { config_ip_cache -export [get_ips -all system_axi_mem_intercon_imp_auto_pc_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_mem_intercon_imp_auto_pc_0
+catch { config_ip_cache -export [get_ips -all system_axi_mem_intercon_1_imp_auto_pc_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_mem_intercon_1_imp_auto_pc_0
+catch { config_ip_cache -export [get_ips -all system_ps7_0_axi_periph_imp_auto_pc_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_ps7_0_axi_periph_imp_auto_pc_0
+export_ip_user_files -of_objects [get_files D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd]
+launch_runs system_AXI_BayerToRGB_0_0_synth_1 system_AXI_GammaCorrection_1_0_synth_1 system_DVIClocking_1_0_synth_1 system_MIPI_CSI_2_RX_0_0_synth_1 system_MIPI_D_PHY_RX_0_0_synth_1 system_axi_mem_intercon_1_imp_auto_pc_0_synth_1 system_axi_mem_intercon_imp_auto_pc_0_synth_1 system_axi_vdma_0_0_synth_1 system_clk_wiz_0_0_synth_1 system_processing_system7_0_0_synth_1 system_ps7_0_axi_periph_imp_auto_pc_0_synth_1 system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1 system_rst_clk_wiz_0_50M_0_synth_1 system_rst_vid_clk_dyn_0_synth_1 system_v_axi4s_vid_out_0_0_synth_1 system_video_dynclk_0_synth_1 system_vtg_0_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_AXI_BayerToRGB_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_AXI_GammaCorrection_1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_MIPI_CSI_2_RX_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_MIPI_D_PHY_RX_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_mem_intercon_1_imp_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_mem_intercon_imp_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_vdma_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_clk_wiz_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_ps7_0_axi_periph_imp_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_rst_clk_wiz_0_50M_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_rst_vid_clk_dyn_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_v_axi4s_vid_out_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_video_dynclk_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_vtg_0
+[Fri Oct 31 20:50:48 2025] Launched system_AXI_BayerToRGB_0_0_synth_1, system_AXI_GammaCorrection_1_0_synth_1, system_DVIClocking_1_0_synth_1, system_MIPI_CSI_2_RX_0_0_synth_1, system_MIPI_D_PHY_RX_0_0_synth_1, system_axi_mem_intercon_1_imp_auto_pc_0_synth_1, system_axi_mem_intercon_imp_auto_pc_0_synth_1, system_axi_vdma_0_0_synth_1, system_clk_wiz_0_0_synth_1, system_processing_system7_0_0_synth_1, system_ps7_0_axi_periph_imp_auto_pc_0_synth_1, system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, system_rst_clk_wiz_0_50M_0_synth_1, system_rst_vid_clk_dyn_0_synth_1, system_v_axi4s_vid_out_0_0_synth_1, system_video_dynclk_0_synth_1, system_vtg_0_synth_1...
+Run output will be captured here:
+system_AXI_BayerToRGB_0_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_AXI_BayerToRGB_0_0_synth_1/runme.log
+system_AXI_GammaCorrection_1_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_AXI_GammaCorrection_1_0_synth_1/runme.log
+system_DVIClocking_1_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_DVIClocking_1_0_synth_1/runme.log
+system_MIPI_CSI_2_RX_0_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_MIPI_CSI_2_RX_0_0_synth_1/runme.log
+system_MIPI_D_PHY_RX_0_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_MIPI_D_PHY_RX_0_0_synth_1/runme.log
+system_axi_mem_intercon_1_imp_auto_pc_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_axi_mem_intercon_1_imp_auto_pc_0_synth_1/runme.log
+system_axi_mem_intercon_imp_auto_pc_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_axi_mem_intercon_imp_auto_pc_0_synth_1/runme.log
+system_axi_vdma_0_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_axi_vdma_0_0_synth_1/runme.log
+system_clk_wiz_0_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_clk_wiz_0_0_synth_1/runme.log
+system_processing_system7_0_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_processing_system7_0_0_synth_1/runme.log
+system_ps7_0_axi_periph_imp_auto_pc_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_ps7_0_axi_periph_imp_auto_pc_0_synth_1/runme.log
+system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1/runme.log
+system_rst_clk_wiz_0_50M_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_rst_clk_wiz_0_50M_0_synth_1/runme.log
+system_rst_vid_clk_dyn_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_rst_vid_clk_dyn_0_synth_1/runme.log
+system_v_axi4s_vid_out_0_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_v_axi4s_vid_out_0_0_synth_1/runme.log
+system_video_dynclk_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_video_dynclk_0_synth_1/runme.log
+system_vtg_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_vtg_0_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 3132.297 ; gain = 0.000
+export_simulation -lib_map_path [list {modelsim=D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/compile_simlib/modelsim} {questa=D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/compile_simlib/questa} {riviera=D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/compile_simlib/riviera} {activehdl=D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/compile_simlib/activehdl}] -of_objects [get_files D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd] -directory D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.ip_user_files/sim_scripts -ip_user_files_dir D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.ip_user_files -ipstatic_source_dir D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/utils_1/imports/synth_1/system_wrapper.dcp with file D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/synth_1/system_wrapper.dcp
+reset_run system_AXI_BayerToRGB_0_0_synth_1
+reset_run system_AXI_GammaCorrection_1_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_AXI_BayerToRGB_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_AXI_GammaCorrection_1_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_AXI_BayerToRGB_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_AXI_GammaCorrection_1_0
+[Fri Oct 31 21:03:50 2025] Launched system_AXI_BayerToRGB_0_0_synth_1, system_AXI_GammaCorrection_1_0_synth_1, synth_1...
+Run output will be captured here:
+system_AXI_BayerToRGB_0_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_AXI_BayerToRGB_0_0_synth_1/runme.log
+system_AXI_GammaCorrection_1_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_AXI_GammaCorrection_1_0_synth_1/runme.log
+synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/synth_1/runme.log
+[Fri Oct 31 21:03:51 2025] Launched impl_1...
+Run output will be captured here: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 3132.297 ; gain = 0.000
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.322 . Memory (MB): peak = 3132.297 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1140 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 3132.297 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 3132.297 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 3132.297 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3132.297 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3132.297 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.359 . Memory (MB): peak = 3132.297 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3132.297 ; gain = 0.000
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3132.297 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 3132.297 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 19 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 3 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 14 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
+
+open_run: Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 3473.207 ; gain = 340.910
+open_report: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 3543.457 ; gain = 47.918
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list \
+  CONFIG.CLKOUT1_JITTER {217.614} \
+  CONFIG.CLKOUT1_PHASE_ERROR {245.344} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {148.5} \
+  CONFIG.CLK_OUT1_PORT {pxl_clk} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {6.250} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {4} \
+] [get_bd_cells video_dynclk]
+delete_bd_objs [get_bd_nets video_dynclk_pxl_clk_5x]
+endgroup
+delete_bd_objs [get_bd_nets video_dynclk_locked] [get_bd_nets DVIClocking_1_aLockedOut] [get_bd_cells DVIClocking_1]
+connect_bd_net [get_bd_pins video_dynclk/pxl_clk] [get_bd_pins rst_vid_clk_dyn/slowest_sync_clk]
+update_compile_order -fileset sources_1
+connect_bd_net [get_bd_pins video_dynclk/locked] [get_bd_pins rst_vid_clk_dyn/dcm_locked]
+regenerate_bd_layout
+validate_bd_design
+INFO: [digilentinc.com:ip:MIPI_CSI_2_RX:1.2-17] /MIPI_CSI_2_RX_0Verified that video_aclk frequency can handle RxByteClkHS frequency. AXI-Stream bandwidth 600000000 Pix/s >= PPI bandwidth 134400000.0 Pix/s
+INFO: [digilentinc.com:ip:MIPI_D_PHY_RX:1.3-17] /MIPI_D_PHY_RX_0FREQ_HZ of 50000000 propagated into CONFIG.C_S_AXI_LITE_FREQ_HZ
+INFO: [digilentinc.com:ip:MIPI_D_PHY_RX:1.3-17] /MIPI_D_PHY_RX_0FREQ_HZ of 200000000 propagated into CONFIG.kRefClkFreqHz
+INFO: [digilentinc.com:ip:MIPI_D_PHY_RX:1.3-17] /MIPI_D_PHY_RX_0FREQ_HZ of 84000000 propagated onto RxByteClkHS
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /video_dynclk clk_wiz propagate
+save_bd_design
+Wrote  : <D:\FPGA\zybo\pcam_running\v1_pxl_clk\pcam\hw\Zybo-Z7-HW.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/utils_1/imports/synth_1/system_wrapper.dcp with file D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/synth_1/system_wrapper.dcp
+reset_run system_rst_vid_clk_dyn_0_synth_1
+reset_run system_v_axi4s_vid_out_0_0_synth_1
+reset_run system_video_dynclk_0_synth_1
+reset_run system_vtg_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/synth/system.vhd
+VHDL Output written to : d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/sim/system.vhd
+VHDL Output written to : d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_vid_clk_dyn .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block v_axi4s_vid_out_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block video_dynclk .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vtg .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon_1/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/hw_handoff/system.hwh
+Generated Hardware Definition File d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/synth/system.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_axi_mem_intercon_1_imp_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_axi_mem_intercon_imp_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_ps7_0_axi_periph_imp_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_rst_vid_clk_dyn_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_v_axi4s_vid_out_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_video_dynclk_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_vtg_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_mem_intercon_1_imp_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry f6bd7f3943a0b237 to dir: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/f/6/f6bd7f3943a0b237/system_axi_mem_intercon_1_imp_auto_pc_0.dcp to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/f/6/f6bd7f3943a0b237/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/f/6/f6bd7f3943a0b237/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/f/6/f6bd7f3943a0b237/system_axi_mem_intercon_1_imp_auto_pc_0_stub.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/f/6/f6bd7f3943a0b237/system_axi_mem_intercon_1_imp_auto_pc_0_stub.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_axi_mem_intercon_1_imp_auto_pc_0, cache-ID = f6bd7f3943a0b237; cache size = 23.449 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_mem_intercon_imp_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 9835f5728254c24a to dir: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/9/8/9835f5728254c24a/system_axi_mem_intercon_imp_auto_pc_0.dcp to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/9/8/9835f5728254c24a/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/9/8/9835f5728254c24a/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/9/8/9835f5728254c24a/system_axi_mem_intercon_imp_auto_pc_0_stub.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/9/8/9835f5728254c24a/system_axi_mem_intercon_imp_auto_pc_0_stub.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_axi_mem_intercon_imp_auto_pc_0, cache-ID = 9835f5728254c24a; cache size = 23.449 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_ps7_0_axi_periph_imp_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 614f8f64b934abbc to dir: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/6/1/614f8f64b934abbc/system_ps7_0_axi_periph_imp_auto_pc_0.dcp to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/6/1/614f8f64b934abbc/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/6/1/614f8f64b934abbc/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/6/1/614f8f64b934abbc/system_ps7_0_axi_periph_imp_auto_pc_0_stub.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/6/1/614f8f64b934abbc/system_ps7_0_axi_periph_imp_auto_pc_0_stub.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_ps7_0_axi_periph_imp_auto_pc_0, cache-ID = 614f8f64b934abbc; cache size = 23.449 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_rst_vid_clk_dyn_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_v_axi4s_vid_out_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_video_dynclk_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_vtg_0
+[Fri Oct 31 21:21:46 2025] Launched system_rst_vid_clk_dyn_0_synth_1, system_v_axi4s_vid_out_0_0_synth_1, system_video_dynclk_0_synth_1, system_vtg_0_synth_1, synth_1...
+Run output will be captured here:
+system_rst_vid_clk_dyn_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_rst_vid_clk_dyn_0_synth_1/runme.log
+system_v_axi4s_vid_out_0_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_v_axi4s_vid_out_0_0_synth_1/runme.log
+system_video_dynclk_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_video_dynclk_0_synth_1/runme.log
+system_vtg_0_synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/system_vtg_0_synth_1/runme.log
+synth_1: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/synth_1/runme.log
+[Fri Oct 31 21:21:47 2025] Launched impl_1...
+Run output will be captured here: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 4193.566 ; gain = 0.000
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd]
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.410 . Memory (MB): peak = 5406.109 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1139 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.122 . Memory (MB): peak = 5406.109 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 5406.109 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 5406.109 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 5406.109 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5406.109 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.375 . Memory (MB): peak = 5406.109 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 5406.109 ; gain = 0.000
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 5406.109 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:14 . Memory (MB): peak = 5406.109 ; gain = 0.000
+open_report: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 5406.109 ; gain = 0.000
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+set_property USER_COMMENTS.comment_0 {Enter Comments here}  [current_bd_design]
+regenerate_bd_layout
+set_property USER_COMMENTS.comment_0 {}  [current_bd_design]
+startgroup
+endgroup
+save_bd_design
+Wrote  : <D:\FPGA\zybo\pcam_running\v1_pxl_clk\pcam\hw\Zybo-Z7-HW.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+startgroup
+set_property CONFIG.kClkPrimitive {PLL} [get_bd_cells rgb2dvi_0]
+endgroup
+startgroup
+endgroup
+save_bd_design
+Wrote  : <D:\FPGA\zybo\pcam_running\v1_pxl_clk\pcam\hw\Zybo-Z7-HW.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+validate_bd_design
+INFO: [digilentinc.com:ip:MIPI_CSI_2_RX:1.2-17] /MIPI_CSI_2_RX_0Verified that video_aclk frequency can handle RxByteClkHS frequency. AXI-Stream bandwidth 600000000 Pix/s >= PPI bandwidth 134400000.0 Pix/s
+INFO: [digilentinc.com:ip:MIPI_D_PHY_RX:1.3-17] /MIPI_D_PHY_RX_0FREQ_HZ of 50000000 propagated into CONFIG.C_S_AXI_LITE_FREQ_HZ
+INFO: [digilentinc.com:ip:MIPI_D_PHY_RX:1.3-17] /MIPI_D_PHY_RX_0FREQ_HZ of 200000000 propagated into CONFIG.kRefClkFreqHz
+INFO: [digilentinc.com:ip:MIPI_D_PHY_RX:1.3-17] /MIPI_D_PHY_RX_0FREQ_HZ of 84000000 propagated onto RxByteClkHS
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /video_dynclk clk_wiz propagate
+save_bd_design
+Wrote  : <D:\FPGA\zybo\pcam_running\v1_pxl_clk\pcam\hw\Zybo-Z7-HW.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/utils_1/imports/synth_1/system_wrapper.dcp with file D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/synth_1/system_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/synth/system.vhd
+VHDL Output written to : d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/sim/system.vhd
+VHDL Output written to : d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon_1/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/hw_handoff/system.hwh
+Generated Hardware Definition File d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/synth/system.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_axi_mem_intercon_1_imp_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_axi_mem_intercon_imp_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP system_ps7_0_axi_periph_imp_auto_pc_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_mem_intercon_1_imp_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry f6bd7f3943a0b237 to dir: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/f/6/f6bd7f3943a0b237/system_axi_mem_intercon_1_imp_auto_pc_0.dcp to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/f/6/f6bd7f3943a0b237/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/f/6/f6bd7f3943a0b237/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/f/6/f6bd7f3943a0b237/system_axi_mem_intercon_1_imp_auto_pc_0_stub.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/f/6/f6bd7f3943a0b237/system_axi_mem_intercon_1_imp_auto_pc_0_stub.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_1_imp_auto_pc_0/system_axi_mem_intercon_1_imp_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_axi_mem_intercon_1_imp_auto_pc_0, cache-ID = f6bd7f3943a0b237; cache size = 32.670 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_mem_intercon_imp_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 9835f5728254c24a to dir: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/9/8/9835f5728254c24a/system_axi_mem_intercon_imp_auto_pc_0.dcp to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/9/8/9835f5728254c24a/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/9/8/9835f5728254c24a/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/9/8/9835f5728254c24a/system_axi_mem_intercon_imp_auto_pc_0_stub.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/9/8/9835f5728254c24a/system_axi_mem_intercon_imp_auto_pc_0_stub.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_axi_mem_intercon_imp_auto_pc_0/system_axi_mem_intercon_imp_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_axi_mem_intercon_imp_auto_pc_0, cache-ID = 9835f5728254c24a; cache size = 32.670 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_ps7_0_axi_periph_imp_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 614f8f64b934abbc to dir: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/6/1/614f8f64b934abbc/system_ps7_0_axi_periph_imp_auto_pc_0.dcp to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/6/1/614f8f64b934abbc/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/6/1/614f8f64b934abbc/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/6/1/614f8f64b934abbc/system_ps7_0_axi_periph_imp_auto_pc_0_stub.v to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/ip/2024.2/6/1/614f8f64b934abbc/system_ps7_0_axi_periph_imp_auto_pc_0_stub.vhdl to d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.gen/sources_1/bd/system/ip/system_ps7_0_axi_periph_imp_auto_pc_0/system_ps7_0_axi_periph_imp_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_ps7_0_axi_periph_imp_auto_pc_0, cache-ID = 614f8f64b934abbc; cache size = 32.670 MB.
+[Fri Oct 31 21:51:40 2025] Launched synth_1...
+Run output will be captured here: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/synth_1/runme.log
+[Fri Oct 31 21:51:40 2025] Launched impl_1...
+Run output will be captured here: D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 5406.109 ; gain = 0.000
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+create_bd_cell -type module -reference DVIClocking DVIClocking_0
+ERROR: [Ip 78-140] conversion to double from string is failed
+ERROR: [Ip 78-140] conversion to double from string is failed
+ERROR: [Ip 78-140] conversion to double from string is failed
+ERROR: [Ip 78-140] conversion to double from string is failed
+ERROR: [Ip 78-140] conversion to double from string is failed
+ERROR: [Ip 78-140] conversion to double from string is failed
+ERROR: [Ip 78-140] conversion to double from string is failed
+startgroup
+set_property -dict [list \
+  CONFIG.CLKOUT1_JITTER {232.529} \
+  CONFIG.CLKOUT1_PHASE_ERROR {322.999} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {742.5} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {1.000} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {5} \
+] [get_bd_cells video_dynclk]
+endgroup
+delete_bd_objs [get_bd_nets PixelClk_Generator_clk_out1]
+connect_bd_net [get_bd_pins DVIClocking_0/aLockedIn] [get_bd_pins video_dynclk/locked]
+startgroup
+set_property CONFIG.CLK_OUT1_PORT {pxl_clk_5x} [get_bd_cells video_dynclk]
+endgroup
+connect_bd_net [get_bd_pins video_dynclk/pxl_clk_5x] [get_bd_pins DVIClocking_0/PixelClk5X]
+set_property location {5.5 1666 693} [get_bd_cells MIPI_CSI_2_RX_0]
+undo
+INFO: [Common 17-17] undo 'set_property location {5.5 1666 693} [get_bd_cells MIPI_CSI_2_RX_0]'
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins video_dynclk/pxl_clk_5x] [get_bd_pins DVIClocking_0/PixelClk5X]'
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'set_property CONFIG.CLK_OUT1_PORT {pxl_clk_5x} [get_bd_cells video_dynclk]'
+INFO: [Common 17-17] undo 'startgroup'
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins DVIClocking_0/aLockedIn] [get_bd_pins video_dynclk/locked]'
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_nets PixelClk_Generator_clk_out1]'
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'set_property -dict [list \
+  CONFIG.CLKOUT1_JITTER {232.529} \
+  CONFIG.CLKOUT1_PHASE_ERROR {322.999} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {742.5} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {1.000} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {5} \
+] [get_bd_cells video_dynclk]'
+INFO: [Common 17-17] undo 'startgroup'
+redo
+INFO: [Common 17-16] redo 'startgroup'
+INFO: [Common 17-16] redo 'set_property -dict [list \
+  CONFIG.CLKOUT1_JITTER {232.529} \
+  CONFIG.CLKOUT1_PHASE_ERROR {322.999} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {742.5} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {1.000} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {5} \
+] [get_bd_cells video_dynclk]'
+INFO: [Common 17-16] redo 'endgroup'
+redo
+INFO: [Common 17-16] redo 'delete_bd_objs [get_bd_nets PixelClk_Generator_clk_out1]'
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_nets PixelClk_Generator_clk_out1]'
+disconnect_bd_net /PixelClk_Generator_clk_out1 [get_bd_pins video_dynclk/pxl_clk]
+undo
+INFO: [Common 17-17] undo 'disconnect_bd_net /PixelClk_Generator_clk_out1 [get_bd_pins video_dynclk/pxl_clk]'
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'set_property -dict [list \
+  CONFIG.CLKOUT1_JITTER {232.529} \
+  CONFIG.CLKOUT1_PHASE_ERROR {322.999} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {742.5} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {1.000} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {5} \
+] [get_bd_cells video_dynclk]'
+INFO: [Common 17-17] undo 'startgroup'
+undo
+INFO: [Common 17-17] undo 'create_bd_cell -type module -reference DVIClocking DVIClocking_0'
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 31 22:09:42 2025...

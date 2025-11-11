@@ -1,0 +1,183 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Oct 31 14:31:16 2025
+# Process ID         : 28392
+# Current directory  : D:/FPGA/zybo/hdmi/hw
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent34136 D:\FPGA\zybo\hdmi\hw\Zybo-Z7-HW.xpr
+# Log file           : D:/FPGA/zybo/hdmi/hw/vivado.log
+# Journal file       : D:/FPGA/zybo/hdmi/hw\vivado.jou
+# Running On         : Navin-PC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+# CPU Frequency      : 2208 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16955 MB
+# Swap memory        : 16955 MB
+# Total Virtual      : 33910 MB
+# Available Virtual  : 13789 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/zybo/hdmi/hw/Zybo-Z7-HW.srcs/sources_1/bd/design_1/design_1.bd}
+close_bd_design [get_bd_designs design_1]
+close_project
+open_project D:/FPGA/zybo/pcam_running/v1/pcam/hw/Zybo-Z7-HW.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/zybo/pcam_running/v1/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+open_bd_design {D:/FPGA/zybo/pcam_running/v1/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+set_property location {1.5 245 1134} [get_bd_cells MIPI_D_PHY_RX_0]
+set_property location {3 662 1139} [get_bd_cells MIPI_CSI_2_RX_0]
+close_bd_design [get_bd_designs system]
+close_project
+open_project D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property CONFIG.kGenerateSerialClk {true} [get_bd_cells rgb2dvi_0]
+delete_bd_objs [get_bd_nets DVIClocking_1_SerialClk]
+endgroup
+save_bd_design
+reset_run synth_1
+reset_run system_rgb2dvi_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+assign_bd_address
+validate_bd_design
+report_ip_status -name ip_status 
+validate_bd_design
+validate_bd_design
+save_bd_design
+close_bd_design [get_bd_designs system]
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+validate_bd_design
+upgrade_ip [get_ips  {system_axi_vdma_0_0 system_MIPI_D_PHY_RX_0_0 system_axi_mem_intercon_0 system_clk_wiz_0_0 system_MIPI_CSI_2_RX_0_0 system_vtg_0 system_video_dynclk_0 system_axi_mem_intercon_1_0 system_ps7_0_axi_periph_0 system_rst_vid_clk_dyn_0 system_rst_clk_wiz_0_50M_0 system_v_axi4s_vid_out_0_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {system_axi_vdma_0_0 system_MIPI_D_PHY_RX_0_0 system_axi_mem_intercon_0 system_clk_wiz_0_0 system_MIPI_CSI_2_RX_0_0 system_vtg_0 system_video_dynclk_0 system_axi_mem_intercon_1_0 system_ps7_0_axi_periph_0 system_rst_vid_clk_dyn_0 system_rst_clk_wiz_0_50M_0 system_v_axi4s_vid_out_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_AXI_BayerToRGB_0_0] }
+catch { config_ip_cache -export [get_ips -all system_AXI_GammaCorrection_1_0] }
+catch { config_ip_cache -export [get_ips -all system_MIPI_CSI_2_RX_0_0] }
+catch { config_ip_cache -export [get_ips -all system_MIPI_D_PHY_RX_0_0] }
+catch { config_ip_cache -export [get_ips -all system_rgb2dvi_0_0] }
+catch { [ delete_ip_run [get_ips -all system_rgb2dvi_0_0] ] }
+catch { config_ip_cache -export [get_ips -all system_rst_clk_wiz_0_50M_0] }
+catch { config_ip_cache -export [get_ips -all system_rst_vid_clk_dyn_0] }
+catch { config_ip_cache -export [get_ips -all system_axi_vdma_0_0] }
+catch { config_ip_cache -export [get_ips -all system_clk_wiz_0_0] }
+catch { config_ip_cache -export [get_ips -all system_v_axi4s_vid_out_0_0] }
+catch { config_ip_cache -export [get_ips -all system_video_dynclk_0] }
+catch { config_ip_cache -export [get_ips -all system_vtg_0] }
+catch { config_ip_cache -export [get_ips -all system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0] }
+catch { config_ip_cache -export [get_ips -all system_axi_mem_intercon_imp_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_axi_mem_intercon_1_imp_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_ps7_0_axi_periph_imp_auto_pc_0] }
+export_ip_user_files -of_objects [get_files D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd]
+launch_runs system_AXI_BayerToRGB_0_0_synth_1 system_AXI_GammaCorrection_1_0_synth_1 system_DVIClocking_1_0_synth_1 system_MIPI_CSI_2_RX_0_0_synth_1 system_MIPI_D_PHY_RX_0_0_synth_1 system_axi_mem_intercon_1_imp_auto_pc_0_synth_1 system_axi_mem_intercon_imp_auto_pc_0_synth_1 system_axi_vdma_0_0_synth_1 system_clk_wiz_0_0_synth_1 system_processing_system7_0_0_synth_1 system_ps7_0_axi_periph_imp_auto_pc_0_synth_1 system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1 system_rst_clk_wiz_0_50M_0_synth_1 system_rst_vid_clk_dyn_0_synth_1 system_v_axi4s_vid_out_0_0_synth_1 system_video_dynclk_0_synth_1 system_vtg_0_synth_1 -jobs 8
+wait_on_run system_AXI_BayerToRGB_0_0_synth_1
+wait_on_run system_AXI_GammaCorrection_1_0_synth_1
+wait_on_run system_DVIClocking_1_0_synth_1
+wait_on_run system_MIPI_CSI_2_RX_0_0_synth_1
+wait_on_run system_MIPI_D_PHY_RX_0_0_synth_1
+wait_on_run system_axi_mem_intercon_1_imp_auto_pc_0_synth_1
+wait_on_run system_axi_mem_intercon_imp_auto_pc_0_synth_1
+wait_on_run system_axi_vdma_0_0_synth_1
+wait_on_run system_clk_wiz_0_0_synth_1
+wait_on_run system_processing_system7_0_0_synth_1
+wait_on_run system_ps7_0_axi_periph_imp_auto_pc_0_synth_1
+wait_on_run system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1
+wait_on_run system_rst_clk_wiz_0_50M_0_synth_1
+wait_on_run system_rst_vid_clk_dyn_0_synth_1
+wait_on_run system_v_axi4s_vid_out_0_0_synth_1
+wait_on_run system_video_dynclk_0_synth_1
+wait_on_run system_vtg_0_synth_1
+export_simulation -lib_map_path [list {modelsim=D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/compile_simlib/modelsim} {questa=D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/compile_simlib/questa} {riviera=D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/compile_simlib/riviera} {activehdl=D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.cache/compile_simlib/activehdl}] -of_objects [get_files D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd] -directory D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.ip_user_files/sim_scripts -ip_user_files_dir D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.ip_user_files -ipstatic_source_dir D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+reset_run system_AXI_BayerToRGB_0_0_synth_1
+reset_run system_AXI_GammaCorrection_1_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list \
+  CONFIG.CLKOUT1_JITTER {217.614} \
+  CONFIG.CLKOUT1_PHASE_ERROR {245.344} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {148.5} \
+  CONFIG.CLK_OUT1_PORT {pxl_clk} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {6.250} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {4} \
+] [get_bd_cells video_dynclk]
+delete_bd_objs [get_bd_nets video_dynclk_pxl_clk_5x]
+endgroup
+delete_bd_objs [get_bd_nets video_dynclk_locked] [get_bd_nets DVIClocking_1_aLockedOut] [get_bd_cells DVIClocking_1]
+connect_bd_net [get_bd_pins video_dynclk/pxl_clk] [get_bd_pins rst_vid_clk_dyn/slowest_sync_clk]
+update_compile_order -fileset sources_1
+connect_bd_net [get_bd_pins video_dynclk/locked] [get_bd_pins rst_vid_clk_dyn/dcm_locked]
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
+reset_run synth_1
+reset_run system_rst_vid_clk_dyn_0_synth_1
+reset_run system_v_axi4s_vid_out_0_0_synth_1
+reset_run system_video_dynclk_0_synth_1
+reset_run system_vtg_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd]
+refresh_design
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+set_property USER_COMMENTS.comment_0 {Enter Comments here}  [current_bd_design]
+regenerate_bd_layout
+set_property USER_COMMENTS.comment_0 {}  [current_bd_design]
+startgroup
+endgroup
+save_bd_design
+startgroup
+set_property CONFIG.kClkPrimitive {PLL} [get_bd_cells rgb2dvi_0]
+endgroup
+startgroup
+endgroup
+save_bd_design
+validate_bd_design
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_bd_design {D:/FPGA/zybo/pcam_running/v1_pxl_clk/pcam/hw/Zybo-Z7-HW.srcs/sources_1/bd/system/system.bd}
+create_bd_cell -type module -reference DVIClocking DVIClocking_0
+startgroup
+set_property -dict [list \
+  CONFIG.CLKOUT1_JITTER {232.529} \
+  CONFIG.CLKOUT1_PHASE_ERROR {322.999} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {742.5} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {1.000} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {5} \
+] [get_bd_cells video_dynclk]
+endgroup
+delete_bd_objs [get_bd_nets PixelClk_Generator_clk_out1]
+connect_bd_net [get_bd_pins DVIClocking_0/aLockedIn] [get_bd_pins video_dynclk/locked]
+startgroup
+set_property CONFIG.CLK_OUT1_PORT {pxl_clk_5x} [get_bd_cells video_dynclk]
+endgroup
+connect_bd_net [get_bd_pins video_dynclk/pxl_clk_5x] [get_bd_pins DVIClocking_0/PixelClk5X]
+set_property location {5.5 1666 693} [get_bd_cells MIPI_CSI_2_RX_0]
+undo
+undo
+undo
+undo
+undo
+undo
+redo
+redo
+undo
+disconnect_bd_net /PixelClk_Generator_clk_out1 [get_bd_pins video_dynclk/pxl_clk]
+undo
+undo
+undo

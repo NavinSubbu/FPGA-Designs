@@ -28,10 +28,10 @@ The system supports **1080p@30fps** and **720p@60fps** modes and provides a UART
 
 ## 🧩 SYSTEM BLOCK DIAGRAM
 
-![System Block Diagram](docs/block_diagram.png)
+![System Block Diagram](images/imx219_bd.png)
 
 ---
 
 ## 📂 Uart Terminal
 
-
+![UART Terminal Output](images/Terminal_Output.png)
